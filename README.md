@@ -14,3 +14,5 @@ An open source badge project for noobs, artists, and the interdimensionally-curi
 ### NodeMCU
 1. Cheap! ([AliExpess](https://www.aliexpress.com/store/product/NodeMcu-Lua-WIFI-development-board-based-on-the-ESP8266-Internet-of-things/110055_32339203041.html), [eBay](https://www.ebay.com/i/192164536182?chn=ps&dispItem=1), [Amazon](https://www.amazon.com/HiLetgo-Internet-Development-Wireless-Micropython/dp/B010O1G1ES/ref=sr_1_6_sspa?s=electronics&ie=UTF8&qid=1506962067&sr=1-6-spons&keywords=nodemcu+1.0&psc=10))
 2. [Ard IDE programmable](http://www.instructables.com/id/Quick-Start-to-Nodemcu-ESP8266-on-Arduino-IDE/) 
+3. Battery power may be an issue, but it sounds like all wifi modules are power hungry.
+4. Seems like cheaper boards are version 0.9, which has a less friendly layout compared to 1.0.
