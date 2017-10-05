@@ -13,6 +13,12 @@ An open source badge project for noobs, artists, and the interdimensionally-curi
 
 ### NodeMCU
 1. Cheap! ([AliExpess](https://www.aliexpress.com/store/product/NodeMcu-Lua-WIFI-development-board-based-on-the-ESP8266-Internet-of-things/110055_32339203041.html), [eBay](https://www.ebay.com/i/192164536182?chn=ps&dispItem=1), [Amazon](https://www.amazon.com/HiLetgo-Internet-Development-Wireless-Micropython/dp/B010O1G1ES/ref=sr_1_6_sspa?s=electronics&ie=UTF8&qid=1506962067&sr=1-6-spons&keywords=nodemcu+1.0&psc=10))
-2. [Ard IDE programmable](http://www.instructables.com/id/Quick-Start-to-Nodemcu-ESP8266-on-Arduino-IDE/) 
+2. Arduino IDE programmable
+  1. Update IDE (I used 1.8.4).
+  2. Arduino > Preferences > Additional Board Manager URLs
+  3. Add http://arduino.esp8266.com/stable/package_esp8266com_index.json
+  4. Tools > Board > Board Manager
+  5. Search for ESP, install
+  6. I'm having trouble getting Sierra to see a board's port when you plug it in. Working on it...
 3. Battery power may be an issue, but it sounds like all wifi modules are power hungry.
 4. Seems like cheaper boards are version 0.9, which has a less friendly layout compared to 1.0.
