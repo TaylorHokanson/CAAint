@@ -19,6 +19,10 @@ An open source badge project for noobs, artists, and the interdimensionally-curi
   3. Add http://arduino.esp8266.com/stable/package_esp8266com_index.json
   4. Tools > Board > Board Manager
   5. Search for ESP, install
-  6. I'm having trouble getting Sierra to see a board's port when you plug it in. Working on it...
+  6. OSX Sierra has a known bug regarding FTDI drivers. Initially, I
+  couldn't reliably see any Arduinos or cloned devices popping up on the
+  ports in the IDE. I installed [this
+  driver](https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-
+  driver), and it seems to have fixed the issue.
 3. Battery power may be an issue, but it sounds like all wifi modules are power hungry.
 4. Seems like cheaper boards are version 0.9, which has a less friendly layout compared to 1.0.
