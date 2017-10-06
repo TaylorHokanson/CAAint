@@ -22,7 +22,7 @@ An open source badge project for noobs, artists, and the interdimensionally-curi
 1. Tested on a 2017 MacBook Pro, running Sierra 10.12.6 and Arduino 1.8.4 
 2. Arduino > Preferences > Additional Board Manager URLs
 
-...Add ```http://arduino.esp8266.com/stable/package_esp8266com_index.json``` to the list
+   Add ```http://arduino.esp8266.com/stable/package_esp8266com_index.json``` to the list
 
 4. Tools > Board > Board Manager
 5. Search for ESP, install
