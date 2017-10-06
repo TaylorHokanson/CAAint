@@ -13,10 +13,12 @@ An open source badge project for noobs, artists, and the interdimensionally-curi
 
 ## NodeMCU
 
-### Notes
-1. Cheap! ([AliExpess](https://www.aliexpress.com/store/product/NodeMcu-Lua-WIFI-development-board-based-on-the-ESP8266-Internet-of-things/110055_32339203041.html), [eBay](https://www.ebay.com/i/192164536182?chn=ps&dispItem=1), [Amazon](https://www.amazon.com/HiLetgo-Internet-Development-Wireless-Micropython/dp/B010O1G1ES/ref=sr_1_6_sspa?s=electronics&ie=UTF8&qid=1506962067&sr=1-6-spons&keywords=nodemcu+1.0&psc=10))
-3. Battery power may be an issue, but it sounds like all wifi modules are power hungry.
-4. There are three versions: V1/.9, V2/1.0, V3. V1 is not breadboard friendly. V3 is unofficial AFAIK. We'll use V2/1.0.
+### Hardware BOM
+Part | Cost
+--- | ---
+[NodeMCU](https://www.amazon.com/gp/product/B010O1G1ES/ref=oh_aui_detailpage_o00_s01?ie=UTF8&psc=1) | $9*
+[OLED](https://www.amazon.com/gp/product/B072FJRNWV/ref=oh_aui_detailpage_o00_s01?ie=UTF8&psc=1) | $8*
+*way cheaper on AleExpress...
 
 ### Breadboard Setup
 NodeMCU | OLED
@@ -37,4 +39,9 @@ D2 | SDA
 7. Back in the IDE, Select NODEMCU 1.0 as your board and pick the corresponding port.
 8. Examples > ESP8266WebServer > SimpleAuthentication
 9. Enter the login credentials of a wifi network within range and upload the sketch to the board.
+
+### Notes
+1. Cheap! ([AliExpess](https://www.aliexpress.com/store/product/NodeMcu-Lua-WIFI-development-board-based-on-the-ESP8266-Internet-of-things/110055_32339203041.html), [eBay](https://www.ebay.com/i/192164536182?chn=ps&dispItem=1), [Amazon](https://www.amazon.com/HiLetgo-Internet-Development-Wireless-Micropython/dp/B010O1G1ES/ref=sr_1_6_sspa?s=electronics&ie=UTF8&qid=1506962067&sr=1-6-spons&keywords=nodemcu+1.0&psc=10))
+3. Battery power may be an issue, but it sounds like all wifi modules are power hungry.
+4. There are three versions: V1/.9, V2/1.0, V3. V1 is not breadboard friendly. V3 is unofficial AFAIK. We'll use V2/1.0.
 
