@@ -18,7 +18,7 @@ Part | Cost
 --- | ---
 [NodeMCU](https://www.amazon.com/gp/product/B010O1G1ES/ref=oh_aui_detailpage_o00_s01?ie=UTF8&psc=1) | $9*
 [OLED](https://www.amazon.com/gp/product/B072FJRNWV/ref=oh_aui_detailpage_o00_s01?ie=UTF8&psc=1) | $8*
-*way cheaper on AleExpress...
+*way cheaper on AliExpress | $?
 
 ### Breadboard Setup
 NodeMCU | OLED
