@@ -2,7 +2,6 @@
 // Add OLED for debugging messages
 // I have two identical NodeMCUs, both programmed the same, yet one runs slower than the other?
 
-
 #include <ESP8266WiFi.h>
 #include <ESP8266WiFiMesh.h>
 
@@ -30,50 +29,50 @@ ESP8266WiFiMesh mesh_node = ESP8266WiFiMesh(ESP.getChipId(), manageRequest);
  */
 String manageRequest(String request)
 {
-	/* Print out received message */
-	Serial.print("received: ");
-	Serial.println(request);
+  /* Print out received message */
+  Serial.print("received: ");
+  Serial.println(request);
 
-	/* return a string to send back */
-	char response[60];
-	sprintf(response, "Hello world response #%d from Mesh_Node%d.", response_i++, ESP.getChipId());
-	return response;
+  // Display the current chip ID in yellow
+  // Display the incoming message
+  display.clearDisplay();
+  display.setCursor(0,0);
+  display.println(ESP.getChipId());  
+  display.setCursor(0,16);
+  display.print("Received: "); 
+  display.println(request); 
+  display.display();
+
+  /* return a string to send back */
+  char response[60];
+  sprintf(response, "Hello #%d from %d.", response_i++, ESP.getChipId());
+  return response;
 }
 
 void setup(){
   display.begin(SSD1306_SWITCHCAPVCC, 0x3C);  
+  // empty the buffer
   display.clearDisplay();
   display.display();
   display.setTextSize(1);
   display.setTextColor(WHITE);
-  /*
-	Serial.begin(115200);
-	delay(10);
-
-	Serial.println();
-	Serial.println();
-	Serial.println("Setting up mesh node...");
-
-	/* Initialise the mesh node */
+  display.setCursor(0,0);
+  display.println(ESP.getChipId());
+  display.setCursor(0,16);
+  display.print("Searching...");
+  display.display();
+  
 	mesh_node.begin();
 }
 
 void loop()
 {
-	/* Accept any incoming connections */
-	mesh_node.acceptRequest();
+  /* Accept any incoming connections */
+  mesh_node.acceptRequest();
 
-	/* Scan for other nodes and send them a message */
-	char request[60];
-	sprintf(request, "Hello world request #%d from Mesh_Node%d.", request_i++, ESP.getChipId());
-
-  display.clearDisplay();
-  display.setCursor(0,0);
-  display.println("Hello World!");
-  display.setCursor(0,16);
-  display.println(request);  
-  display.display();
-  
-	mesh_node.attemptScan(request);
-	delay(1000);
+  /* Scan for other nodes and send them a message */
+  char request[60];
+  sprintf(request, "Hello #%d from %d.", request_i++, ESP.getChipId());
+  mesh_node.attemptScan(request);
+  delay(1000);
 }
