@@ -46,4 +46,6 @@ D2 | SDA
 1. Tested on a 2017 MacBook Pro, running Sierra 10.12.6 and Arduino 1.8.4 
 3. Battery power may be an issue, but it sounds like all wifi modules are power hungry.
 4. There are three versions: V1/.9, V2/1.0, V3. V1 is not breadboard friendly. V3 is unofficial AFAIK. We'll use V2/1.0.
+5. [ESP8266](http://arduino-esp8266.readthedocs.io/en/latest/index.html) (the wifi chip on the NodeMCU) is able to operate both in
+"station" and "soft access point" mode. This dual function allows for [mesh networks](http://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/readme.html#who-is-who).
 
