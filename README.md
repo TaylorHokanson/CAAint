@@ -32,11 +32,12 @@ D2 | SDA
 2. Arduino > Preferences > Additional Board Manager URLs
 3. Add ```http://arduino.esp8266.com/stable/package_esp8266com_index.json``` to the list
 4. Tools > Board > Board Manager
-5. Search for ESP, install
+5. Search for ESP, install "esp2866 by ESP2866 Community"
 6. Install [this driver](https://github.com/adrianmihalko/ch340g-ch34g-ch34x-mac-os-x-driver).
 7. Plug the board into the USB ports on the right side of your computer. I don't know why, but I had to do this to get things working.
 7. Back in the IDE, Select NODEMCU 1.0 as your board and pick the corresponding port.
 8. Examples > ESP8266WebServer > SimpleAuthentication
+1. The [default upload speed](http://www.esp8266.com/viewtopic.php?f=32&t=2626&sid=0d51751c466764477328d679d83d98ba&start=4) (115200) is slow. I got 230420 to work, YMMV.
 9. Enter the login credentials of a wifi network within range and upload the sketch to the board.
 
 ### OLED test
