@@ -42,10 +42,19 @@ D2 | SDA
 ### OLED test
 1. Download the sketch, follow instructions in comments
 
+### NodeMCU Firmware Update
+1. Request a vanilla Master build [here](https://nodemcu-build.com/index.php). This takes a little time.
+2. Follow these instructions starting with [Install ESPTool](https://github.com/nodemcu/nodemcu-devkit/wiki/Getting-Started-on-OSX).
+
 ### Notes
 1. Tested on a 2017 MacBook Pro, running Sierra 10.12.6 and Arduino 1.8.4 
 3. Battery power may be an issue, but it sounds like all wifi modules are power hungry.
 4. There are three versions: V1/.9, V2/1.0, V3. V1 is not breadboard friendly. V3 is unofficial AFAIK. We'll use V2/1.0.
 5. [ESP8266](http://arduino-esp8266.readthedocs.io/en/latest/index.html) (the wifi chip on the NodeMCU) is able to operate both in
 "station" and "soft access point" mode. This dual function allows for [mesh networks](http://arduino-esp8266.readthedocs.io/en/latest/esp8266wifi/readme.html#who-is-who).
+6. Sometimes my code leads the NodeMCU to reset over and over. I'll go
+through [these](https://stackoverflow.com/questions/31083757/esp8266-constantly-restarting) 
+troubleshooting steps eventually. Now that I've flashed the
+firmware, I think it's an issue with the watchdog tripping when strings
+take too long to send.
 
