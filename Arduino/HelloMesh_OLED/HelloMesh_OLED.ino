@@ -74,5 +74,7 @@ void loop()
   char request[60];
   sprintf(request, "Hello #%d from %d.", request_i++, ESP.getChipId());
   mesh_node.attemptScan(request);
+  
+  // necessary? plenty of delays buried in the function definitions
   delay(1000);
 }
