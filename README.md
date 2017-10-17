@@ -58,4 +58,6 @@ through [these](https://stackoverflow.com/questions/31083757/esp8266-constantly-
 troubleshooting steps eventually. Now that I've flashed the
 firmware, I think it's an issue with the watchdog tripping when strings
 take too long to send.
+7. List of [reset causes](http://www.esp8266.com/viewtopic.php?p=2096#p2112).
+8. Boots in SoftAP (limited connections), then switches to station
 
