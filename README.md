@@ -7,6 +7,7 @@ An open source badge project for noobs, artists, and the interdimensionally-curi
 3. Hacker-friendly
 4. Conference-centric function
 5. Post-conference function
+6. Battery power
 
 ## NodeMCU
 1. Versioning conventions are [funky](https://frightanic.com/iot/comparison-of-esp8266-nodemcu-development-boards/).
