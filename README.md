@@ -12,6 +12,8 @@ An open source badge project for noobs, artists, and the interdimensionally-curi
 ## NodeMCU
 1. Versioning conventions are [funky](https://frightanic.com/iot/comparison-of-esp8266-nodemcu-development-boards/).
 2. V2/Amica preferred, though Amica is hard to find on Aliexpress, might be fake anyway.
+3. NodeMCU [Reference](https://nodemcu.readthedocs.io/en/master/)
+4. ESP2866 Arduino Core [Reference](http://arduino-esp8266.readthedocs.io/en/latest/)
 
 ### Hardware BOM
 Part | US Cost | China Cost
@@ -60,6 +62,9 @@ firmware, I think it's an issue with the watchdog tripping when strings
 take too long to send.
 7. List of [reset causes](http://www.esp8266.com/viewtopic.php?p=2096#p2112).
 8. Boots in SoftAP (limited connections), then switches to station
+9. See [this link](http://arduino-esp8266.readthedocs.io/en/latest/libraries.html#esp-specific-apis) for info on battery saving with deep sleep
+10. See [this link](http://arduino-esp8266.readthedocs.io/en/latest/libraries.html#other-libraries-not-included-with-the-ide) for additional libraries. Ticker looks promising.
+11. [Epic argument](https://forum.arduino.cc/index.php?topic=220385.0) regarding multidimensional arrays and trolling.
 
 ## Links
 1. https://www.jameco.com/jameco/workshop/jamecobuilds/arduinocircuit.html
