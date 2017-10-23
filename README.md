@@ -20,7 +20,10 @@ Part | US Cost | China Cost
 --- | --- | ---
 NodeMCU | [$9](https://www.amazon.com/gp/product/B010O1G1ES/ref=oh_aui_detailpage_o00_s01?ie=UTF8&psc=1) | $3 [Amica](https://www.aliexpress.com/item/1pcs-Wireless-module-NodeMcu-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266-CP2102-with-pcb/32719524260.html?spm=2114.search0104.3.49.782Zwp&ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_10151_10130_10068_10344_10345_10342_10343_10340_10341_10307_10060_10155_10154_10056_10055_10054_10539_10538_5370015_10537_10059_10536_10535_10534_10533_100031_10099_10338_10103_10102_10052_10053_10107_10050_10142_10051_10324_10325_10084_10083_10080_10082_10081_10178_10110_5590015_10111_10112_10113_10114_5610015_10312_10313_10314_10317_10318_10078_10079_10073-normal#cfs,searchweb201603_1,ppcSwitch_5&btsid=2aed71c2-dffe-45d4-9c74-09e8aacf4ef1&algo_expid=34137b6c-91fb-44da-b06f-060b2c408eb9-6&algo_pvid=34137b6c-91fb-44da-b06f-060b2c408eb9), [Lolin](https://www.aliexpress.com/item/1PCS-Wireless-module-CH340-NodeMcu-V3-Lua-WIFI-Internet-of-Things-development-board-based-ESP8266/32802874451.html?spm=2114.search0104.3.169.782Zwp&ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_10151_10130_10068_10344_10345_10342_10343_10340_10341_10307_10060_10155_10154_10056_10055_10054_10539_10538_5370015_10537_10059_10536_10535_10534_10533_100031_10099_10338_10103_10102_10052_10053_10107_10050_10142_10051_10324_10325_10084_10083_10080_10082_10081_10178_10110_5590015_10111_10112_10113_10114_5610015_10312_10313_10314_10317_10318_10078_10079_10073,searchweb201603_1,ppcSwitch_5&btsid=2aed71c2-dffe-45d4-9c74-09e8aacf4ef1&algo_expid=34137b6c-91fb-44da-b06f-060b2c408eb9-21&algo_pvid=34137b6c-91fb-44da-b06f-060b2c408eb9)
 OLED | [$8](https://www.amazon.com/gp/product/B072FJRNWV/ref=oh_aui_detailpage_o00_s01?ie=UTF8&psc=1) | [$3](https://www.aliexpress.com/store/product/10pcs-White-Blue-White-and-Blue-color-0-96-inch-128X64-OLED-Display-Module-For-arduino/1525680_32765278698.html?spm=2114.12010615.0.0.2253f604ZQG0c1)
-Shipping | 0$ | 0$ - $50
+Battery | TBA | [$3.50](https://www.aliexpress.com/item/5pcs-3-7V-1000mah-504050-Lithium-Polymer-LiPo-Rechargeable-Battery-For-Mp3-MP4-MP5-DVD-PAD/1097525459.html?spm=2114.10010108.100009.1.299e9514ZTnXiI&traffic_analysisId=recommend_2037_null_null_null&scm=1007.13482.91320.0&pvid=e6408c7e-7398-44d7-8bc4-ea6305ebcbbe&tpp=1)(verify specs/voltage)
+Charger | TBA | [$0.25](https://www.aliexpress.com/item/Free-shipping-50pcs-TP4056-1A-Lipo-Battery-Charging-Board-Charger-Module-lithium-battery-DIY-MICRO-Port/32712474267.html?spm=2114.search0104.3.89.oXr24w&ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_10151_10130_10068_10344_10345_10342_10343_10340_10341_10540_10307_10060_10155_10154_10056_10055_10054_10539_10538_10537_10059_10536_10534_10533_100031_10099_10103_10102_5590020_10052_5640020_10053_10107_10050_10142_10051_10324_10325_10084_10083_5370020_10080_10082_10081_10178_10110_10111_10112_10113_10114_5630020_10312_10313_10314_10078_10079_10073,searchweb201603_25,ppcSwitch_5&btsid=06736e6b-07db-402e-ae99-ee13de72291f&algo_expid=c61c54ec-b1ae-42fb-ab5c-d3aa3292362e-11&algo_pvid=c61c54ec-b1ae-42fb-ab5c-d3aa3292362e)(verify specs/voltage)
+PCB | TBA | [$5 for 10, $100 for 50](https://www.seeedstudio.com/fusion_pcb.html)
+Shipping | ?? | ??
 
 ### Breadboard Setup
 NodeMCU | OLED
@@ -65,6 +68,10 @@ take too long to send.
 9. See [this link](http://arduino-esp8266.readthedocs.io/en/latest/libraries.html#esp-specific-apis) for info on battery saving with deep sleep
 10. See [this link](http://arduino-esp8266.readthedocs.io/en/latest/libraries.html#other-libraries-not-included-with-the-ide) for additional libraries. Ticker looks promising.
 11. [Epic argument](https://forum.arduino.cc/index.php?topic=220385.0) regarding multidimensional arrays and trolling.
+
+### Battery
+1. The capacity of a battery is usually rated in ampere-hours (Ah) or milliampere-hours (mAh), and it tells you how many amps a fully charged battery can supply over a period of one hour.
+2.
 
 ## Links
 1. https://www.jameco.com/jameco/workshop/jamecobuilds/arduinocircuit.html
