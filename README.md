@@ -1,7 +1,14 @@
 # CAAint
 An open source badge project for noobs, artists, and the interdimensionally-curious
 
-[Anchor Test](#nodemcu-test)
+[Desired Features](#desired-features)
+[Hardware BOM](#hardware-bom)
+[Breadboard Setup](#breadboard-setup)
+[Firmware Update](#firmware-update)
+[NodeMCU Test](#nodemcu-test)
+[OLED Test](#oled-test)
+[Battery](#battery)
+[Notes](#notes)
 
 ## Desired Features
 1. Arduino IDE programmable
@@ -10,12 +17,6 @@ An open source badge project for noobs, artists, and the interdimensionally-curi
 4. Conference-centric function
 5. Post-conference function
 6. Battery power
-
-## NodeMCU
-1. Versioning conventions are [funky](https://frightanic.com/iot/comparison-of-esp8266-nodemcu-development-boards/).
-2. V2/Amica preferred, though Amica is hard to find on Aliexpress, might be fake anyway.
-3. NodeMCU [Reference](https://nodemcu.readthedocs.io/en/master/)
-4. ESP2866 Arduino Core [Reference](http://arduino-esp8266.readthedocs.io/en/latest/)
 
 ### Hardware BOM
 Part | US Cost | China Cost
@@ -35,6 +36,10 @@ GND | GND
 D1 | SCL
 D2 | SDA
 
+### Firmware Update
+1. Request a vanilla Master build [here](https://nodemcu-build.com/index.php). This takes a little time.
+2. Follow these instructions starting with [Install ESPTool](https://github.com/nodemcu/nodemcu-devkit/wiki/Getting-Started-on-OSX).
+
 ### NodeMCU test
 2. Arduino > Preferences > Additional Board Manager URLs
 3. Add ```http://arduino.esp8266.com/stable/package_esp8266com_index.json``` to the list
@@ -50,9 +55,9 @@ D2 | SDA
 ### OLED test
 1. Download the sketch, follow instructions in comments
 
-### NodeMCU Firmware Update
-1. Request a vanilla Master build [here](https://nodemcu-build.com/index.php). This takes a little time.
-2. Follow these instructions starting with [Install ESPTool](https://github.com/nodemcu/nodemcu-devkit/wiki/Getting-Started-on-OSX).
+### Battery
+1. I believe [this board](https://www.aliexpress.com/item/10PCS-MINI-USB-1A-Lithium-Battery-Charging-Board-Charger-Module-With-Protection-TP4056/32805383965.html?ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_10151_10130_10068_10344_10345_10342_10343_10340_10341_10541_10540_10307_10060_10155_10154_10056_10055_10054_10539_10538_10537_10059_10536_10534_10533_100031_10099_10103_10102_5590020_10052_5640020_10053_10107_10050_10142_10051_10324_10325_10084_10083_5370020_10080_10082_10081_10178_10110_10111_10112_10113_10114_5630020_10312_10313_10314_10317_10318_10078_10079_10073-10318normal#cfs,searchweb201603_25,ppcSwitch_5&btsid=f94d43b7-f423-41f8-83ac-27b28ef9341d&algo_expid=7730b822-e17d-4589-93ef-2c0607a3ed26-7&algo_pvid=7730b822-e17d-4589-93ef-2c0607a3ed26) is the one we need to add a rechargeable LiPo. How do we verify that?
+2. Aliexpress ranges widely in terms of documentation. These links ([one](https://www.aliexpress.com/item/5-pcs-Micro-USB-5V-1A-18650-TP4056-Lithium-Battery-Charger-Module-Charging-Board-With-Protection/32728720869.html?ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_10151_10130_10068_10344_10345_10342_10343_10340_10341_10541_10540_10307_5640015_10060_10155_10154_10056_10055_10054_10539_10538_5370015_10537_10059_10536_10534_10533_100031_10099_10103_10102_10052_10053_10107_10050_10142_10051_10324_10325_10084_10083_10080_10082_10081_10178_10110_5590015_10111_10112_10113_10114_10312_10313_10314_10317_10318_10078_10079_10073_5630015,searchweb201603_25,ppcSwitch_5&btsid=3a938dc3-219f-4d86-93fb-d2da4a9aa73e&algo_expid=eaddbdc6-2ea0-40d2-a2cf-718034a3ffef-0&algo_pvid=eaddbdc6-2ea0-40d2-a2cf-718034a3ffef), [two](http://www.hotmcu.com/tp4056-micro-usb-5v-1a-lithium-battery-charger-with-protection-p-176.html)) are a good place to start.
 
 ### Notes
 1. Tested on a 2017 MacBook Pro, running Sierra 10.12.6 and Arduino 1.8.4 
@@ -70,14 +75,8 @@ take too long to send.
 9. See [this link](http://arduino-esp8266.readthedocs.io/en/latest/libraries.html#esp-specific-apis) for info on battery saving with deep sleep
 10. See [this link](http://arduino-esp8266.readthedocs.io/en/latest/libraries.html#other-libraries-not-included-with-the-ide) for additional libraries. Ticker looks promising.
 11. [Epic argument](https://forum.arduino.cc/index.php?topic=220385.0) regarding multidimensional arrays and trolling.
-
-### Battery
-1. The capacity of a battery is usually rated in ampere-hours (Ah) or milliampere-hours (mAh), and it tells you how many amps a fully charged battery can supply over a period of one hour.
-2.
-
-## Links
-1. https://www.jameco.com/jameco/workshop/jamecobuilds/arduinocircuit.html
-2. https://arduinodiy-wordpress-com.cdn.ampproject.org/c/s/arduinodiy.wordpress.com/2016/09/30/adding-an-rtc-and-oled-to-esp8266-01/amp/
-3. https://www.digikey.com/en/maker/blogs/01f5c0fa4b6445f3b71866447f400d8d
-
+1. Versioning conventions are [funky](https://frightanic.com/iot/comparison-of-esp8266-nodemcu-development-boards/).
+2. V2/Amica preferred, though Amica is hard to find on Aliexpress, might be fake anyway.
+3. NodeMCU [Reference](https://nodemcu.readthedocs.io/en/master/)
+4. ESP2866 Arduino Core [Reference](http://arduino-esp8266.readthedocs.io/en/latest/)
 
