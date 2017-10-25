@@ -1,14 +1,15 @@
 # CAAint
 An open source badge project for noobs, artists, and the interdimensionally-curious
 
-[Desired Features](#desired-features)
-[Hardware BOM](#hardware-bom)
-[Breadboard Setup](#breadboard-setup)
-[Firmware Update](#firmware-update)
-[NodeMCU Test](#nodemcu-test)
-[OLED Test](#oled-test)
-[Battery](#battery)
-[Notes](#notes)
+1. [Desired Features](#desired-features)
+2. [Hardware BOM](#hardware-bom)
+3. [Breadboard Setup](#breadboard-setup)
+4. [Firmware Update](#firmware-update)
+5. [NodeMCU Test](#nodemcu-test)
+6. [OLED Test](#oled-test)
+7. [Battery](#battery)
+7. [PCB](#pcb)
+8. [Notes](#notes)
 
 ## Desired Features
 1. Arduino IDE programmable
@@ -58,6 +59,12 @@ D2 | SDA
 ### Battery
 1. I believe [this board](https://www.aliexpress.com/item/10PCS-MINI-USB-1A-Lithium-Battery-Charging-Board-Charger-Module-With-Protection-TP4056/32805383965.html?ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_10151_10130_10068_10344_10345_10342_10343_10340_10341_10541_10540_10307_10060_10155_10154_10056_10055_10054_10539_10538_10537_10059_10536_10534_10533_100031_10099_10103_10102_5590020_10052_5640020_10053_10107_10050_10142_10051_10324_10325_10084_10083_5370020_10080_10082_10081_10178_10110_10111_10112_10113_10114_5630020_10312_10313_10314_10317_10318_10078_10079_10073-10318normal#cfs,searchweb201603_25,ppcSwitch_5&btsid=f94d43b7-f423-41f8-83ac-27b28ef9341d&algo_expid=7730b822-e17d-4589-93ef-2c0607a3ed26-7&algo_pvid=7730b822-e17d-4589-93ef-2c0607a3ed26) is the one we need to add a rechargeable LiPo. How do we verify that?
 2. Aliexpress ranges widely in terms of documentation. These links ([one](https://www.aliexpress.com/item/5-pcs-Micro-USB-5V-1A-18650-TP4056-Lithium-Battery-Charger-Module-Charging-Board-With-Protection/32728720869.html?ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_10151_10130_10068_10344_10345_10342_10343_10340_10341_10541_10540_10307_5640015_10060_10155_10154_10056_10055_10054_10539_10538_5370015_10537_10059_10536_10534_10533_100031_10099_10103_10102_10052_10053_10107_10050_10142_10051_10324_10325_10084_10083_10080_10082_10081_10178_10110_5590015_10111_10112_10113_10114_10312_10313_10314_10317_10318_10078_10079_10073_5630015,searchweb201603_25,ppcSwitch_5&btsid=3a938dc3-219f-4d86-93fb-d2da4a9aa73e&algo_expid=eaddbdc6-2ea0-40d2-a2cf-718034a3ffef-0&algo_pvid=eaddbdc6-2ea0-40d2-a2cf-718034a3ffef), [two](http://www.hotmcu.com/tp4056-micro-usb-5v-1a-lithium-battery-charger-with-protection-p-176.html)) are a good place to start.
+
+### PCB
+1. After reviewing many candidates, I settled on [Eagle](https://www.autodesk.com/education/free-software/eagle#), which has a permissive free license for educators/students.
+2. Check out [this account](https://hackaday.io/project/18508-mr-robot-badge/log/64526-how-i-created-the-mr-robot-badge) of the design process for a complex DIY Badge for DEFCON
+3. [Sparkfun Eagle how-to](https://learn.sparkfun.com/tutorials/using-eagle-schematic)
+4. Collection of Eagle-compatible [part schematics](https://www.diymodules.org/)
 
 ### Notes
 1. Tested on a 2017 MacBook Pro, running Sierra 10.12.6 and Arduino 1.8.4 
