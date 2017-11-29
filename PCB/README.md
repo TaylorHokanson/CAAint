@@ -11,6 +11,7 @@ pull it back down to 3.3V via the onboard regulator. There's got to be a better 
 5. It should also allow you to plug into the Node via USB and still charge the battery.
 
 ![alt text](1/SPX3819_pinout.jpg)
+![alt text](1/tiny-ass-setup.jpg)
 
 ### Tiny Ass Regulator #1
 This breakout was designed around the correct package but the wrong pinout. AFAIK, you can leave off the caps entirely and still get a reasonable 
