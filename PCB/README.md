@@ -21,3 +21,4 @@ HelloServer demo file so that I could verify the circuit was working
 without serial feedback.
  
 ### Design #2
+[Here](http://www.mouser.com/ds/2/308/MC34063A-D-77978.pdf) is a part that comes in dip form. May be overkill, but similar price and not too many required components.
