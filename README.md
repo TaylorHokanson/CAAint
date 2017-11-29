@@ -61,6 +61,7 @@ D2 | SDA
 2. Aliexpress ranges widely in terms of documentation. These links ([one](https://www.aliexpress.com/item/5-pcs-Micro-USB-5V-1A-18650-TP4056-Lithium-Battery-Charger-Module-Charging-Board-With-Protection/32728720869.html?ws_ab_test=searchweb0_0,searchweb201602_4_10152_10065_10151_10130_10068_10344_10345_10342_10343_10340_10341_10541_10540_10307_5640015_10060_10155_10154_10056_10055_10054_10539_10538_5370015_10537_10059_10536_10534_10533_100031_10099_10103_10102_10052_10053_10107_10050_10142_10051_10324_10325_10084_10083_10080_10082_10081_10178_10110_5590015_10111_10112_10113_10114_10312_10313_10314_10317_10318_10078_10079_10073_5630015,searchweb201603_25,ppcSwitch_5&btsid=3a938dc3-219f-4d86-93fb-d2da4a9aa73e&algo_expid=eaddbdc6-2ea0-40d2-a2cf-718034a3ffef-0&algo_pvid=eaddbdc6-2ea0-40d2-a2cf-718034a3ffef), [two](http://www.hotmcu.com/tp4056-micro-usb-5v-1a-lithium-battery-charger-with-protection-p-176.html)) are a good place to start.
 3. More expensive circuits have a [load-sharing](http://blog.zakkemble.co.uk/a-lithium-battery-charger-with-load-sharing/) arrangement that allows simultaneous code uploading and battery charging. Perhaps we can get around that by [desoldering the 5 > 3.3 regulator](https://tinker.yeoman.com.au/2016/05/29/running-nodemcu-on-a-battery-esp8266-low-power-consumption-revisited/)?
 4. More about [load sharing schematics](https://hackaday.io/project/5231-esp8266-esp-0712-dev-board)
+5. OK! Looks like the board at #1 outputs 3.7 from battery alone and 4.2 while charging. 3.7 is just above the 3.6 spec, and anecdotal evidence suggests 4.2 would be OK.
 
 ### PCB
 1. After reviewing many candidates, I settled on [Eagle](https://www.autodesk.com/education/free-software/eagle#), which has a permissive free license for educators/students.
@@ -88,4 +89,5 @@ take too long to send.
 2. V2/Amica preferred, though Amica is hard to find on Aliexpress, might be fake anyway.
 3. NodeMCU [Reference](https://nodemcu.readthedocs.io/en/master/)
 4. ESP2866 Arduino Core [Reference](http://arduino-esp8266.readthedocs.io/en/latest/)
+5. DEFCON 25 ANDXOR [Kickstarter](https://www.kickstarter.com/projects/hyr0n/andxor-defcon-25-indie-badge)
 
