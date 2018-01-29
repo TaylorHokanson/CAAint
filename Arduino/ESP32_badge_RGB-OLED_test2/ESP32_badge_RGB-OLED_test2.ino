@@ -1,3 +1,8 @@
+/* Required libraries:
+ * u8g2
+ * Adafruit Neopixel
+ */
+
 #include <Adafruit_NeoPixel.h>
 #ifdef __AVR__
   #include <avr/power.h>
