@@ -12,7 +12,7 @@ Comparison of a couple popular [SMD LEDs](https://digistump.com/board/index.php?
 
 ## Batteries
 
-Problem: wifi is super power hungry and the draw spikes on startup.
+Problem: wifi is super power hungry and the draw spikes on startup. The Queercon project avoided wifi because of its power consumption and because they liked the accessibility of AA batteries. Unfortunately, we'd need to use three AA's and would only get to use a portion of their charge before the voltage drops too low. [This dude](https://www.youtube.com/watch?v=heD1zw3bMhw) does a nice video explaining various battery options for our ESP chip series.
 
 Here are some boards that can be powered with one AA shaped cell, but this is actually a LiPo called an 18650. These ship slowly because they cannot go by air, though they are pretty cheap on [Ebay](https://www.ebay.com/itm/Lot-18650-3-7V-3000mAh-Li-ion-BRC-Rechargeable-Battery-For-Flashlight-Torch-US/122798170239?_trkparms=aid%3D555018%26algo%3DPL.SIM%26ao%3D2%26asc%3D44040%26meid%3D815cfd1f1c7d456880f72a1c2cd11091%26pid%3D100005%26rk%3D1%26rkt%3D6%26mehot%3Dpp%26sd%3D323012651181%26itm%3D122798170239&_trksid=p2047675.c100005.m1851).
 
