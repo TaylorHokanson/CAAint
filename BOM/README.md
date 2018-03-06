@@ -20,4 +20,6 @@ $8.50 ([no OLED, full pinout](https://www.aliexpress.com/item/WEMOS-ESP32-ESP-32
 
 $10.50 ([OLED, not full pinout](https://www.aliexpress.com/item/TTGO-Wireless-WiFi-Bluetooth-Battery-ESP32-0-96-0-96-inch-OLED-Display-Development-Board-Tool/32839181889.html?spm=2114.search0204.3.32.10e57cbfjJG6yz&ws_ab_test=searchweb0_0,searchweb201602_5_10152_10151_10065_10344_10068_10130_10324_10342_10547_10325_10343_10546_10340_10548_10341_10545_10084_10083_10618_10630_10307_5722316_5711215_10313_10059_10534_100031_10629_10103_10626_10625_10624_10623_10622_10621_10620_10142,searchweb201603_25,ppcSwitch_5_ppcChannel&algo_expid=26553f87-6eaa-44a1-ae5a-0b610c669179-5&algo_pvid=26553f87-6eaa-44a1-ae5a-0b610c669179&priceBeautifyAB=0))
 
+$10.96 ([OLED, full pinout](https://www.aliexpress.com/item/TTGO-ESP8266-ESP32-0-96-0-96-inch-OLED-Display-WiFi-Bluetooth-18650-Lithium-Battery-Shield/32839517061.html))
+
 Another problem: FAA [restricts LiPos to carry-on, 2 extra batteries per person](https://www.faa.gov/about/initiatives/hazmat_safety/more_info/?hazmat=7). Perhaps we could ship a batch ahead of us for conferences?
