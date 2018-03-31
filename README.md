@@ -18,11 +18,9 @@ After [much experimentation](/Archive), we've settled on [this board](https://ww
 4. OLED screen
 
 ## Team
-Nick Bontrager, Texas Christian University
-
-Taylor Hokanson, Columbia College Chicago...
-
-and you? Please get in touch!
+Nick Bontrager, Texas Christian University  
+Taylor Hokanson, Columbia College Chicago  
+...and you? Please get in touch!
 
 ## Thanks
 Supported in part by a generous Faculty Development Grant from Columbia College Chicago
