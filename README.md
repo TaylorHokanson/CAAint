@@ -19,7 +19,9 @@ After [much experimentation](/Archive), we've settled on [this board](https://ww
 
 ## Team
 Nick Bontrager, Texas Christian University
+
 Taylor Hokanson, Columbia College Chicago
+
 ... and you? Please get in touch!
 
 ## Thanks
