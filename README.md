@@ -3,6 +3,7 @@ An open source badge project for noobs, artists, and the interdimensionally-curi
 
 1. [Project Goals](#project-goals)
 2. [BOM](#bom)
+2. [Design](#design)
 3. [Team](#team)
 4. [Thanks](#thanks)
 
@@ -16,6 +17,9 @@ After [much experimentation](/Archive), we've settled on [this board](https://ww
 2. LIPO battery clip/recharging circuit
 3. Arduino IDE compatibility
 4. OLED screen
+
+## Design
+After flirting with building a project from scratch, we've brought the process back down to earth. Right now the plan is to focus on a cool little breakout for an existing ESP PCB (see [BOM](#bom)) that will allow the addition of sensors etc. in the form of pluggable modules. The form-factor could even take the shape of a robot or action figure! Once we release the platform specs, other developers could develop their own modules to extend the project's ecosystem.
 
 ## Team
 Nick Bontrager, Texas Christian University  
