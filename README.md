@@ -21,8 +21,8 @@ After [much experimentation](/Archive), we've settled on [this board](https://ww
 ## Design
 After flirting with building a project from scratch, we've brought the process back down to earth. Right now the plan is to focus on a cool little breakout for an existing ESP PCB (see [BOM](#bom)) that will allow for the addition of sensors etc. in the form of pluggable modules. The form-factor could even take the shape of a robot or action figure! Once we release the platform specs, other developers could develop their own modules to extend the project's ecosystem. Ideas include:
 
-[Co-planar PCB connectors](https://www.gradconn.com/Products/BoardToBoard/CoPlanarConnectors)
 ![alt text](/Media/right_angle_to_right_angle.jpg)
+[Co-planar PCB connectors](https://www.gradconn.com/Products/BoardToBoard/CoPlanarConnectors)
 
 ## Team
 Nick Bontrager, Texas Christian University  
