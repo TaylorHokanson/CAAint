@@ -31,4 +31,4 @@ Taylor Hokanson, Columbia College Chicago
 ...and you? Please get in touch!
 
 ## Thanks
-Supported in part by a generous Faculty Development Grant from Columbia College Chicago
+Supported in part by a generous [Faculty Development Grant](https://about.colum.edu/faculty-development/awards-grants/full-time-development-grants.html) from Columbia College Chicago
