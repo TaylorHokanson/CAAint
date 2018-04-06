@@ -4,6 +4,7 @@ An open source badge project for noobs, artists, and the interdimensionally-curi
 1. [Project Goals](#project-goals)
 2. [BOM](#bom)
 2. [Design](#design)
+2. [Inspiration](#inspiration)
 3. [Team](#team)
 4. [Thanks](#thanks)
 
@@ -24,6 +25,10 @@ After flirting with building a project from scratch, we've brought the process b
 1. [Co-planar PCB connectors](https://www.gradconn.com/Products/BoardToBoard/CoPlanarConnectors) ([image](/Media/right_angle_to_right_angle.jpg))
 2. [Hemaphroditic connectors](https://octopart.com/10120045-400lf-fci-29441219) ([image](/Media/10120045-400LF.jpg))
 3. [5-way tac switch](https://www.aliexpress.com/wholesale?catId=0&initiative_id=AS_20180403080800&SearchText=5+way+tactile+switch)
+
+## Inspiration
+
+1. [P-O-X](https://en.wikipedia.org/wiki/P-O-X) (thanks Paul!)
 
 ## Team
 Nick Bontrager, Texas Christian University  
