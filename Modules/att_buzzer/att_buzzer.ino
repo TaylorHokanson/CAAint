@@ -1,7 +1,6 @@
 // Attiny85 buzzer
 // Worked for me at 8mhz
-// Attiny Pin 4 >> 220 Ohm resistor >> Piezo buzzer >> GND
-// 
+// Attiny Pin 4 >> 220 Ohm resistor >> Piezo buzzer or 8 Ohm / 1 Watt speaker >> GND
 // Largely copied from http://www.technoblogy.com/show?20MO
 
 // Can be 1 or 4
