@@ -426,6 +426,18 @@
 <wire x1="6.35" y1="-1.27" x2="6.35" y2="3.81" width="0.2" layer="21"/>
 <wire x1="6.35" y1="3.81" x2="0" y2="3.81" width="0.2" layer="21"/>
 </package>
+<package name="10120045-400LF">
+<smd name="A" x="0.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
+<smd name="B" x="3.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
+<smd name="C" x="6.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
+<smd name="D" x="9.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
+<wire x1="-5" y1="-4.4" x2="16.1" y2="-4.4" width="0.127" layer="1"/>
+<wire x1="16.1" y1="-4.4" x2="16.1" y2="16.8" width="0.127" layer="1"/>
+<wire x1="16.1" y1="16.8" x2="-5.1" y2="16.8" width="0.127" layer="1"/>
+<wire x1="-5.1" y1="16.8" x2="-5.1" y2="-4.4" width="0.127" layer="1"/>
+<rectangle x1="-4.2" y1="-3.6" x2="-2.2" y2="-1" layer="1"/>
+<rectangle x1="12.8" y1="-3.6" x2="14.8" y2="-1" layer="1"/>
+</package>
 </packages>
 <symbols>
 <symbol name="HELTEC-WIFI-KIT-32">
@@ -595,6 +607,17 @@
 <pin name="2" x="20.32" y="0" length="middle" rot="R180"/>
 <pin name="4" x="20.32" y="-2.54" length="middle" rot="R180"/>
 <pin name="6" x="20.32" y="-5.08" length="middle" rot="R180"/>
+</symbol>
+<symbol name="10120045-400LF">
+<wire x1="0" y1="0" x2="0" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="A" x="0" y="2.54" length="middle" rot="R180"/>
+<pin name="B" x="0" y="5.08" length="middle" rot="R180"/>
+<pin name="C" x="0" y="7.62" length="middle" rot="R180"/>
+<pin name="D" x="0" y="10.16" length="middle" rot="R180"/>
+<text x="7.62" y="0" size="1.778" layer="94" rot="R90">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -854,6 +877,27 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <attribute name="RS_PART_NUMBER" value="7457046P" constant="no"/>
 <attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/7457046P" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10120045-400LF">
+<description>SSL Connector 4 Position Blade and Receptacle, Hermaphroditic Board to Board 0.118" (3.00mm) Solder
+&lt;p&gt;
+&lt;a href="https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10120045-400lf.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="10120045-400LF" x="-2.54" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="10120045-400LF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="D" pad="D"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
