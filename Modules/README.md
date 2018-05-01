@@ -1,7 +1,6 @@
-## I2C
+i2c is the communication standard for all expansion devices in the badge ecosystem. Here are some resources to get you started:
 
-We are currently researching [I2C](https://learn.sparkfun.com/tutorials/i2c) as our communication standard across all expansion modules.
+![](https://github.com/TaylorHokanson/CAAint/blob/master/Media/ATTiny.jpeg)
 
-Questions:
+![](https://github.com/TaylorHokanson/CAAint/blob/master/Media/hookup-guide2.jpg)
 
-1. Will level shifting be necessary? [This guy](https://blog.hackster.io/making-it-miniature-integrating-the-attiny85-in-your-arduino-project-857b796ac5f0) suggests that the Attiny logic levels will respond to voltage input changes (like between 3.3 and 5V) "accordingly."
