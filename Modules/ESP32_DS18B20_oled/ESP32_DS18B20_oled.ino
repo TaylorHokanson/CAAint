@@ -25,7 +25,7 @@ OneWire  ds(22);  // on pin 3 (a 4.7K pullup resistor is necessary)
 void setup() {
   Serial.begin(9600);
   u8x8.begin();
-  u8x8.setFont(u8x8_font_chroma48medium8_r);
+  u8x8.setFont(u8x8_font_pxplusibmcga_r);
   u8x8.setFlipMode(1);    //remove if screen is flipped
 }
 
