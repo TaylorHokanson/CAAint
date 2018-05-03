@@ -17,6 +17,8 @@
 #include <OneWire.h>
 // OneWire DS18S20, DS18B20, DS1822 Temperature Example
 
+const int led = 16;
+
 // the OLED used
 U8X8_SSD1306_128X64_NONAME_SW_I2C u8x8(/* clock=*/ 4, /* data=*/ 5, /* reset=*/U8X8_PIN_NONE );
 
@@ -24,6 +26,7 @@ OneWire  ds(22);  // on pin 3 (a 4.7K pullup resistor is necessary)
 
 void setup() {
   Serial.begin(9600);
+  pinMode(led, OUTPUT);
   u8x8.begin();
   u8x8.setFont(u8x8_font_pxplusibmcga_r);
   u8x8.setFlipMode(1);    //remove if screen is flipped
@@ -139,6 +142,10 @@ void loop(){
   u8x8.drawString(0, 2, "Fahrenheit: ");
   u8x8.setCursor(11, 2);
   u8x8.print(fahrenheit);
+
+  digitalWrite(led,LOW);  //onboard LED is on when pulled LOW
+  delay(100);
+  digitalWrite(led,HIGH);
 
 delay(5000);
 }
