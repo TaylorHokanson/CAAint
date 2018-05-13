@@ -39,6 +39,16 @@ const int buttonPin3 = 15;   // upper left
 const int buttonPin4 = 18;   // lower right << no signal - soldering issue?
 const int buttonPin5 = 19;   // lower left
 
+// https://github.com/Serpent999/ESP32_Touch_LED/blob/master/Touch_LED/Touch_LED.ino
+int buff(int pin){
+  int out = (25 - touchRead(pin));             //  adjust touch sensitivity here
+  if (out > 0 ){
+    return (out + 2);
+  }else{
+    return 0;                                        
+  }
+}
+
 void setup() {
   Serial.begin(9600);
   pinMode(led, OUTPUT);
@@ -116,7 +126,11 @@ void pollMenu(){
     chase(strip.Color(255, 255, 255));
   }else{
     u8x8.drawString(0,4,"  BOT LEFT");
-  }         
+  }
+  //String touchData = String(buff(T9));
+  //Serial.println(touchData);
+  u8x8.setCursor(0, 5);
+  u8x8.print("  TOUCH " + String(buff(T9)));         
 }
 
 static void chase(uint32_t c) {
