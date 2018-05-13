@@ -1,6 +1,7 @@
 /* 
- * For ESP32-WROOM board (OLED, battery, full pin breakout) 
+ * For ESP32-WROOM board (OLED, battery, full pin breakout) and custom PCB
  * Don't forget to turn the device on, or it won't show up in the port list
+ * If UART disappears from port list, change board to UNO and attach an UNO
  * 
  * Board:   Wemos Wifi&Bluetooth Battery 
  * Flash:   80Mhz
@@ -75,44 +76,44 @@ void pollMenu(){
   // LOW is button pressed
   u8x8.setFont(u8x8_font_victoriamedium8_u);   
   
-  // Upper right
-  if(digitalRead(buttonPin1) == 0){
-    u8x8.drawString(0,0,"BTN1 = LOW ");
-    chase(strip.Color(255, 0, 0));
-  }else{
-    u8x8.drawString(0,0,"BTN1 = HIGH");
-  } 
-  
   // Center button
   if(digitalRead(buttonPin2) == 0){
-    u8x8.drawString(0,1,"BTN2 = LOW ");
+    u8x8.drawString(0,0,"X BUTTON");
     chase(strip.Color(0, 255, 0));
   }else{
-    u8x8.drawString(0,1,"BTN2 = HIGH");
+    u8x8.drawString(0,0,"  BUTTON");
+  } 
+  
+  // Upper right
+  if(digitalRead(buttonPin1) == 0){
+    u8x8.drawString(0,1,"X TOP RIGHT");
+    chase(strip.Color(255, 0, 0));
+  }else{
+    u8x8.drawString(0,1,"  TOP RIGHT");
   } 
   
   // Upper left
   if(digitalRead(buttonPin3) == 0){
-    u8x8.drawString(0,2,"BTN3 = LOW ");
+    u8x8.drawString(0,2,"X TOP LEFT");
     chase(strip.Color(0, 0, 255));
   }else{
-    u8x8.drawString(0,2,"BTN3 = HIGH");
+    u8x8.drawString(0,2,"  TOP LEFT");
   } 
   
   // Lower right
   if(digitalRead(buttonPin4) == 0){
-    u8x8.drawString(0,3,"BTN4 = LOW ");
+    u8x8.drawString(0,3,"X BOT RIGHT");
     chase(strip.Color(255, 0, 255));
   }else{
-    u8x8.drawString(0,3,"BTN4 = HIGH");
+    u8x8.drawString(0,3,"  BOT RIGHT");
   }       
   
   // Lower left
   if(digitalRead(buttonPin5) == 0){
-    u8x8.drawString(0,4,"BTN5 = LOW ");
+    u8x8.drawString(0,4,"X BOT LEFT");
     chase(strip.Color(255, 255, 255));
   }else{
-    u8x8.drawString(0,4,"BTN5 = HIGH");
+    u8x8.drawString(0,4,"  BOT LEFT");
   }         
 }
 
