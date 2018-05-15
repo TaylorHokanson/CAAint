@@ -1,4 +1,4 @@
-1. Follow (these steps)[http://taylorhokanson.com/2018/04/30/diy-i2c-modules/].
+1. Follow [these steps](http://taylorhokanson.com/2018/04/30/diy-i2c-modules/).
 3. Upload master code to ESP32 dev board.
 4. Upload slave code to Attiny85.
 5. Open a serial port and you should see incrementing numbers.
