@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -431,10 +431,10 @@
 <smd name="B" x="3.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
 <smd name="C" x="6.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
 <smd name="D" x="9.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
-<wire x1="-5" y1="-15.83" x2="16.1" y2="-15.83" width="0.127" layer="1"/>
-<wire x1="16.1" y1="-15.83" x2="16.1" y2="5.37" width="0.127" layer="1"/>
-<wire x1="16.1" y1="5.37" x2="-5.1" y2="5.37" width="0.127" layer="1"/>
-<wire x1="-5.1" y1="5.37" x2="-5.1" y2="-15.83" width="0.127" layer="1"/>
+<wire x1="-5" y1="-15.83" x2="16.1" y2="-15.83" width="0.127" layer="51"/>
+<wire x1="16.1" y1="-15.83" x2="16.1" y2="5.37" width="0.127" layer="51"/>
+<wire x1="16.1" y1="5.37" x2="-5.1" y2="5.37" width="0.127" layer="51"/>
+<wire x1="-5.1" y1="5.37" x2="-5.1" y2="-15.83" width="0.127" layer="51"/>
 <rectangle x1="-4.2" y1="-3.6" x2="-2.2" y2="-1" layer="1"/>
 <rectangle x1="12.8" y1="-3.6" x2="14.8" y2="-1" layer="1"/>
 </package>
@@ -649,10 +649,10 @@
 <wire x1="0" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
 <wire x1="5.08" y1="12.7" x2="5.08" y2="0" width="0.254" layer="94"/>
 <wire x1="5.08" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="A" x="0" y="2.54" length="middle" rot="R180"/>
-<pin name="B" x="0" y="5.08" length="middle" rot="R180"/>
-<pin name="C" x="0" y="7.62" length="middle" rot="R180"/>
-<pin name="D" x="0" y="10.16" length="middle" rot="R180"/>
+<pin name="A" x="-5.08" y="2.54" length="middle"/>
+<pin name="B" x="-5.08" y="5.08" length="middle"/>
+<pin name="C" x="-5.08" y="7.62" length="middle"/>
+<pin name="D" x="-5.08" y="10.16" length="middle"/>
 <text x="7.62" y="0" size="1.778" layer="94" rot="R90">&gt;NAME</text>
 </symbol>
 <symbol name="LTR-329ALS-01">
@@ -735,6 +735,11 @@
 </devices>
 </deviceset>
 <deviceset name="TTGO-ESP32-OLED-18650">
+<description>Input-only pins: IO34, IO35, Sensor_VP, Sensor_VN, are labeled in docs as GPI (note the lack of O), which may mean they're input-only pins.
+&lt;p&gt;
+    IO32 IO33 are connected to the crystal. Docs say you can't use these 2x pins as GPIO unless you desolder some stuff on the module.
+&lt;p&gt;
+    There's 5 "strapping" pins, which effect how the ESP-32 boots depending on if they're pulled high or low. So it's possible that something you've hooked upto these pins may effect how it boots. These pins are: 0 2 5 12 15</description>
 <gates>
 <gate name="G$1" symbol="TTGO-ESP32-OLED-18650" x="-15.24" y="-22.86"/>
 </gates>
