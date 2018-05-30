@@ -2695,6 +2695,8 @@ WS2812B</description>
 <part name="R9" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VDD" device=""/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VDD" device=""/>
+<part name="32" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1X04_NO_SILK" package3d_urn="urn:adsk.eagle:package:38094/1"/>
+<part name="33" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" deviceset="CONN_04" device="1X04_NO_SILK" package3d_urn="urn:adsk.eagle:package:38094/1"/>
 </parts>
 <sheets>
 <sheet>
@@ -2742,6 +2744,8 @@ WS2812B</description>
 <instance part="R9" gate="G$1" x="129.54" y="-20.32"/>
 <instance part="SUPPLY7" gate="VDD" x="88.9" y="0"/>
 <instance part="SUPPLY6" gate="VDD" x="-58.42" y="55.88"/>
+<instance part="32" gate="G$1" x="73.66" y="134.62"/>
+<instance part="33" gate="G$1" x="48.26" y="134.62"/>
 </instances>
 <busses>
 </busses>
@@ -3140,6 +3144,48 @@ WS2812B</description>
 <pinref part="MAIN" gate="G$1" pin="19"/>
 <wire x1="33.02" y1="38.1" x2="48.26" y2="38.1" width="0.1524" layer="91"/>
 <label x="48.26" y="38.1" size="1.778" layer="95" xref="yes"/>
+</segment>
+</net>
+<net name="CAP1" class="0">
+<segment>
+<pinref part="32" gate="G$1" pin="4"/>
+<pinref part="32" gate="G$1" pin="3"/>
+<wire x1="78.74" y1="139.7" x2="78.74" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="32" gate="G$1" pin="2"/>
+<wire x1="78.74" y1="134.62" x2="78.74" y2="137.16" width="0.1524" layer="91"/>
+<junction x="78.74" y="137.16"/>
+<pinref part="32" gate="G$1" pin="1"/>
+<wire x1="78.74" y1="134.62" x2="78.74" y2="132.08" width="0.1524" layer="91"/>
+<junction x="78.74" y="134.62"/>
+<wire x1="78.74" y1="132.08" x2="81.28" y2="132.08" width="0.1524" layer="91"/>
+<junction x="78.74" y="132.08"/>
+<label x="81.28" y="132.08" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MAIN" gate="G$1" pin="32"/>
+<wire x1="2.54" y1="40.64" x2="0" y2="40.64" width="0.1524" layer="91"/>
+<label x="0" y="40.64" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+</net>
+<net name="CAP2" class="0">
+<segment>
+<pinref part="33" gate="G$1" pin="4"/>
+<pinref part="33" gate="G$1" pin="3"/>
+<wire x1="53.34" y1="139.7" x2="53.34" y2="137.16" width="0.1524" layer="91"/>
+<pinref part="33" gate="G$1" pin="2"/>
+<wire x1="53.34" y1="137.16" x2="53.34" y2="134.62" width="0.1524" layer="91"/>
+<junction x="53.34" y="137.16"/>
+<pinref part="33" gate="G$1" pin="1"/>
+<wire x1="53.34" y1="134.62" x2="53.34" y2="132.08" width="0.1524" layer="91"/>
+<junction x="53.34" y="134.62"/>
+<wire x1="53.34" y1="132.08" x2="55.88" y2="132.08" width="0.1524" layer="91"/>
+<junction x="53.34" y="132.08"/>
+<label x="55.88" y="132.08" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="MAIN" gate="G$1" pin="33"/>
+<wire x1="2.54" y1="38.1" x2="-7.62" y2="38.1" width="0.1524" layer="91"/>
+<label x="-7.62" y="38.1" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
