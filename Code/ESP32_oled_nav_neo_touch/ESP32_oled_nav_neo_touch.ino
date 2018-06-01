@@ -33,11 +33,11 @@ const int led = 16;
 //int navBtn = 0;
 
 // Nav button
-//const int buttonPin1 = 0;    // upper right <<< this pin reserved for programming
-//const int buttonPin2 = 2;    // select      <<< this pin reserved for programming
-const int buttonPin3 = 15;   // upper left
-const int buttonPin4 = 18;   // lower right 
-const int buttonPin5 = 19;   // lower left
+const int buttonPin1 = 23;    // upper right <<< this pin reserved for programming
+const int buttonPin2 = 15;    // select      <<< this pin reserved for programming
+const int buttonPin3 = 14;   // upper left
+const int buttonPin4 = 18;   // down 
+const int buttonPin5 = 19;   // left
 
 // https://github.com/Serpent999/ESP32_Touch_LED/blob/master/Touch_LED/Touch_LED.ino
 int buff(int pin){
@@ -56,8 +56,8 @@ void setup() {
   u8x8.setFont(u8x8_font_pxplusibmcga_r);
   u8x8.setFlipMode(1);        //remove if screen is flipped
 
-  //pinMode(buttonPin1, INPUT);
-  //pinMode(buttonPin2, INPUT);
+  pinMode(buttonPin1, INPUT);
+  pinMode(buttonPin2, INPUT);
   pinMode(buttonPin3, INPUT);
   pinMode(buttonPin4, INPUT);
   pinMode(buttonPin5, INPUT);
@@ -87,7 +87,7 @@ void pollMenu(){
    
   // LOW is button pressed
   u8x8.setFont(u8x8_font_victoriamedium8_u);   
-/*  
+  
   // Center button
   if(digitalRead(buttonPin2) == 0){
     u8x8.drawString(0,0,"X BUTTON");
@@ -103,7 +103,7 @@ void pollMenu(){
   }else{
     u8x8.drawString(0,1,"  TOP RIGHT");
   } 
-*/  
+  
   // Upper left
   if(digitalRead(buttonPin3) == 0){
     u8x8.drawString(0,2,"X TOP LEFT");
@@ -114,18 +114,18 @@ void pollMenu(){
   
   // Lower right
   if(digitalRead(buttonPin4) == 0){
-    u8x8.drawString(0,3,"X BOT RIGHT");
+    u8x8.drawString(0,3,"X DOWN");
     chase(strip.Color(255, 0, 255));
   }else{
-    u8x8.drawString(0,3,"  BOT RIGHT");
+    u8x8.drawString(0,3,"  DOWN");
   }       
   
   // Lower left
   if(digitalRead(buttonPin5) == 0){
-    u8x8.drawString(0,4,"X BOT LEFT");
+    u8x8.drawString(0,4,"X LEFT");
     chase(strip.Color(255, 255, 255));
   }else{
-    u8x8.drawString(0,4,"  BOT LEFT");
+    u8x8.drawString(0,4,"  LEFT");
   }
   //String touchData = String(buff(T9));
   //Serial.println(touchData);
