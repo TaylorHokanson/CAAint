@@ -11,6 +11,11 @@
  * Port:    cu.SLAB_USBtoUART
  * Prog:    AVRISPmkII
  * 
+ * ESP pins to watch out for:
+ * 4,5          OLED
+ * 0,2,5,12,15  Strapping pins (boot-related)
+ * 34,35        Input-only
+ * 
  */
 
 //this is inside the required library U8g2
@@ -33,9 +38,9 @@ const int led = 16;
 //int navBtn = 0;
 
 // Nav button
-const int buttonPin1 = 23;    // upper right <<< this pin reserved for programming
-const int buttonPin2 = 15;    // select      <<< this pin reserved for programming
-const int buttonPin3 = 14;   // upper left
+const int buttonPin1 = 23;   // right 
+const int buttonPin2 = 16;   // select      
+const int buttonPin3 = 14;   // up
 const int buttonPin4 = 18;   // down 
 const int buttonPin5 = 19;   // left
 
@@ -98,18 +103,18 @@ void pollMenu(){
   
   // Upper right
   if(digitalRead(buttonPin1) == 0){
-    u8x8.drawString(0,1,"X TOP RIGHT");
+    u8x8.drawString(0,1,"X RIGHT");
     chase(strip.Color(255, 0, 0));
   }else{
-    u8x8.drawString(0,1,"  TOP RIGHT");
+    u8x8.drawString(0,1,"  RIGHT");
   } 
   
   // Upper left
   if(digitalRead(buttonPin3) == 0){
-    u8x8.drawString(0,2,"X TOP LEFT");
+    u8x8.drawString(0,2,"X UP");
     chase(strip.Color(0, 0, 255));
   }else{
-    u8x8.drawString(0,2,"  TOP LEFT");
+    u8x8.drawString(0,2,"  UP");
   } 
   
   // Lower right
