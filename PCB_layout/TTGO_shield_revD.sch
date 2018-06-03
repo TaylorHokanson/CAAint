@@ -261,12 +261,11 @@
 <wire x1="3.7" y1="-2.1" x2="2.1" y2="-3.7" width="0.127" layer="51"/>
 <wire x1="2.1" y1="-3.7" x2="-2.1" y2="-3.7" width="0.127" layer="51"/>
 <wire x1="-2.1" y1="-3.7" x2="-3.7" y2="-2.1" width="0.127" layer="51"/>
-<wire x1="-3.7" y1="3.7" x2="3.7" y2="3.7" width="0.127" layer="21"/>
-<wire x1="3.7" y1="3.7" x2="3.7" y2="-3.7" width="0.127" layer="21"/>
-<wire x1="3.7" y1="-3.7" x2="-3.7" y2="-3.7" width="0.127" layer="21"/>
-<wire x1="-3.7" y1="-3.7" x2="-3.7" y2="3.7" width="0.127" layer="21"/>
 <text x="-3.3" y="5.4" size="1.27" layer="25">&gt;NAME</text>
 <text x="-3.3" y="-6.7" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-1.905" y="1.397" size="1.27" layer="21" rot="R45">E</text>
+<hole x="0" y="-1.905" drill="0.9906"/>
+<hole x="0" y="2.032" drill="0.7112"/>
 </package>
 <package name="10120045-400LF">
 <smd name="A" x="0.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
@@ -359,6 +358,8 @@
 <devicesets>
 <deviceset name="TTGO-ESP32-OLED-18650">
 <description>Input-only pins: IO34, IO35, Sensor_VP, Sensor_VN, are labeled in docs as GPI (note the lack of O), which may mean they're input-only pins.
+&lt;p&gt;
+Pins 4 and 5 go to the OLED SDA/SCL
 &lt;p&gt;
     IO32 IO33 are connected to the crystal. Docs say you can't use these 2x pins as GPIO unless you desolder some stuff on the module.
 &lt;p&gt;
