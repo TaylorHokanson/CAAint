@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -218,46 +218,6 @@
 <wire x1="19.05" y1="16.51" x2="3.81" y2="16.51" width="0.127" layer="21"/>
 </package>
 <package name="TTGO-ESP32-OLED-18650">
-<pad name="NC" x="0" y="1.27" drill="1"/>
-<pad name="5V" x="0" y="3.81" drill="1"/>
-<pad name="CMD" x="0" y="6.35" drill="1"/>
-<pad name="SD3" x="0" y="8.89" drill="1"/>
-<pad name="SD2" x="0" y="11.43" drill="1"/>
-<pad name="13" x="0" y="13.97" drill="1"/>
-<pad name="GND" x="0" y="16.51" drill="1"/>
-<pad name="12" x="0" y="19.05" drill="1"/>
-<pad name="14" x="0" y="21.59" drill="1"/>
-<pad name="27" x="0" y="24.13" drill="1"/>
-<pad name="26" x="0" y="26.67" drill="1"/>
-<pad name="25" x="0" y="29.21" drill="1"/>
-<pad name="33" x="0" y="31.75" drill="1"/>
-<pad name="32" x="0" y="34.29" drill="1"/>
-<pad name="35" x="0" y="36.83" drill="1"/>
-<pad name="34" x="0" y="39.37" drill="1"/>
-<pad name="SVN" x="0" y="41.91" drill="1"/>
-<pad name="SVP" x="0" y="44.45" drill="1"/>
-<pad name="EN" x="0" y="46.99" drill="1"/>
-<pad name="3.3V" x="0" y="49.53" drill="1" shape="square"/>
-<pad name="GND@GND_3" x="26.67" y="49.53" drill="1" shape="square"/>
-<pad name="23" x="26.67" y="46.99" drill="1"/>
-<pad name="22" x="26.67" y="44.45" drill="1"/>
-<pad name="TX" x="26.67" y="41.91" drill="1"/>
-<pad name="RX" x="26.67" y="39.37" drill="1"/>
-<pad name="21" x="26.67" y="36.83" drill="1"/>
-<pad name="GND@GND_2" x="26.67" y="34.29" drill="1"/>
-<pad name="19" x="26.67" y="31.75" drill="1"/>
-<pad name="18" x="26.67" y="29.21" drill="1"/>
-<pad name="5" x="26.67" y="26.67" drill="1"/>
-<pad name="17" x="26.67" y="24.13" drill="1"/>
-<pad name="16" x="26.67" y="21.59" drill="1"/>
-<pad name="4" x="26.67" y="19.05" drill="1"/>
-<pad name="0" x="26.67" y="16.51" drill="1"/>
-<pad name="2" x="26.67" y="13.97" drill="1"/>
-<pad name="15" x="26.67" y="11.43" drill="1"/>
-<pad name="SD1" x="26.67" y="8.89" drill="1"/>
-<pad name="SD0" x="26.67" y="6.35" drill="1"/>
-<pad name="CLK" x="26.67" y="3.81" drill="1"/>
-<pad name="NC@NC_2" x="26.67" y="1.27" drill="1"/>
 <hole x="1.27" y="-17.78" drill="3.175"/>
 <hole x="25.4" y="-17.78" drill="3.175"/>
 <wire x1="-1.27" y1="-17.78" x2="1.27" y2="-20.32" width="0.127" layer="21" curve="90"/>
@@ -298,6 +258,46 @@
 <wire x1="22.86" y1="33.02" x2="22.86" y2="50.8" width="0.127" layer="21"/>
 <wire x1="22.86" y1="50.8" x2="3.81" y2="50.8" width="0.127" layer="21"/>
 <text x="5.08" y="34.29" size="1.27" layer="21">ESP32</text>
+<pad name="3.3V" x="0" y="49.53" drill="1" shape="offset" rot="R180"/>
+<pad name="EN" x="0" y="46.99" drill="1" shape="offset" rot="R180"/>
+<pad name="SVP" x="0" y="44.45" drill="1" shape="offset" rot="R180"/>
+<pad name="SVN" x="0" y="41.91" drill="1" shape="offset" rot="R180"/>
+<pad name="34" x="0" y="39.37" drill="1" shape="offset" rot="R180"/>
+<pad name="35" x="0" y="36.83" drill="1" shape="offset" rot="R180"/>
+<pad name="32" x="0" y="34.29" drill="1" shape="offset" rot="R180"/>
+<pad name="33" x="0" y="31.75" drill="1" shape="offset" rot="R180"/>
+<pad name="25" x="0" y="29.21" drill="1" shape="offset" rot="R180"/>
+<pad name="26" x="0" y="26.67" drill="1" shape="offset" rot="R180"/>
+<pad name="27" x="0" y="24.13" drill="1" shape="offset" rot="R180"/>
+<pad name="14" x="0" y="21.59" drill="1" shape="offset" rot="R180"/>
+<pad name="12" x="0" y="19.05" drill="1" shape="offset" rot="R180"/>
+<pad name="GND" x="0" y="16.51" drill="1" shape="offset" rot="R180"/>
+<pad name="13" x="0" y="13.97" drill="1" shape="offset" rot="R180"/>
+<pad name="SD2" x="0" y="11.43" drill="1" shape="offset" rot="R180"/>
+<pad name="SD3" x="0" y="8.89" drill="1" shape="offset" rot="R180"/>
+<pad name="CMD" x="0" y="6.35" drill="1" shape="offset" rot="R180"/>
+<pad name="5V" x="0" y="3.81" drill="1" shape="offset" rot="R180"/>
+<pad name="NC" x="0" y="1.27" drill="1" shape="offset" rot="R180"/>
+<pad name="NC_2" x="26.67" y="1.27" drill="1" shape="offset"/>
+<pad name="CLK" x="26.67" y="3.81" drill="1" shape="offset"/>
+<pad name="SD0" x="26.67" y="6.35" drill="1" shape="offset"/>
+<pad name="SD1" x="26.67" y="8.89" drill="1" shape="offset"/>
+<pad name="15" x="26.67" y="11.43" drill="1" shape="offset"/>
+<pad name="2" x="26.67" y="13.97" drill="1" shape="offset"/>
+<pad name="0" x="26.67" y="16.51" drill="1" shape="offset"/>
+<pad name="4" x="26.67" y="19.05" drill="1" shape="offset"/>
+<pad name="16" x="26.67" y="21.59" drill="1" shape="offset"/>
+<pad name="17" x="26.67" y="24.13" drill="1" shape="offset"/>
+<pad name="5" x="26.67" y="26.67" drill="1" shape="offset"/>
+<pad name="18" x="26.67" y="29.21" drill="1" shape="offset"/>
+<pad name="19" x="26.67" y="31.75" drill="1" shape="offset"/>
+<pad name="GND_2" x="26.67" y="34.29" drill="1" shape="offset"/>
+<pad name="21" x="26.67" y="36.83" drill="1" shape="offset"/>
+<pad name="RX" x="26.67" y="39.37" drill="1" shape="offset"/>
+<pad name="TX" x="26.67" y="41.91" drill="1" shape="offset"/>
+<pad name="22" x="26.67" y="44.45" drill="1" shape="offset"/>
+<pad name="23" x="26.67" y="46.99" drill="1" shape="offset"/>
+<pad name="GND_3" x="26.67" y="49.53" drill="1" shape="offset"/>
 </package>
 <package name="DIP781W56P254L950H533Q8N">
 <description>&lt;b&gt;MCP6541-I/P PDIP&lt;/b&gt;&lt;br&gt;
@@ -759,7 +759,7 @@ Pins 4 and 5 go to the OLED SDA/SCL
 &lt;p&gt;
     There's 5 "strapping" pins, which effect how the ESP-32 boots depending on if they're pulled high or low. So it's possible that something you've hooked upto these pins may effect how it boots. These pins are: 0 2 5 12 15</description>
 <gates>
-<gate name="G$1" symbol="TTGO-ESP32-OLED-18650" x="-15.24" y="-22.86"/>
+<gate name="G$1" symbol="TTGO-ESP32-OLED-18650" x="-17.78" y="-20.32"/>
 </gates>
 <devices>
 <device name="" package="TTGO-ESP32-OLED-18650">
@@ -792,10 +792,10 @@ Pins 4 and 5 go to the OLED SDA/SCL
 <connect gate="G$1" pin="CMD" pad="CMD"/>
 <connect gate="G$1" pin="EN" pad="EN"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GND@GND_2" pad="GND@GND_2"/>
-<connect gate="G$1" pin="GND@GND_3" pad="GND@GND_3"/>
+<connect gate="G$1" pin="GND@GND_2" pad="GND_2"/>
+<connect gate="G$1" pin="GND@GND_3" pad="GND_3"/>
 <connect gate="G$1" pin="NC" pad="NC"/>
-<connect gate="G$1" pin="NC@NC_2" pad="NC@NC_2"/>
+<connect gate="G$1" pin="NC@NC_2" pad="NC_2"/>
 <connect gate="G$1" pin="RX" pad="RX"/>
 <connect gate="G$1" pin="SD0" pad="SD0"/>
 <connect gate="G$1" pin="SD1" pad="SD1"/>

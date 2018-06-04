@@ -245,46 +245,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <description>These are parts that I have incorporated into past or current projects. Please feel free to incorporate them into your own designs.</description>
 <packages>
 <package name="TTGO-ESP32-OLED-18650">
-<pad name="NC" x="0" y="1.27" drill="1"/>
-<pad name="5V" x="0" y="3.81" drill="1"/>
-<pad name="CMD" x="0" y="6.35" drill="1"/>
-<pad name="SD3" x="0" y="8.89" drill="1"/>
-<pad name="SD2" x="0" y="11.43" drill="1"/>
-<pad name="13" x="0" y="13.97" drill="1"/>
-<pad name="GND" x="0" y="16.51" drill="1"/>
-<pad name="12" x="0" y="19.05" drill="1"/>
-<pad name="14" x="0" y="21.59" drill="1"/>
-<pad name="27" x="0" y="24.13" drill="1"/>
-<pad name="26" x="0" y="26.67" drill="1"/>
-<pad name="25" x="0" y="29.21" drill="1"/>
-<pad name="33" x="0" y="31.75" drill="1"/>
-<pad name="32" x="0" y="34.29" drill="1"/>
-<pad name="35" x="0" y="36.83" drill="1"/>
-<pad name="34" x="0" y="39.37" drill="1"/>
-<pad name="SVN" x="0" y="41.91" drill="1"/>
-<pad name="SVP" x="0" y="44.45" drill="1"/>
-<pad name="EN" x="0" y="46.99" drill="1"/>
-<pad name="3.3V" x="0" y="49.53" drill="1" shape="square"/>
-<pad name="GND@GND_3" x="26.67" y="49.53" drill="1" shape="square"/>
-<pad name="23" x="26.67" y="46.99" drill="1"/>
-<pad name="22" x="26.67" y="44.45" drill="1"/>
-<pad name="TX" x="26.67" y="41.91" drill="1"/>
-<pad name="RX" x="26.67" y="39.37" drill="1"/>
-<pad name="21" x="26.67" y="36.83" drill="1"/>
-<pad name="GND@GND_2" x="26.67" y="34.29" drill="1"/>
-<pad name="19" x="26.67" y="31.75" drill="1"/>
-<pad name="18" x="26.67" y="29.21" drill="1"/>
-<pad name="5" x="26.67" y="26.67" drill="1"/>
-<pad name="17" x="26.67" y="24.13" drill="1"/>
-<pad name="16" x="26.67" y="21.59" drill="1"/>
-<pad name="4" x="26.67" y="19.05" drill="1"/>
-<pad name="0" x="26.67" y="16.51" drill="1"/>
-<pad name="2" x="26.67" y="13.97" drill="1"/>
-<pad name="15" x="26.67" y="11.43" drill="1"/>
-<pad name="SD1" x="26.67" y="8.89" drill="1"/>
-<pad name="SD0" x="26.67" y="6.35" drill="1"/>
-<pad name="CLK" x="26.67" y="3.81" drill="1"/>
-<pad name="NC@NC_2" x="26.67" y="1.27" drill="1"/>
 <hole x="1.27" y="-17.78" drill="3.175"/>
 <hole x="25.4" y="-17.78" drill="3.175"/>
 <wire x1="-1.27" y1="-17.78" x2="1.27" y2="-20.32" width="0.127" layer="21" curve="90"/>
@@ -325,18 +285,46 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="22.86" y1="33.02" x2="22.86" y2="50.8" width="0.127" layer="21"/>
 <wire x1="22.86" y1="50.8" x2="3.81" y2="50.8" width="0.127" layer="21"/>
 <text x="5.08" y="34.29" size="1.27" layer="21">ESP32</text>
-</package>
-<package name="10120045-400LF">
-<smd name="A" x="0.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
-<smd name="B" x="3.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
-<smd name="C" x="6.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
-<smd name="D" x="9.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
-<wire x1="-5" y1="-15.83" x2="16.1" y2="-15.83" width="0.127" layer="51"/>
-<wire x1="16.1" y1="-15.83" x2="16.1" y2="5.37" width="0.127" layer="51"/>
-<wire x1="16.1" y1="5.37" x2="-5.1" y2="5.37" width="0.127" layer="51"/>
-<wire x1="-5.1" y1="5.37" x2="-5.1" y2="-15.83" width="0.127" layer="51"/>
-<rectangle x1="-4.2" y1="-3.6" x2="-2.2" y2="-1" layer="1"/>
-<rectangle x1="12.8" y1="-3.6" x2="14.8" y2="-1" layer="1"/>
+<pad name="3.3V" x="0" y="49.53" drill="1" shape="offset" rot="R180"/>
+<pad name="EN" x="0" y="46.99" drill="1" shape="offset" rot="R180"/>
+<pad name="SVP" x="0" y="44.45" drill="1" shape="offset" rot="R180"/>
+<pad name="SVN" x="0" y="41.91" drill="1" shape="offset" rot="R180"/>
+<pad name="34" x="0" y="39.37" drill="1" shape="offset" rot="R180"/>
+<pad name="35" x="0" y="36.83" drill="1" shape="offset" rot="R180"/>
+<pad name="32" x="0" y="34.29" drill="1" shape="offset" rot="R180"/>
+<pad name="33" x="0" y="31.75" drill="1" shape="offset" rot="R180"/>
+<pad name="25" x="0" y="29.21" drill="1" shape="offset" rot="R180"/>
+<pad name="26" x="0" y="26.67" drill="1" shape="offset" rot="R180"/>
+<pad name="27" x="0" y="24.13" drill="1" shape="offset" rot="R180"/>
+<pad name="14" x="0" y="21.59" drill="1" shape="offset" rot="R180"/>
+<pad name="12" x="0" y="19.05" drill="1" shape="offset" rot="R180"/>
+<pad name="GND" x="0" y="16.51" drill="1" shape="offset" rot="R180"/>
+<pad name="13" x="0" y="13.97" drill="1" shape="offset" rot="R180"/>
+<pad name="SD2" x="0" y="11.43" drill="1" shape="offset" rot="R180"/>
+<pad name="SD3" x="0" y="8.89" drill="1" shape="offset" rot="R180"/>
+<pad name="CMD" x="0" y="6.35" drill="1" shape="offset" rot="R180"/>
+<pad name="5V" x="0" y="3.81" drill="1" shape="offset" rot="R180"/>
+<pad name="NC" x="0" y="1.27" drill="1" shape="offset" rot="R180"/>
+<pad name="NC_2" x="26.67" y="1.27" drill="1" shape="offset"/>
+<pad name="CLK" x="26.67" y="3.81" drill="1" shape="offset"/>
+<pad name="SD0" x="26.67" y="6.35" drill="1" shape="offset"/>
+<pad name="SD1" x="26.67" y="8.89" drill="1" shape="offset"/>
+<pad name="15" x="26.67" y="11.43" drill="1" shape="offset"/>
+<pad name="2" x="26.67" y="13.97" drill="1" shape="offset"/>
+<pad name="0" x="26.67" y="16.51" drill="1" shape="offset"/>
+<pad name="4" x="26.67" y="19.05" drill="1" shape="offset"/>
+<pad name="16" x="26.67" y="21.59" drill="1" shape="offset"/>
+<pad name="17" x="26.67" y="24.13" drill="1" shape="offset"/>
+<pad name="5" x="26.67" y="26.67" drill="1" shape="offset"/>
+<pad name="18" x="26.67" y="29.21" drill="1" shape="offset"/>
+<pad name="19" x="26.67" y="31.75" drill="1" shape="offset"/>
+<pad name="GND_2" x="26.67" y="34.29" drill="1" shape="offset"/>
+<pad name="21" x="26.67" y="36.83" drill="1" shape="offset"/>
+<pad name="RX" x="26.67" y="39.37" drill="1" shape="offset"/>
+<pad name="TX" x="26.67" y="41.91" drill="1" shape="offset"/>
+<pad name="22" x="26.67" y="44.45" drill="1" shape="offset"/>
+<pad name="23" x="26.67" y="46.99" drill="1" shape="offset"/>
+<pad name="GND_3" x="26.67" y="49.53" drill="1" shape="offset"/>
 </package>
 <package name="JS1400BFQ">
 <smd name="1" x="-4" y="1.43" dx="2" dy="1" layer="1"/>
@@ -361,6 +349,35 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="-1.905" y="1.397" size="1.27" layer="21" rot="R45">E</text>
 <hole x="0" y="-1.905" drill="0.9906"/>
 <hole x="0" y="2.032" drill="0.7112"/>
+</package>
+<package name="10120045-400LF">
+<smd name="A" x="0.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
+<smd name="B" x="3.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
+<smd name="C" x="6.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
+<smd name="D" x="9.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
+<rectangle x1="-4.2" y1="-3.6" x2="-2.2" y2="-1" layer="1"/>
+<rectangle x1="12.8" y1="-3.6" x2="14.8" y2="-1" layer="1"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-2.54" y1="-8.89" x2="-1.27" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-8.89" x2="-1.27" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="-1.27" y1="-5.08" x2="0.635" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-5.08" x2="2.54" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-5.08" x2="2.54" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="2.54" y1="-8.89" x2="3.81" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-8.89" x2="5.08" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-8.89" x2="5.08" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="5.08" y1="-5.08" x2="8.89" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-5.08" x2="8.89" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="8.89" y1="-8.89" x2="10.16" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-8.89" x2="11.43" y2="-8.89" width="0.127" layer="21"/>
+<wire x1="11.43" y1="-8.89" x2="11.43" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="11.43" y1="-5.08" x2="12.7" y2="-5.08" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-5.08" x2="12.7" y2="0" width="0.127" layer="21"/>
+<wire x1="12.7" y1="0" x2="-2.54" y2="0" width="0.127" layer="21"/>
+<wire x1="3.81" y1="-8.89" x2="3.81" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="10.16" y1="-8.89" x2="10.16" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-5.08" x2="0.635" y2="-7.747" width="0.127" layer="21"/>
+<wire x1="6.985" y1="-5.207" x2="6.985" y2="-7.747" width="0.127" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -412,17 +429,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="7.62" y="50.8" size="1.778" layer="95">&gt;NAME</text>
 <text x="7.62" y="-5.08" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="10120045-400LF">
-<wire x1="0" y1="0" x2="0" y2="12.7" width="0.254" layer="94"/>
-<wire x1="0" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="12.7" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="A" x="-5.08" y="2.54" length="middle"/>
-<pin name="B" x="-5.08" y="5.08" length="middle"/>
-<pin name="C" x="-5.08" y="7.62" length="middle"/>
-<pin name="D" x="-5.08" y="10.16" length="middle"/>
-<text x="7.62" y="0" size="1.778" layer="94" rot="R90">&gt;NAME</text>
-</symbol>
 <symbol name="JS1400BFQ">
 <pin name="1" x="-10.16" y="5.08" length="middle"/>
 <pin name="2_CEN" x="-10.16" y="0" length="middle"/>
@@ -437,6 +443,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="2.54" y="10.16" size="1.27" layer="95">&gt;NAME</text>
 <text x="2.54" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
+<symbol name="10120045-400LF">
+<wire x1="0" y1="0" x2="0" y2="12.7" width="0.254" layer="94"/>
+<wire x1="0" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
+<wire x1="5.08" y1="12.7" x2="5.08" y2="0" width="0.254" layer="94"/>
+<wire x1="5.08" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
+<pin name="A" x="-5.08" y="2.54" length="middle"/>
+<pin name="B" x="-5.08" y="5.08" length="middle"/>
+<pin name="C" x="-5.08" y="7.62" length="middle"/>
+<pin name="D" x="-5.08" y="10.16" length="middle"/>
+<text x="7.62" y="0" size="1.778" layer="94" rot="R90">&gt;NAME</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="TTGO-ESP32-OLED-18650">
@@ -448,7 +465,7 @@ Pins 4 and 5 go to the OLED SDA/SCL
 &lt;p&gt;
     There's 5 "strapping" pins, which effect how the ESP-32 boots depending on if they're pulled high or low. So it's possible that something you've hooked upto these pins may effect how it boots. These pins are: 0 2 5 12 15</description>
 <gates>
-<gate name="G$1" symbol="TTGO-ESP32-OLED-18650" x="-15.24" y="-22.86"/>
+<gate name="G$1" symbol="TTGO-ESP32-OLED-18650" x="-17.78" y="-20.32"/>
 </gates>
 <devices>
 <device name="" package="TTGO-ESP32-OLED-18650">
@@ -481,10 +498,10 @@ Pins 4 and 5 go to the OLED SDA/SCL
 <connect gate="G$1" pin="CMD" pad="CMD"/>
 <connect gate="G$1" pin="EN" pad="EN"/>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="GND@GND_2" pad="GND@GND_2"/>
-<connect gate="G$1" pin="GND@GND_3" pad="GND@GND_3"/>
+<connect gate="G$1" pin="GND@GND_2" pad="GND_2"/>
+<connect gate="G$1" pin="GND@GND_3" pad="GND_3"/>
 <connect gate="G$1" pin="NC" pad="NC"/>
-<connect gate="G$1" pin="NC@NC_2" pad="NC@NC_2"/>
+<connect gate="G$1" pin="NC@NC_2" pad="NC_2"/>
 <connect gate="G$1" pin="RX" pad="RX"/>
 <connect gate="G$1" pin="SD0" pad="SD0"/>
 <connect gate="G$1" pin="SD1" pad="SD1"/>
@@ -493,27 +510,6 @@ Pins 4 and 5 go to the OLED SDA/SCL
 <connect gate="G$1" pin="SVN" pad="SVN"/>
 <connect gate="G$1" pin="SVP" pad="SVP"/>
 <connect gate="G$1" pin="TX" pad="TX"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="10120045-400LF">
-<description>SSL Connector 4 Position Blade and Receptacle, Hermaphroditic Board to Board 0.118" (3.00mm) Solder
-&lt;p&gt;
-&lt;a href="https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10120045-400lf.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="10120045-400LF" x="-2.54" y="-5.08"/>
-</gates>
-<devices>
-<device name="" package="10120045-400LF">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="D" pad="D"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -535,6 +531,27 @@ Pins 4 and 5 go to the OLED SDA/SCL
 <connect gate="G$1" pin="4" pad="4"/>
 <connect gate="G$1" pin="5_COM" pad="5"/>
 <connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="10120045-400LF">
+<description>SSL Connector 4 Position Blade and Receptacle, Hermaphroditic Board to Board 0.118" (3.00mm) Solder
+&lt;p&gt;
+&lt;a href="https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10120045-400lf.pdf"&gt;Datasheet&lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="10120045-400LF" x="-2.54" y="-5.08"/>
+</gates>
+<devices>
+<device name="" package="10120045-400LF">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="B" pad="B"/>
+<connect gate="G$1" pin="C" pad="C"/>
+<connect gate="G$1" pin="D" pad="D"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1336,9 +1353,6 @@ WS2812B</description>
 <part name="GND3" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="5V" device=""/>
-<part name="HEMA1" library="BadgeParts" deviceset="10120045-400LF" device=""/>
-<part name="GND6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
-<part name="SUPPLY6" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VDD" device=""/>
 <part name="S1" library="BadgeParts" deviceset="JS1400BFQ" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
 <part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
@@ -1370,6 +1384,7 @@ WS2812B</description>
 <part name="LED10" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:39369/1" value="WS2812B"/>
 <part name="C9" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
 <part name="C10" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" deviceset="0.1UF" device="-0603-25V-5%" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF"/>
+<part name="U$1" library="BadgeParts" deviceset="10120045-400LF" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1382,9 +1397,6 @@ WS2812B</description>
 <instance part="GND3" gate="1" x="15.24" y="48.26" rot="R90"/>
 <instance part="GND4" gate="1" x="15.24" y="33.02" rot="R90"/>
 <instance part="SUPPLY4" gate="G$1" x="-35.56" y="2.54" rot="R90"/>
-<instance part="HEMA1" gate="G$1" x="-96.52" y="48.26" rot="R180"/>
-<instance part="GND6" gate="1" x="-86.36" y="33.02"/>
-<instance part="SUPPLY6" gate="VDD" x="-86.36" y="48.26"/>
 <instance part="S1" gate="G$1" x="-12.7" y="-33.02"/>
 <instance part="GND7" gate="1" x="25.4" y="-33.02" rot="R90"/>
 <instance part="R5" gate="G$1" x="-33.02" y="-27.94"/>
@@ -1416,6 +1428,7 @@ WS2812B</description>
 <instance part="LED10" gate="G$1" x="83.82" y="-93.98"/>
 <instance part="C9" gate="G$1" x="53.34" y="-73.66"/>
 <instance part="C10" gate="G$1" x="53.34" y="-93.98"/>
+<instance part="U$1" gate="G$1" x="-7.62" y="76.2"/>
 </instances>
 <busses>
 </busses>
@@ -1425,12 +1438,6 @@ WS2812B</description>
 <pinref part="MAIN" gate="G$1" pin="3.3V"/>
 <pinref part="SUPPLY3" gate="VDD" pin="VDD"/>
 <wire x1="-25.4" y1="48.26" x2="-33.02" y2="48.26" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="HEMA1" gate="G$1" pin="A"/>
-<wire x1="-91.44" y1="45.72" x2="-86.36" y2="45.72" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="45.72" x2="-86.36" y2="48.26" width="0.1524" layer="91"/>
-<pinref part="SUPPLY6" gate="VDD" pin="VDD"/>
 </segment>
 <segment>
 <pinref part="SUPPLY7" gate="VDD" pin="VDD"/>
@@ -1550,12 +1557,6 @@ WS2812B</description>
 <wire x1="12.7" y1="48.26" x2="5.08" y2="48.26" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="HEMA1" gate="G$1" pin="D"/>
-<pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="-91.44" y1="38.1" x2="-86.36" y2="38.1" width="0.1524" layer="91"/>
-<wire x1="-86.36" y1="38.1" x2="-86.36" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="S1" gate="G$1" pin="5_COM"/>
 <pinref part="GND7" gate="1" pin="GND"/>
 <wire x1="10.16" y1="-33.02" x2="22.86" y2="-33.02" width="0.1524" layer="91"/>
@@ -1567,22 +1568,12 @@ WS2812B</description>
 <wire x1="5.08" y1="35.56" x2="22.86" y2="35.56" width="0.1524" layer="91"/>
 <label x="22.86" y="35.56" size="1.778" layer="95" xref="yes"/>
 </segment>
-<segment>
-<pinref part="HEMA1" gate="G$1" pin="B"/>
-<wire x1="-91.44" y1="43.18" x2="-88.9" y2="43.18" width="0.1524" layer="91"/>
-<label x="-88.9" y="43.18" size="1.778" layer="95" xref="yes"/>
-</segment>
 </net>
 <net name="SCL" class="0">
 <segment>
 <pinref part="MAIN" gate="G$1" pin="22"/>
 <wire x1="5.08" y1="43.18" x2="22.86" y2="43.18" width="0.1524" layer="91"/>
 <label x="22.86" y="43.18" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
-<pinref part="HEMA1" gate="G$1" pin="C"/>
-<label x="-81.28" y="40.64" size="1.778" layer="95" xref="yes"/>
-<wire x1="-91.44" y1="40.64" x2="-81.28" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="5V" class="0">
