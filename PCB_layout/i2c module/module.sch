@@ -161,35 +161,6 @@
 <library name="BadgeParts">
 <description>These are parts that I have incorporated into past or current projects. Please feel free to incorporate them into your own designs.</description>
 <packages>
-<package name="10120045-400LF">
-<smd name="A" x="0.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
-<smd name="B" x="3.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
-<smd name="C" x="6.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
-<smd name="D" x="9.8" y="2" dx="1.6" dy="4" layer="1" rot="R180"/>
-<rectangle x1="-4.2" y1="-3.6" x2="-2.2" y2="-1" layer="1"/>
-<rectangle x1="12.8" y1="-3.6" x2="14.8" y2="-1" layer="1"/>
-<wire x1="-2.54" y1="0" x2="-2.54" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="-2.54" y1="-8.89" x2="-1.27" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-8.89" x2="-1.27" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="-5.08" x2="0.635" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-5.08" x2="2.54" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-5.08" x2="2.54" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="2.54" y1="-8.89" x2="3.81" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-8.89" x2="5.08" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-8.89" x2="5.08" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="5.08" y1="-5.08" x2="8.89" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="8.89" y1="-5.08" x2="8.89" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="8.89" y1="-8.89" x2="10.16" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-8.89" x2="11.43" y2="-8.89" width="0.127" layer="21"/>
-<wire x1="11.43" y1="-8.89" x2="11.43" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="11.43" y1="-5.08" x2="12.7" y2="-5.08" width="0.127" layer="21"/>
-<wire x1="12.7" y1="-5.08" x2="12.7" y2="0" width="0.127" layer="21"/>
-<wire x1="12.7" y1="0" x2="-2.54" y2="0" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-8.89" x2="3.81" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="10.16" y1="-8.89" x2="10.16" y2="-6.35" width="0.127" layer="21"/>
-<wire x1="0.635" y1="-5.08" x2="0.635" y2="-7.747" width="0.127" layer="21"/>
-<wire x1="6.985" y1="-5.207" x2="6.985" y2="-7.747" width="0.127" layer="21"/>
-</package>
 <package name="SOT127P798X216-8N">
 <description>&lt;b&gt;8S2&lt;/b&gt;&lt;br&gt;
 </description>
@@ -236,19 +207,39 @@
 <wire x1="1.27" y1="5.715" x2="1.27" y2="5.08" width="0.127" layer="21"/>
 <text x="-1.905" y="-1.905" size="1.27" layer="21">ICSP</text>
 </package>
+<package name="HEMA-I2C">
+<description>Must reverse pin order on either side of a hema connection</description>
+<smd name="A" x="2.9844" y="5.6068" dx="1.6" dy="4" layer="1" rot="R180"/>
+<smd name="B" x="5.9844" y="5.6068" dx="1.6" dy="4" layer="1" rot="R180"/>
+<smd name="C" x="8.9844" y="5.6068" dx="1.6" dy="4" layer="1" rot="R180"/>
+<smd name="D" x="11.9844" y="5.6068" dx="1.6" dy="4" layer="1" rot="R180"/>
+<rectangle x1="-2.0156" y1="0.0068" x2="-0.0156" y2="2.6068" layer="1"/>
+<rectangle x1="14.9844" y1="0.0068" x2="16.9844" y2="2.6068" layer="1"/>
+<wire x1="-0.3556" y1="3.6068" x2="-0.3556" y2="-5.2832" width="0.127" layer="21"/>
+<wire x1="-0.3556" y1="-5.2832" x2="0.9144" y2="-5.2832" width="0.127" layer="21"/>
+<wire x1="0.9144" y1="-5.2832" x2="0.9144" y2="-1.4732" width="0.127" layer="21"/>
+<wire x1="0.9144" y1="-1.4732" x2="2.8194" y2="-1.4732" width="0.127" layer="21"/>
+<wire x1="2.8194" y1="-1.4732" x2="4.7244" y2="-1.4732" width="0.127" layer="21"/>
+<wire x1="4.7244" y1="-1.4732" x2="4.7244" y2="-5.2832" width="0.127" layer="21"/>
+<wire x1="4.7244" y1="-5.2832" x2="5.9944" y2="-5.2832" width="0.127" layer="21"/>
+<wire x1="5.9944" y1="-5.2832" x2="7.2644" y2="-5.2832" width="0.127" layer="21"/>
+<wire x1="7.2644" y1="-5.2832" x2="7.2644" y2="-1.4732" width="0.127" layer="21"/>
+<wire x1="7.2644" y1="-1.4732" x2="11.0744" y2="-1.4732" width="0.127" layer="21"/>
+<wire x1="11.0744" y1="-1.4732" x2="11.0744" y2="-5.2832" width="0.127" layer="21"/>
+<wire x1="11.0744" y1="-5.2832" x2="12.3444" y2="-5.2832" width="0.127" layer="21"/>
+<wire x1="12.3444" y1="-5.2832" x2="13.6144" y2="-5.2832" width="0.127" layer="21"/>
+<wire x1="13.6144" y1="-5.2832" x2="13.6144" y2="-1.4732" width="0.127" layer="21"/>
+<wire x1="13.6144" y1="-1.4732" x2="14.8844" y2="-1.4732" width="0.127" layer="21"/>
+<wire x1="14.8844" y1="-1.4732" x2="14.8844" y2="3.6068" width="0.127" layer="21"/>
+<wire x1="14.8844" y1="3.6068" x2="-0.3556" y2="3.6068" width="0.127" layer="21"/>
+<wire x1="5.9944" y1="-5.2832" x2="5.9944" y2="-2.7432" width="0.127" layer="21"/>
+<wire x1="12.3444" y1="-5.2832" x2="12.3444" y2="-2.7432" width="0.127" layer="21"/>
+<wire x1="2.8194" y1="-1.4732" x2="2.8194" y2="-4.1402" width="0.127" layer="21"/>
+<wire x1="9.1694" y1="-1.6002" x2="9.1694" y2="-4.1402" width="0.127" layer="21"/>
+<text x="2.3876" y="0.508" size="1.27" layer="21">HEMA-I2C</text>
+</package>
 </packages>
 <symbols>
-<symbol name="10120045-400LF">
-<wire x1="0" y1="0" x2="0" y2="12.7" width="0.254" layer="94"/>
-<wire x1="0" y1="12.7" x2="5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="12.7" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
-<pin name="A" x="-5.08" y="2.54" length="middle"/>
-<pin name="B" x="-5.08" y="5.08" length="middle"/>
-<pin name="C" x="-5.08" y="7.62" length="middle"/>
-<pin name="D" x="-5.08" y="10.16" length="middle"/>
-<text x="7.62" y="0" size="1.778" layer="94" rot="R90">&gt;NAME</text>
-</symbol>
 <symbol name="ATTINY85-20SU">
 <wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
 <wire x1="25.4" y1="-10.16" x2="25.4" y2="2.54" width="0.254" layer="94"/>
@@ -279,29 +270,19 @@
 <pin name="4" x="20.32" y="-2.54" length="middle" rot="R180"/>
 <pin name="6" x="20.32" y="-5.08" length="middle" rot="R180"/>
 </symbol>
+<symbol name="HEMA">
+<pin name="VCC" x="-5.08" y="0" length="middle"/>
+<pin name="GND" x="-5.08" y="-5.08" length="middle"/>
+<pin name="SCL" x="-5.08" y="-10.16" length="middle"/>
+<pin name="SDA" x="-5.08" y="-15.24" length="middle"/>
+<wire x1="0" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
+<wire x1="0" y1="-17.78" x2="0" y2="2.54" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.778" layer="94">HEMA</text>
+</symbol>
 </symbols>
 <devicesets>
-<deviceset name="10120045-400LF">
-<description>SSL Connector 4 Position Blade and Receptacle, Hermaphroditic Board to Board 0.118" (3.00mm) Solder
-&lt;p&gt;
-&lt;a href="https://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/10120045-400lf.pdf"&gt;Datasheet&lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="10120045-400LF" x="-2.54" y="-5.08"/>
-</gates>
-<devices>
-<device name="" package="10120045-400LF">
-<connects>
-<connect gate="G$1" pin="A" pad="A"/>
-<connect gate="G$1" pin="B" pad="B"/>
-<connect gate="G$1" pin="C" pad="C"/>
-<connect gate="G$1" pin="D" pad="D"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="ATTINY85-20SU" prefix="IC">
 <description>&lt;b&gt;MICROCHIP - ATTINY85-20SU - MICROCONTROLLER MCU, 8 BIT, ATTINY, 20MHZ, SOIC-8&lt;/b&gt;&lt;p&gt;
 Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ATTINY85-20SU.pdf"&gt; Datasheet &lt;/a&gt;</description>
@@ -362,6 +343,24 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <attribute name="RS_PART_NUMBER" value="7457046P" constant="no"/>
 <attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/7457046P" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEMA-I2C">
+<gates>
+<gate name="G$1" symbol="HEMA" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="HEMA-I2C">
+<connects>
+<connect gate="G$1" pin="GND" pad="B"/>
+<connect gate="G$1" pin="SCL" pad="C"/>
+<connect gate="G$1" pin="SDA" pad="D"/>
+<connect gate="G$1" pin="VCC" pad="A"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1268,22 +1267,22 @@ LED</description>
 </class>
 </classes>
 <parts>
-<part name="U$1" library="BadgeParts" deviceset="10120045-400LF" device=""/>
 <part name="IC1" library="BadgeParts" deviceset="ATTINY85-20SU" device=""/>
 <part name="J1" library="BadgeParts" deviceset="M20-9980346" device=""/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="RESISTOR" device="AXIAL-0.3" package3d_urn="urn:adsk.eagle:package:39658/1" value="220"/>
 <part name="POWER" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED" device="3MM" package3d_urn="urn:adsk.eagle:package:39361/1"/>
+<part name="U$1" library="BadgeParts" deviceset="HEMA-I2C" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
 </plain>
 <instances>
-<instance part="U$1" gate="G$1" x="63.5" y="40.64"/>
 <instance part="IC1" gate="G$1" x="35.56" y="83.82"/>
 <instance part="J1" gate="G$1" x="5.08" y="58.42"/>
 <instance part="R1" gate="G$1" x="-5.08" y="96.52"/>
 <instance part="POWER" gate="G$1" x="-12.7" y="96.52" rot="R270"/>
+<instance part="U$1" gate="G$1" x="58.42" y="55.88"/>
 </instances>
 <busses>
 </busses>
@@ -1295,9 +1294,9 @@ LED</description>
 <label x="30.48" y="55.88" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="D"/>
-<wire x1="58.42" y1="50.8" x2="48.26" y2="50.8" width="0.1524" layer="91"/>
-<label x="48.26" y="50.8" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="SDA"/>
+<wire x1="53.34" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
+<label x="43.18" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="MISO" class="0">
@@ -1313,22 +1312,12 @@ LED</description>
 <wire x1="5.08" y1="55.88" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
 <label x="-5.08" y="55.88" size="1.778" layer="95"/>
 </segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="C"/>
-<wire x1="58.42" y1="48.26" x2="48.26" y2="48.26" width="0.1524" layer="91"/>
-<label x="48.26" y="48.26" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="VCC" class="1">
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
 <wire x1="25.4" y1="58.42" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
 <label x="30.48" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$1" gate="G$1" pin="B"/>
-<wire x1="58.42" y1="45.72" x2="48.26" y2="45.72" width="0.1524" layer="91"/>
-<label x="48.26" y="45.72" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="IC1" gate="G$1" pin="VCC"/>
@@ -1339,6 +1328,11 @@ LED</description>
 <pinref part="POWER" gate="G$1" pin="C"/>
 <wire x1="-17.78" y1="96.52" x2="-27.94" y2="96.52" width="0.1524" layer="91"/>
 <label x="-27.94" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="VCC"/>
+<wire x1="53.34" y1="55.88" x2="43.18" y2="55.88" width="0.1524" layer="91"/>
+<label x="43.18" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -1374,11 +1368,6 @@ LED</description>
 <label x="25.4" y="76.2" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="A"/>
-<wire x1="58.42" y1="43.18" x2="48.26" y2="43.18" width="0.1524" layer="91"/>
-<label x="48.26" y="43.18" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="6"/>
 <wire x1="25.4" y1="53.34" x2="35.56" y2="53.34" width="0.1524" layer="91"/>
 <label x="30.48" y="53.34" size="1.778" layer="95"/>
@@ -1387,6 +1376,11 @@ LED</description>
 <pinref part="R1" gate="G$1" pin="2"/>
 <wire x1="0" y1="96.52" x2="12.7" y2="96.52" width="0.1524" layer="91"/>
 <label x="7.62" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$1" gate="G$1" pin="GND"/>
+<wire x1="53.34" y1="50.8" x2="43.18" y2="50.8" width="0.1524" layer="91"/>
+<label x="43.18" y="50.8" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PIN0" class="0">
@@ -1414,6 +1408,13 @@ LED</description>
 <segment>
 <pinref part="R1" gate="G$1" pin="1"/>
 <pinref part="POWER" gate="G$1" pin="A"/>
+</segment>
+</net>
+<net name="SLC" class="0">
+<segment>
+<pinref part="U$1" gate="G$1" pin="SCL"/>
+<wire x1="53.34" y1="45.72" x2="43.18" y2="45.72" width="0.1524" layer="91"/>
+<label x="43.18" y="45.72" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
