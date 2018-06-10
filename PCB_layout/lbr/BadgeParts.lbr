@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -24,7 +24,7 @@
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
@@ -335,47 +335,22 @@
 <smd name="PB1" x="3.75" y="-0.635" dx="1.5" dy="0.6" layer="1"/>
 <smd name="PB2" x="3.75" y="0.635" dx="1.5" dy="0.6" layer="1"/>
 <smd name="VCC" x="3.75" y="1.905" dx="1.5" dy="0.6" layer="1"/>
-<text x="0" y="-3.81" size="1.27" layer="27" align="center">ATTINY</text>
-<wire x1="-4.75" y1="2.875" x2="4.75" y2="2.875" width="0.05" layer="51"/>
-<wire x1="4.75" y1="2.875" x2="4.75" y2="-2.875" width="0.05" layer="51"/>
-<wire x1="4.75" y1="-2.875" x2="-4.75" y2="-2.875" width="0.05" layer="51"/>
-<wire x1="-4.75" y1="-2.875" x2="-4.75" y2="2.875" width="0.05" layer="51"/>
-<wire x1="-2.645" y1="2.595" x2="2.645" y2="2.595" width="0.1" layer="51"/>
-<wire x1="2.645" y1="2.595" x2="2.645" y2="-2.595" width="0.1" layer="51"/>
-<wire x1="2.645" y1="-2.595" x2="-2.645" y2="-2.595" width="0.1" layer="51"/>
-<wire x1="-2.645" y1="-2.595" x2="-2.645" y2="2.595" width="0.1" layer="51"/>
-<wire x1="-2.645" y1="1.325" x2="-1.375" y2="2.595" width="0.1" layer="51"/>
-<wire x1="-2.65" y1="2.595" x2="2.65" y2="2.595" width="0.2" layer="21"/>
-<wire x1="2.65" y1="2.595" x2="2.65" y2="-2.595" width="0.2" layer="21"/>
-<wire x1="2.65" y1="-2.595" x2="-2.65" y2="-2.595" width="0.2" layer="21"/>
-<wire x1="-2.65" y1="-2.595" x2="-2.65" y2="2.595" width="0.2" layer="21"/>
-<wire x1="-4.5" y1="2.555" x2="-3" y2="2.555" width="0.2" layer="21"/>
+<text x="0" y="0" size="0.8128" layer="27" font="vector" ratio="15" align="center">ATTINY
+85</text>
+<circle x="-2.286" y="1.524" radius="0.381" width="0" layer="21"/>
 </package>
 <package name="CT1205HSMTTR">
 <description>&lt;b&gt;CT-1205H-SMT-TR&lt;/b&gt;&lt;br&gt;
 </description>
 <smd name="1" x="-5.4" y="0" dx="4" dy="3" layer="1"/>
 <smd name="2" x="5.4" y="0" dx="4" dy="3" layer="1"/>
-<text x="-0.3" y="0" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="-0.3" y="0" size="1.27" layer="27" align="center">&gt;VALUE</text>
-<wire x1="-6.4" y1="6.4" x2="6.4" y2="6.4" width="0.2" layer="51"/>
-<wire x1="6.4" y1="6.4" x2="6.4" y2="-6.4" width="0.2" layer="51"/>
-<wire x1="6.4" y1="-6.4" x2="-6.4" y2="-6.4" width="0.2" layer="51"/>
-<wire x1="-6.4" y1="-6.4" x2="-6.4" y2="6.4" width="0.2" layer="51"/>
-<wire x1="-9" y1="7.4" x2="8.4" y2="7.4" width="0.1" layer="51"/>
-<wire x1="8.4" y1="7.4" x2="8.4" y2="-7.4" width="0.1" layer="51"/>
-<wire x1="8.4" y1="-7.4" x2="-9" y2="-7.4" width="0.1" layer="51"/>
-<wire x1="-9" y1="-7.4" x2="-9" y2="7.4" width="0.1" layer="51"/>
-<wire x1="-6.4" y1="2" x2="-6.4" y2="6.4" width="0.1" layer="21"/>
-<wire x1="-6.4" y1="6.4" x2="6.4" y2="6.4" width="0.1" layer="21"/>
-<wire x1="6.4" y1="6.4" x2="6.4" y2="2" width="0.1" layer="21"/>
-<wire x1="-6.4" y1="-2" x2="-6.4" y2="-6.4" width="0.1" layer="21"/>
-<wire x1="-6.4" y1="-6.4" x2="6.4" y2="-6.4" width="0.1" layer="21"/>
-<wire x1="6.4" y1="-6.4" x2="6.4" y2="-2" width="0.1" layer="21"/>
-<wire x1="-7.9" y1="-0.1" x2="-7.9" y2="-0.1" width="0.2" layer="21"/>
-<wire x1="-7.9" y1="-0.1" x2="-7.9" y2="0.1" width="0.2" layer="21" curve="-180"/>
-<wire x1="-7.9" y1="0.1" x2="-7.9" y2="0.1" width="0.2" layer="21"/>
-<wire x1="-7.9" y1="0.1" x2="-7.9" y2="-0.1" width="0.2" layer="21" curve="-180"/>
+<text x="0.0175" y="0" size="0.8128" layer="25" font="vector" ratio="15" align="center">BUZZER</text>
+<wire x1="6.35" y1="-2.54" x2="6.35" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="6.35" y1="-6.35" x2="-6.35" y2="-6.35" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="-6.35" x2="-6.35" y2="-2.54" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="2.54" x2="-6.35" y2="6.35" width="0.127" layer="21"/>
+<wire x1="-6.35" y1="6.35" x2="6.35" y2="6.35" width="0.127" layer="21"/>
+<wire x1="6.35" y1="6.35" x2="6.35" y2="2.54" width="0.127" layer="21"/>
 </package>
 <package name="JS5208">
 <description>&lt;b&gt;JS5208&lt;/b&gt;&lt;br&gt;
@@ -410,15 +385,15 @@
 <pad name="2" x="2.54" y="1.27" drill="1.1" diameter="1.65" rot="R180"/>
 <pad name="4" x="0" y="1.27" drill="1.1" diameter="1.65" rot="R180"/>
 <pad name="6" x="-2.54" y="1.27" drill="1.1" diameter="1.65" rot="R180"/>
-<wire x1="-3.81" y1="5.08" x2="-3.81" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="0" x2="3.81" y2="0" width="0.127" layer="21"/>
-<wire x1="3.81" y1="0" x2="3.81" y2="5.08" width="0.127" layer="21"/>
-<wire x1="3.81" y1="5.08" x2="1.27" y2="5.08" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="5.08" x2="-1.27" y2="5.08" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="5.08" x2="-1.27" y2="5.715" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="5.715" x2="1.27" y2="5.715" width="0.127" layer="21"/>
-<wire x1="1.27" y1="5.715" x2="1.27" y2="5.08" width="0.127" layer="21"/>
-<text x="-1.905" y="-1.905" size="1.27" layer="21">ICSP</text>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="0" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="0" x2="3.81" y2="0" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="5.08" x2="1.27" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="5.08" x2="-1.27" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="5.715" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="5.715" x2="1.27" y2="5.715" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="5.715" x2="1.27" y2="5.08" width="0.2032" layer="21"/>
+<text x="-1.27" y="-1.27" size="0.8128" layer="21" font="vector" ratio="15">ICSP</text>
 </package>
 <package name="HEMA-I2C">
 <description>Must reverse pin order on either side of a hema connection</description>
@@ -428,28 +403,28 @@
 <smd name="D" x="11.9844" y="5.6068" dx="1.6" dy="4" layer="1" rot="R180"/>
 <rectangle x1="-2.0156" y1="0.0068" x2="-0.0156" y2="2.6068" layer="1"/>
 <rectangle x1="14.9844" y1="0.0068" x2="16.9844" y2="2.6068" layer="1"/>
-<wire x1="-0.3556" y1="3.6068" x2="-0.3556" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="-0.3556" y1="-5.2832" x2="0.9144" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="0.9144" y1="-5.2832" x2="0.9144" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="0.9144" y1="-1.4732" x2="2.8194" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="2.8194" y1="-1.4732" x2="4.7244" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="4.7244" y1="-1.4732" x2="4.7244" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="4.7244" y1="-5.2832" x2="5.9944" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="5.9944" y1="-5.2832" x2="7.2644" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="7.2644" y1="-5.2832" x2="7.2644" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="7.2644" y1="-1.4732" x2="11.0744" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="11.0744" y1="-1.4732" x2="11.0744" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="11.0744" y1="-5.2832" x2="12.3444" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="12.3444" y1="-5.2832" x2="13.6144" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="13.6144" y1="-5.2832" x2="13.6144" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="13.6144" y1="-1.4732" x2="14.8844" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="14.8844" y1="-1.4732" x2="14.8844" y2="3.6068" width="0.127" layer="21"/>
-<wire x1="14.8844" y1="3.6068" x2="-0.3556" y2="3.6068" width="0.127" layer="21"/>
-<wire x1="5.9944" y1="-5.2832" x2="5.9944" y2="-2.7432" width="0.127" layer="21"/>
-<wire x1="12.3444" y1="-5.2832" x2="12.3444" y2="-2.7432" width="0.127" layer="21"/>
-<wire x1="2.8194" y1="-1.4732" x2="2.8194" y2="-4.1402" width="0.127" layer="21"/>
-<wire x1="9.1694" y1="-1.6002" x2="9.1694" y2="-4.1402" width="0.127" layer="21"/>
-<text x="2.3876" y="0.508" size="1.27" layer="21">HEMA-I2C</text>
+<wire x1="-0.3556" y1="3.6068" x2="-0.3556" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="-0.3556" y1="-5.2832" x2="0.9144" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="0.9144" y1="-5.2832" x2="0.9144" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="0.9144" y1="-1.4732" x2="2.8194" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="2.8194" y1="-1.4732" x2="4.7244" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="4.7244" y1="-1.4732" x2="4.7244" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="4.7244" y1="-5.2832" x2="5.9944" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="5.9944" y1="-5.2832" x2="7.2644" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="7.2644" y1="-5.2832" x2="7.2644" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="7.2644" y1="-1.4732" x2="11.0744" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="11.0744" y1="-1.4732" x2="11.0744" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="11.0744" y1="-5.2832" x2="12.3444" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="12.3444" y1="-5.2832" x2="13.6144" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="13.6144" y1="-5.2832" x2="13.6144" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="13.6144" y1="-1.4732" x2="14.8844" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="14.8844" y1="-1.4732" x2="14.8844" y2="3.6068" width="0.127" layer="51"/>
+<wire x1="14.8844" y1="3.6068" x2="-0.3556" y2="3.6068" width="0.127" layer="51"/>
+<wire x1="5.9944" y1="-5.2832" x2="5.9944" y2="-2.7432" width="0.127" layer="51"/>
+<wire x1="12.3444" y1="-5.2832" x2="12.3444" y2="-2.7432" width="0.127" layer="51"/>
+<wire x1="2.8194" y1="-1.4732" x2="2.8194" y2="-4.1402" width="0.127" layer="51"/>
+<wire x1="9.1694" y1="-1.6002" x2="9.1694" y2="-4.1402" width="0.127" layer="51"/>
+<text x="4.9276" y="1.143" size="0.8128" layer="21" font="vector" ratio="15">HEMA-I2C</text>
 </package>
 <package name="CHIPLED-4">
 <smd name="2" x="-0.6" y="-0.7" dx="0.75" dy="0.7" layer="1" rot="R90"/>
@@ -488,34 +463,50 @@
 </package>
 <package name="HEMA-TTGO">
 <description>Must reverse pin order on either side of a hema connection</description>
-<smd name="D" x="2.9844" y="5.6068" dx="1.6" dy="4" layer="1" rot="R180"/>
-<smd name="C" x="5.9844" y="5.6068" dx="1.6" dy="4" layer="1" rot="R180"/>
-<smd name="B" x="8.9844" y="5.6068" dx="1.6" dy="4" layer="1" rot="R180"/>
-<smd name="A" x="11.9844" y="5.6068" dx="1.6" dy="4" layer="1" rot="R180"/>
+<smd name="A" x="2.9844" y="5.6068" dx="1.6" dy="4" layer="1" rot="R180"/>
+<smd name="B" x="5.9844" y="5.6068" dx="1.6" dy="4" layer="1" rot="R180"/>
+<smd name="C" x="8.9844" y="5.6068" dx="1.6" dy="4" layer="1" rot="R180"/>
+<smd name="D" x="11.9844" y="5.6068" dx="1.6" dy="4" layer="1" rot="R180"/>
 <rectangle x1="-2.0156" y1="0.0068" x2="-0.0156" y2="2.6068" layer="1"/>
 <rectangle x1="14.9844" y1="0.0068" x2="16.9844" y2="2.6068" layer="1"/>
-<wire x1="-0.3556" y1="3.6068" x2="-0.3556" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="-0.3556" y1="-5.2832" x2="0.9144" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="0.9144" y1="-5.2832" x2="0.9144" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="0.9144" y1="-1.4732" x2="2.8194" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="2.8194" y1="-1.4732" x2="4.7244" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="4.7244" y1="-1.4732" x2="4.7244" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="4.7244" y1="-5.2832" x2="5.9944" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="5.9944" y1="-5.2832" x2="7.2644" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="7.2644" y1="-5.2832" x2="7.2644" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="7.2644" y1="-1.4732" x2="11.0744" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="11.0744" y1="-1.4732" x2="11.0744" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="11.0744" y1="-5.2832" x2="12.3444" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="12.3444" y1="-5.2832" x2="13.6144" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="13.6144" y1="-5.2832" x2="13.6144" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="13.6144" y1="-1.4732" x2="14.8844" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="14.8844" y1="-1.4732" x2="14.8844" y2="3.6068" width="0.127" layer="21"/>
-<wire x1="14.8844" y1="3.6068" x2="-0.3556" y2="3.6068" width="0.127" layer="21"/>
-<wire x1="5.9944" y1="-5.2832" x2="5.9944" y2="-2.7432" width="0.127" layer="21"/>
-<wire x1="12.3444" y1="-5.2832" x2="12.3444" y2="-2.7432" width="0.127" layer="21"/>
-<wire x1="2.8194" y1="-1.4732" x2="2.8194" y2="-4.1402" width="0.127" layer="21"/>
-<wire x1="9.1694" y1="-1.6002" x2="9.1694" y2="-4.1402" width="0.127" layer="21"/>
+<wire x1="-0.3556" y1="3.6068" x2="-0.3556" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="-0.3556" y1="-5.2832" x2="0.9144" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="0.9144" y1="-5.2832" x2="0.9144" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="0.9144" y1="-1.4732" x2="2.8194" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="2.8194" y1="-1.4732" x2="4.7244" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="4.7244" y1="-1.4732" x2="4.7244" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="4.7244" y1="-5.2832" x2="5.9944" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="5.9944" y1="-5.2832" x2="7.2644" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="7.2644" y1="-5.2832" x2="7.2644" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="7.2644" y1="-1.4732" x2="11.0744" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="11.0744" y1="-1.4732" x2="11.0744" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="11.0744" y1="-5.2832" x2="12.3444" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="12.3444" y1="-5.2832" x2="13.6144" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="13.6144" y1="-5.2832" x2="13.6144" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="13.6144" y1="-1.4732" x2="14.8844" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="14.8844" y1="-1.4732" x2="14.8844" y2="3.6068" width="0.127" layer="51"/>
+<wire x1="14.8844" y1="3.6068" x2="-0.3556" y2="3.6068" width="0.127" layer="51"/>
+<wire x1="5.9944" y1="-5.2832" x2="5.9944" y2="-2.7432" width="0.127" layer="51"/>
+<wire x1="12.3444" y1="-5.2832" x2="12.3444" y2="-2.7432" width="0.127" layer="51"/>
+<wire x1="2.8194" y1="-1.4732" x2="2.8194" y2="-4.1402" width="0.127" layer="51"/>
+<wire x1="9.1694" y1="-1.6002" x2="9.1694" y2="-4.1402" width="0.127" layer="51"/>
 <text x="2.3876" y="0.508" size="1.27" layer="21">HEMA-TTGO</text>
+</package>
+<package name="AXIAL-0.3" urn="urn:adsk.eagle:footprint:39622/1">
+<description>&lt;h3&gt;AXIAL-0.3&lt;/h3&gt;
+&lt;p&gt;Commonly used for 1/4W through-hole resistors. 0.3" pitch between holes.&lt;/p&gt;</description>
+<wire x1="-2.54" y1="0.762" x2="2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0.762" x2="2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="-0.762" x2="-2.54" y2="-0.762" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="-0.762" x2="-2.54" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="0.762" width="0.2032" layer="21"/>
+<wire x1="2.54" y1="0" x2="2.794" y2="0" width="0.2032" layer="21"/>
+<wire x1="-2.54" y1="0" x2="-2.794" y2="0" width="0.2032" layer="21"/>
+<pad name="P$1" x="-3.81" y="0" drill="0.9" diameter="1.8796"/>
+<pad name="P$2" x="3.81" y="0" drill="0.9" diameter="1.8796"/>
+<text x="0" y="1.016" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;Name</text>
+<text x="0" y="-1.016" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;Value</text>
 </package>
 </packages>
 <symbols>
@@ -713,7 +704,7 @@
 <text x="2.54" y="10.16" size="1.27" layer="95">&gt;NAME</text>
 <text x="2.54" y="-10.16" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
-<symbol name="HEMA">
+<symbol name="HEMA-I2C">
 <pin name="VCC" x="-5.08" y="0" length="middle"/>
 <pin name="GND" x="-5.08" y="-5.08" length="middle"/>
 <pin name="SCL" x="-5.08" y="-10.16" length="middle"/>
@@ -723,6 +714,22 @@
 <wire x1="10.16" y1="-17.78" x2="0" y2="-17.78" width="0.254" layer="94"/>
 <wire x1="0" y1="-17.78" x2="0" y2="2.54" width="0.254" layer="94"/>
 <text x="0" y="5.08" size="1.778" layer="94">HEMA</text>
+</symbol>
+<symbol name="RESISTOR-PADS">
+<description>Standard resistor symbol with pads shown for resistor arrays</description>
+<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.1524" layer="94"/>
+<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.1524" layer="94"/>
+<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.1524" layer="94"/>
+<text x="0" y="1.524" size="1.778" layer="95" font="vector" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-1.524" size="1.778" layer="96" font="vector" align="top-center">&gt;VALUE</text>
+<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -1035,15 +1042,15 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 </deviceset>
 <deviceset name="HEMA-I2C">
 <gates>
-<gate name="G$1" symbol="HEMA" x="0" y="-2.54"/>
+<gate name="G$1" symbol="HEMA-I2C" x="0" y="-2.54"/>
 </gates>
 <devices>
 <device name="" package="HEMA-I2C">
 <connects>
-<connect gate="G$1" pin="GND" pad="B"/>
-<connect gate="G$1" pin="SCL" pad="C"/>
-<connect gate="G$1" pin="SDA" pad="D"/>
-<connect gate="G$1" pin="VCC" pad="A"/>
+<connect gate="G$1" pin="GND" pad="A"/>
+<connect gate="G$1" pin="SCL" pad="B"/>
+<connect gate="G$1" pin="SDA" pad="C"/>
+<connect gate="G$1" pin="VCC" pad="D"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1053,14 +1060,14 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 </deviceset>
 <deviceset name="HEMA-TTGO">
 <gates>
-<gate name="G$1" symbol="HEMA" x="0" y="-2.54"/>
+<gate name="G$1" symbol="HEMA-I2C" x="0" y="-2.54"/>
 </gates>
 <devices>
 <device name="" package="HEMA-TTGO">
 <connects>
-<connect gate="G$1" pin="GND" pad="B"/>
+<connect gate="G$1" pin="GND" pad="D"/>
 <connect gate="G$1" pin="SCL" pad="C"/>
-<connect gate="G$1" pin="SDA" pad="D"/>
+<connect gate="G$1" pin="SDA" pad="B"/>
 <connect gate="G$1" pin="VCC" pad="A"/>
 </connects>
 <technologies>
@@ -1072,4 +1079,15 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 </devicesets>
 </library>
 </drawing>
+<compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
+<note version="8.3" severity="warning">
+Since Version 8.3, EAGLE supports URNs for individual library
+assets (packages, symbols, and devices). The URNs of those assets
+will not be understood (or retained) with this version.
+</note>
+</compatibility>
 </eagle>

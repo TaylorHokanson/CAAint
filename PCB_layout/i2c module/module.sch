@@ -172,21 +172,9 @@
 <smd name="PB1" x="3.75" y="-0.635" dx="1.5" dy="0.6" layer="1"/>
 <smd name="PB2" x="3.75" y="0.635" dx="1.5" dy="0.6" layer="1"/>
 <smd name="VCC" x="3.75" y="1.905" dx="1.5" dy="0.6" layer="1"/>
-<text x="0" y="-3.81" size="1.27" layer="27" align="center">ATTINY</text>
-<wire x1="-4.75" y1="2.875" x2="4.75" y2="2.875" width="0.05" layer="51"/>
-<wire x1="4.75" y1="2.875" x2="4.75" y2="-2.875" width="0.05" layer="51"/>
-<wire x1="4.75" y1="-2.875" x2="-4.75" y2="-2.875" width="0.05" layer="51"/>
-<wire x1="-4.75" y1="-2.875" x2="-4.75" y2="2.875" width="0.05" layer="51"/>
-<wire x1="-2.645" y1="2.595" x2="2.645" y2="2.595" width="0.1" layer="51"/>
-<wire x1="2.645" y1="2.595" x2="2.645" y2="-2.595" width="0.1" layer="51"/>
-<wire x1="2.645" y1="-2.595" x2="-2.645" y2="-2.595" width="0.1" layer="51"/>
-<wire x1="-2.645" y1="-2.595" x2="-2.645" y2="2.595" width="0.1" layer="51"/>
-<wire x1="-2.645" y1="1.325" x2="-1.375" y2="2.595" width="0.1" layer="51"/>
-<wire x1="-2.65" y1="2.595" x2="2.65" y2="2.595" width="0.2" layer="21"/>
-<wire x1="2.65" y1="2.595" x2="2.65" y2="-2.595" width="0.2" layer="21"/>
-<wire x1="2.65" y1="-2.595" x2="-2.65" y2="-2.595" width="0.2" layer="21"/>
-<wire x1="-2.65" y1="-2.595" x2="-2.65" y2="2.595" width="0.2" layer="21"/>
-<wire x1="-4.5" y1="2.555" x2="-3" y2="2.555" width="0.2" layer="21"/>
+<text x="0" y="0" size="0.8128" layer="27" font="vector" ratio="15" align="center">ATTINY
+85</text>
+<circle x="-2.286" y="1.524" radius="0.381" width="0" layer="21"/>
 </package>
 <package name="HDRV6W64P254_2X3_762X508X868P">
 <description>&lt;b&gt;M20-9980346&lt;/b&gt;&lt;br&gt;
@@ -197,15 +185,15 @@
 <pad name="2" x="2.54" y="1.27" drill="1.1" diameter="1.65" rot="R180"/>
 <pad name="4" x="0" y="1.27" drill="1.1" diameter="1.65" rot="R180"/>
 <pad name="6" x="-2.54" y="1.27" drill="1.1" diameter="1.65" rot="R180"/>
-<wire x1="-3.81" y1="5.08" x2="-3.81" y2="0" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="0" x2="3.81" y2="0" width="0.127" layer="21"/>
-<wire x1="3.81" y1="0" x2="3.81" y2="5.08" width="0.127" layer="21"/>
-<wire x1="3.81" y1="5.08" x2="1.27" y2="5.08" width="0.127" layer="21"/>
-<wire x1="-3.81" y1="5.08" x2="-1.27" y2="5.08" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="5.08" x2="-1.27" y2="5.715" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="5.715" x2="1.27" y2="5.715" width="0.127" layer="21"/>
-<wire x1="1.27" y1="5.715" x2="1.27" y2="5.08" width="0.127" layer="21"/>
-<text x="-1.905" y="-1.905" size="1.27" layer="21">ICSP</text>
+<wire x1="-3.81" y1="5.08" x2="-3.81" y2="0" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="0" x2="3.81" y2="0" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="0" x2="3.81" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="3.81" y1="5.08" x2="1.27" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="-3.81" y1="5.08" x2="-1.27" y2="5.08" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="5.08" x2="-1.27" y2="5.715" width="0.2032" layer="21"/>
+<wire x1="-1.27" y1="5.715" x2="1.27" y2="5.715" width="0.2032" layer="21"/>
+<wire x1="1.27" y1="5.715" x2="1.27" y2="5.08" width="0.2032" layer="21"/>
+<text x="-1.27" y="-1.27" size="0.8128" layer="21" font="vector" ratio="15">ICSP</text>
 </package>
 <package name="HEMA-I2C">
 <description>Must reverse pin order on either side of a hema connection</description>
@@ -215,28 +203,28 @@
 <smd name="D" x="11.9844" y="5.6068" dx="1.6" dy="4" layer="1" rot="R180"/>
 <rectangle x1="-2.0156" y1="0.0068" x2="-0.0156" y2="2.6068" layer="1"/>
 <rectangle x1="14.9844" y1="0.0068" x2="16.9844" y2="2.6068" layer="1"/>
-<wire x1="-0.3556" y1="3.6068" x2="-0.3556" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="-0.3556" y1="-5.2832" x2="0.9144" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="0.9144" y1="-5.2832" x2="0.9144" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="0.9144" y1="-1.4732" x2="2.8194" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="2.8194" y1="-1.4732" x2="4.7244" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="4.7244" y1="-1.4732" x2="4.7244" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="4.7244" y1="-5.2832" x2="5.9944" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="5.9944" y1="-5.2832" x2="7.2644" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="7.2644" y1="-5.2832" x2="7.2644" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="7.2644" y1="-1.4732" x2="11.0744" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="11.0744" y1="-1.4732" x2="11.0744" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="11.0744" y1="-5.2832" x2="12.3444" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="12.3444" y1="-5.2832" x2="13.6144" y2="-5.2832" width="0.127" layer="21"/>
-<wire x1="13.6144" y1="-5.2832" x2="13.6144" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="13.6144" y1="-1.4732" x2="14.8844" y2="-1.4732" width="0.127" layer="21"/>
-<wire x1="14.8844" y1="-1.4732" x2="14.8844" y2="3.6068" width="0.127" layer="21"/>
-<wire x1="14.8844" y1="3.6068" x2="-0.3556" y2="3.6068" width="0.127" layer="21"/>
-<wire x1="5.9944" y1="-5.2832" x2="5.9944" y2="-2.7432" width="0.127" layer="21"/>
-<wire x1="12.3444" y1="-5.2832" x2="12.3444" y2="-2.7432" width="0.127" layer="21"/>
-<wire x1="2.8194" y1="-1.4732" x2="2.8194" y2="-4.1402" width="0.127" layer="21"/>
-<wire x1="9.1694" y1="-1.6002" x2="9.1694" y2="-4.1402" width="0.127" layer="21"/>
-<text x="2.3876" y="0.508" size="1.27" layer="21">HEMA-I2C</text>
+<wire x1="-0.3556" y1="3.6068" x2="-0.3556" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="-0.3556" y1="-5.2832" x2="0.9144" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="0.9144" y1="-5.2832" x2="0.9144" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="0.9144" y1="-1.4732" x2="2.8194" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="2.8194" y1="-1.4732" x2="4.7244" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="4.7244" y1="-1.4732" x2="4.7244" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="4.7244" y1="-5.2832" x2="5.9944" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="5.9944" y1="-5.2832" x2="7.2644" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="7.2644" y1="-5.2832" x2="7.2644" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="7.2644" y1="-1.4732" x2="11.0744" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="11.0744" y1="-1.4732" x2="11.0744" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="11.0744" y1="-5.2832" x2="12.3444" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="12.3444" y1="-5.2832" x2="13.6144" y2="-5.2832" width="0.127" layer="51"/>
+<wire x1="13.6144" y1="-5.2832" x2="13.6144" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="13.6144" y1="-1.4732" x2="14.8844" y2="-1.4732" width="0.127" layer="51"/>
+<wire x1="14.8844" y1="-1.4732" x2="14.8844" y2="3.6068" width="0.127" layer="51"/>
+<wire x1="14.8844" y1="3.6068" x2="-0.3556" y2="3.6068" width="0.127" layer="51"/>
+<wire x1="5.9944" y1="-5.2832" x2="5.9944" y2="-2.7432" width="0.127" layer="51"/>
+<wire x1="12.3444" y1="-5.2832" x2="12.3444" y2="-2.7432" width="0.127" layer="51"/>
+<wire x1="2.8194" y1="-1.4732" x2="2.8194" y2="-4.1402" width="0.127" layer="51"/>
+<wire x1="9.1694" y1="-1.6002" x2="9.1694" y2="-4.1402" width="0.127" layer="51"/>
+<text x="4.9276" y="1.143" size="0.8128" layer="21" font="vector" ratio="15">HEMA-I2C</text>
 </package>
 </packages>
 <symbols>
@@ -270,7 +258,7 @@
 <pin name="4" x="20.32" y="-2.54" length="middle" rot="R180"/>
 <pin name="6" x="20.32" y="-5.08" length="middle" rot="R180"/>
 </symbol>
-<symbol name="HEMA">
+<symbol name="HEMA-I2C">
 <pin name="VCC" x="-5.08" y="0" length="middle"/>
 <pin name="GND" x="-5.08" y="-5.08" length="middle"/>
 <pin name="SCL" x="-5.08" y="-10.16" length="middle"/>
@@ -349,15 +337,15 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 </deviceset>
 <deviceset name="HEMA-I2C">
 <gates>
-<gate name="G$1" symbol="HEMA" x="0" y="-2.54"/>
+<gate name="G$1" symbol="HEMA-I2C" x="0" y="-2.54"/>
 </gates>
 <devices>
 <device name="" package="HEMA-I2C">
 <connects>
-<connect gate="G$1" pin="GND" pad="B"/>
-<connect gate="G$1" pin="SCL" pad="C"/>
-<connect gate="G$1" pin="SDA" pad="D"/>
-<connect gate="G$1" pin="VCC" pad="A"/>
+<connect gate="G$1" pin="GND" pad="A"/>
+<connect gate="G$1" pin="SCL" pad="B"/>
+<connect gate="G$1" pin="SDA" pad="C"/>
+<connect gate="G$1" pin="VCC" pad="D"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1299,20 +1287,6 @@ LED</description>
 <label x="43.18" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
-<net name="MISO" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="1"/>
-<wire x1="5.08" y1="58.42" x2="-5.08" y2="58.42" width="0.1524" layer="91"/>
-<label x="-5.08" y="58.42" size="1.778" layer="95"/>
-</segment>
-</net>
-<net name="SCL" class="0">
-<segment>
-<pinref part="J1" gate="G$1" pin="3"/>
-<wire x1="5.08" y1="55.88" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
-<label x="-5.08" y="55.88" size="1.778" layer="95"/>
-</segment>
-</net>
 <net name="VCC" class="1">
 <segment>
 <pinref part="J1" gate="G$1" pin="2"/>
@@ -1396,12 +1370,22 @@ LED</description>
 <wire x1="66.04" y1="81.28" x2="76.2" y2="81.28" width="0.1524" layer="91"/>
 <label x="71.12" y="81.28" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="1"/>
+<wire x1="5.08" y1="58.42" x2="-5.08" y2="58.42" width="0.1524" layer="91"/>
+<label x="-5.08" y="58.42" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PIN2" class="0">
 <segment>
 <pinref part="IC1" gate="G$1" pin="SCK"/>
 <wire x1="66.04" y1="78.74" x2="76.2" y2="78.74" width="0.1524" layer="91"/>
 <label x="71.12" y="78.74" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="3"/>
+<wire x1="5.08" y1="55.88" x2="-5.08" y2="55.88" width="0.1524" layer="91"/>
+<label x="-5.08" y="55.88" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$11" class="0">
@@ -1423,6 +1407,10 @@ LED</description>
 </schematic>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
