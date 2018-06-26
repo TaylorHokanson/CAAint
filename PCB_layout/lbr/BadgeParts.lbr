@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.25" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -594,6 +594,10 @@
 <pad name="P$48" x="15.24" y="2.54" drill="1"/>
 <pad name="P$49" x="15.24" y="0" drill="1"/>
 </package>
+<package name="CAPSENSE_BUTTON">
+<circle x="0" y="0" radius="6" width="0" layer="21"/>
+<pad name="1" x="0" y="0" drill="0.6"/>
+</package>
 </packages>
 <symbols>
 <symbol name="HELTEC-WIFI-KIT-32">
@@ -846,6 +850,11 @@
 <wire x1="0" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
 <wire x1="7.62" y1="-12.7" x2="7.62" y2="2.54" width="0.254" layer="94"/>
 <wire x1="7.62" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+</symbol>
+<symbol name="CAPSENSE_BUTTON">
+<circle x="0" y="0" radius="5.6796125" width="0.254" layer="94"/>
+<pin name="1" x="-10.16" y="0" length="middle"/>
+<text x="2.54" y="-7.62" size="1.778" layer="94">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1259,6 +1268,22 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 </gates>
 <devices>
 <device name="" package="7X-PADS-NC">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="CAPSENSE_BUTTON">
+<description>Simple pad for capsense buttons</description>
+<gates>
+<gate name="G$1" symbol="CAPSENSE_BUTTON" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CAPSENSE_BUTTON">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+</connects>
 <technologies>
 <technology name=""/>
 </technologies>
