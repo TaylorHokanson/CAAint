@@ -2730,10 +2730,10 @@ CONN_04
 <variantdefs>
 </variantdefs>
 <classes>
-<class number="0" name="default" width="0.381" drill="0">
+<class number="0" name="Default" width="0.381" drill="0">
 <clearance class="0" value="0.254"/>
 </class>
-<class number="1" name="ground" width="0.635" drill="0">
+<class number="1" name="Rail" width="0.635" drill="0">
 <clearance class="1" value="0.254"/>
 </class>
 </classes>
@@ -2862,7 +2862,7 @@ CONN_04
 <busses>
 </busses>
 <nets>
-<net name="VDD" class="0">
+<net name="VDD" class="1">
 <segment>
 <pinref part="MAIN" gate="G$1" pin="3.3V"/>
 <pinref part="SUPPLY3" gate="VDD" pin="VDD"/>
