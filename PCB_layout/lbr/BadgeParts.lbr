@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mil" unit="mil" style="lines" multiple="1" display="no" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -218,8 +218,6 @@
 <wire x1="19.05" y1="16.51" x2="3.81" y2="16.51" width="0.127" layer="21"/>
 </package>
 <package name="TTGO-ESP32-OLED-18650">
-<hole x="1.27" y="-17.78" drill="3.175"/>
-<hole x="25.4" y="-17.78" drill="3.175"/>
 <wire x1="-1.27" y1="-17.78" x2="1.27" y2="-20.32" width="0.127" layer="51" curve="90"/>
 <wire x1="1.27" y1="-20.32" x2="25.4" y2="-20.32" width="0.127" layer="51"/>
 <wire x1="25.4" y1="-20.32" x2="27.94" y2="-17.78" width="0.127" layer="51" curve="90"/>
@@ -298,10 +296,10 @@
 <pad name="22" x="26.67" y="44.45" drill="1" shape="offset"/>
 <pad name="23" x="26.67" y="46.99" drill="1" shape="offset"/>
 <pad name="GND_3" x="26.67" y="49.53" drill="1" shape="offset"/>
-<wire x1="24.29" y1="67.02" x2="2.29" y2="67.02" width="0.127" layer="20"/>
-<wire x1="2.29" y1="67.02" x2="2.29" y2="-12.98" width="0.127" layer="20"/>
-<wire x1="24.29" y1="67.02" x2="24.29" y2="-12.98" width="0.127" layer="20"/>
-<wire x1="24.29" y1="-12.98" x2="2.29" y2="-12.98" width="0.127" layer="20"/>
+<wire x1="24.29" y1="68.29" x2="2.29" y2="68.29" width="0.127" layer="20"/>
+<wire x1="2.29" y1="68.29" x2="2.29" y2="-15.52" width="0.127" layer="20"/>
+<wire x1="24.29" y1="68.29" x2="24.29" y2="-15.52" width="0.127" layer="20"/>
+<wire x1="24.29" y1="-15.52" x2="2.29" y2="-15.52" width="0.127" layer="20"/>
 </package>
 <package name="DIP781W56P254L950H533Q8N">
 <description>&lt;b&gt;MCP6541-I/P PDIP&lt;/b&gt;&lt;br&gt;
