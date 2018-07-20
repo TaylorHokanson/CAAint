@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -1146,6 +1146,49 @@ http://dangerousprototypes.com</description>
 </package>
 </packages>
 </library>
+<library name="SparkFun-Capacitors" urn="urn:adsk.eagle:library:510">
+<description>&lt;h3&gt;SparkFun Capacitors&lt;/h3&gt;
+This library contains capacitors. 
+&lt;br&gt;
+&lt;br&gt;
+We've spent an enormous amount of time creating and checking these footprints and parts, but it is &lt;b&gt; the end user's responsibility&lt;/b&gt; to ensure correctness and suitablity for a given componet or application. 
+&lt;br&gt;
+&lt;br&gt;If you enjoy using this library, please buy one of our products at &lt;a href=" www.sparkfun.com"&gt;SparkFun.com&lt;/a&gt;.
+&lt;br&gt;
+&lt;br&gt;
+&lt;b&gt;Licensing:&lt;/b&gt; Creative Commons ShareAlike 4.0 International - https://creativecommons.org/licenses/by-sa/4.0/ 
+&lt;br&gt;
+&lt;br&gt;
+You are welcome to use this library for commercial purposes. For attribution, we ask that when you begin to sell your device using our footprint, you email us with a link to the product being sold. We want bragging rights that we helped (in a very small part) to create your 8th world wonder. We would like the opportunity to feature your device on our homepage.</description>
+<packages>
+<package name="0603" urn="urn:adsk.eagle:footprint:37386/1" library_version="1">
+<description>&lt;p&gt;&lt;b&gt;Generic 1608 (0603) package&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;0.2mm courtyard excess rounded to nearest 0.05mm.&lt;/p&gt;</description>
+<wire x1="-1.6" y1="0.7" x2="1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="0.7" x2="1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="1.6" y1="-0.7" x2="-1.6" y2="-0.7" width="0.0508" layer="39"/>
+<wire x1="-1.6" y1="-0.7" x2="-1.6" y2="0.7" width="0.0508" layer="39"/>
+<wire x1="-0.356" y1="0.432" x2="0.356" y2="0.432" width="0.1016" layer="51"/>
+<wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
+<smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
+<text x="0" y="0.762" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center">&gt;NAME</text>
+<text x="0" y="-0.762" size="0.6096" layer="27" font="vector" ratio="20" align="top-center">&gt;VALUE</text>
+<rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
+<rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
+<rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
+</package>
+</packages>
+<packages3d>
+<package3d name="0603" urn="urn:adsk.eagle:package:37414/1" type="box" library_version="1">
+<description>Generic 1608 (0603) package
+0.2mm courtyard excess rounded to nearest 0.05mm.</description>
+<packageinstances>
+<packageinstance name="0603"/>
+</packageinstances>
+</package3d>
+</packages3d>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -1245,6 +1288,9 @@ design rules under a new name.</description>
 <param name="checkRestrict" value="0"/>
 <param name="checkStop" value="0"/>
 <param name="checkValues" value="0"/>
+<param name="checkNames" value="1"/>
+<param name="checkWireStubs" value="1"/>
+<param name="checkPolygonWidth" value="0"/>
 <param name="useDiameter" value="13"/>
 <param name="maxErrors" value="50"/>
 </designrules>
@@ -1378,15 +1424,18 @@ design rules under a new name.</description>
 <element name="0" library="BadgeParts" package="3X-PADS" value="3X-PADS-CONNECTED" x="10.16" y="16.51"/>
 <element name="U$2" library="BadgeParts" package="7X-PADS-NC" value="7X-PADS-NC" x="8.89" y="19.05"/>
 <element name="5" library="BadgeParts" package="3X-PADS" value="3X-PADS-CONNECTED" x="22.86" y="16.51"/>
-<element name="J1" library="BadgeParts" package="HDRV6W64P254_2X3_762X508X868P" value="M20-9980346" x="16.6409375" y="42.8625">
-<attribute name="ARROW_PART_NUMBER" value="M20-9980346" x="16.6409375" y="42.8625" size="1.778" layer="27" display="off"/>
-<attribute name="ARROW_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/7457046P" x="16.6409375" y="42.8625" size="1.778" layer="27" display="off"/>
-<attribute name="DESCRIPTION" value="03+03 DIL Vertical Pin Header HARWIN M20 Series, 2.54mm Pitch 6 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="16.6409375" y="42.8625" size="1.778" layer="27" display="off"/>
-<attribute name="HEIGHT" value="8.68mm" x="16.6409375" y="42.8625" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="HARWIN" x="16.6409375" y="42.8625" size="1.778" layer="27" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="M20-9980346" x="16.6409375" y="42.8625" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PART_NUMBER" value="7457046P" x="16.6409375" y="42.8625" size="1.778" layer="27" display="off"/>
-<attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/7457046P" x="16.6409375" y="42.8625" size="1.778" layer="27" display="off"/>
+<element name="J1" library="BadgeParts" package="HDRV6W64P254_2X3_762X508X868P" value="M20-9980346" x="17.9109375" y="42.545">
+<attribute name="ARROW_PART_NUMBER" value="M20-9980346" x="17.9109375" y="42.545" size="1.778" layer="27" display="off"/>
+<attribute name="ARROW_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/7457046P" x="17.9109375" y="42.545" size="1.778" layer="27" display="off"/>
+<attribute name="DESCRIPTION" value="03+03 DIL Vertical Pin Header HARWIN M20 Series, 2.54mm Pitch 6 Way 2 Row Straight PCB Header, Solder Termination, 3A" x="17.9109375" y="42.545" size="1.778" layer="27" display="off"/>
+<attribute name="HEIGHT" value="8.68mm" x="17.9109375" y="42.545" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_NAME" value="HARWIN" x="17.9109375" y="42.545" size="1.778" layer="27" display="off"/>
+<attribute name="MANUFACTURER_PART_NUMBER" value="M20-9980346" x="17.9109375" y="42.545" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PART_NUMBER" value="7457046P" x="17.9109375" y="42.545" size="1.778" layer="27" display="off"/>
+<attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/7457046P" x="17.9109375" y="42.545" size="1.778" layer="27" display="off"/>
+</element>
+<element name="C1" library="SparkFun-Capacitors" library_urn="urn:adsk.eagle:library:510" package="0603" package3d_urn="urn:adsk.eagle:package:37414/1" value="0.1uF" x="12.065" y="45.085" rot="R90">
+<attribute name="PROD_ID" value="CAP-08604" x="12.065" y="45.085" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1401,7 +1450,7 @@ design rules under a new name.</description>
 <wire x1="10.16" y1="13.97" x2="10.16" y2="16.51" width="0" layer="19" extent="1-1"/>
 <wire x1="10.16" y1="11.43" x2="10.16" y2="13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="17.8744" y1="5.6068" x2="10.16" y2="11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="16.6409375" y1="44.1325" x2="17.8744" y2="5.6068" width="0" layer="19" extent="1-1"/>
+<wire x1="17.9109375" y1="43.815" x2="17.8744" y2="5.6068" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VCC" class="1">
 <contactref element="U$1" pad="D"/>
@@ -1418,6 +1467,7 @@ design rules under a new name.</description>
 <contactref element="VCC" pad="P$9"/>
 <contactref element="IC1" pad="VCC"/>
 <contactref element="J1" pad="VCC"/>
+<contactref element="C1" pad="2"/>
 <wire x1="27.94" y1="31.75" x2="27.94" y2="34.29" width="0" layer="19" extent="1-1"/>
 <wire x1="27.94" y1="29.21" x2="27.94" y2="31.75" width="0" layer="19" extent="1-1"/>
 <wire x1="27.94" y1="26.67" x2="27.94" y2="29.21" width="0" layer="19" extent="1-1"/>
@@ -1429,8 +1479,9 @@ design rules under a new name.</description>
 <wire x1="27.94" y1="11.43" x2="27.94" y2="13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="20.8744" y1="5.6068" x2="27.94" y2="11.43" width="0" layer="19" extent="1-1"/>
 <wire x1="20.3909375" y1="40.748659375" x2="27.94" y2="34.29" width="0" layer="19" extent="1-1"/>
-<wire x1="9.173" y1="38.796" x2="20.3909375" y2="40.748659375" width="0" layer="19" extent="1-1"/>
-<wire x1="19.1809375" y1="44.1325" x2="20.8744" y2="5.6068" width="0" layer="19" extent="1-1"/>
+<wire x1="20.4509375" y1="43.815" x2="20.3909375" y2="40.748659375" width="0" layer="19" extent="1-1"/>
+<wire x1="9.173" y1="38.796" x2="20.4509375" y2="43.815" width="0" layer="19" extent="1-1"/>
+<wire x1="12.065" y1="45.935" x2="20.8744" y2="5.6068" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PB3">
 <contactref element="3" pad="P$3"/>
@@ -1466,7 +1517,9 @@ design rules under a new name.</description>
 <contactref element="GND" pad="P$2"/>
 <contactref element="IC1" pad="GND"/>
 <contactref element="J1" pad="GND"/>
-<wire x1="12.8909375" y1="36.938659375" x2="28.5" y2="40.772" width="0" layer="19" extent="1-1"/>
+<contactref element="C1" pad="1"/>
+<wire x1="15.3709375" y1="43.815" x2="28.5" y2="40.772" width="0" layer="19" extent="1-1"/>
+<wire x1="12.8909375" y1="36.938659375" x2="15.3709375" y2="43.815" width="0" layer="19" extent="1-1"/>
 <wire x1="5.08" y1="34.29" x2="12.8909375" y2="36.938659375" width="0" layer="19" extent="1-1"/>
 <wire x1="5.08" y1="31.75" x2="5.08" y2="34.29" width="0" layer="19" extent="1-1"/>
 <wire x1="5.08" y1="29.21" x2="5.08" y2="31.75" width="0" layer="19" extent="1-1"/>
@@ -1479,7 +1532,7 @@ design rules under a new name.</description>
 <wire x1="5.08" y1="11.43" x2="5.08" y2="13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="4.09" y1="40.772" x2="5.08" y2="34.29" width="0" layer="19" extent="1-1"/>
 <wire x1="11.8744" y1="5.6068" x2="5.08" y2="11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="14.1009375" y1="44.1325" x2="11.8744" y2="5.6068" width="0" layer="19" extent="1-1"/>
+<wire x1="12.065" y1="44.235" x2="11.8744" y2="5.6068" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$11">
 <contactref element="R1" pad="P$1"/>
@@ -1497,7 +1550,7 @@ design rules under a new name.</description>
 <wire x1="15.24" y1="13.97" x2="15.24" y2="16.51" width="0" layer="19" extent="1-1"/>
 <wire x1="15.24" y1="11.43" x2="15.24" y2="13.97" width="0" layer="19" extent="1-1"/>
 <wire x1="14.8744" y1="5.6068" x2="15.24" y2="11.43" width="0" layer="19" extent="1-1"/>
-<wire x1="16.6409375" y1="46.6725" x2="14.8744" y2="5.6068" width="0" layer="19" extent="1-1"/>
+<wire x1="17.9109375" y1="46.355" x2="14.8744" y2="5.6068" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$1">
 <contactref element="R2" pad="P$1"/>
@@ -1518,7 +1571,7 @@ design rules under a new name.</description>
 <wire x1="22.86" y1="16.51" x2="12.8909375" y2="40.748659375" width="0" layer="19" extent="1-1"/>
 <wire x1="22.86" y1="13.97" x2="22.86" y2="16.51" width="0" layer="19" extent="1-1"/>
 <wire x1="22.86" y1="11.43" x2="22.86" y2="13.97" width="0" layer="19" extent="1-1"/>
-<wire x1="14.1009375" y1="46.6725" x2="22.86" y2="11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="15.3709375" y1="46.355" x2="22.86" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="PB1">
 <contactref element="IC1" pad="PB1"/>
@@ -1529,9 +1582,16 @@ design rules under a new name.</description>
 <wire x1="12.7" y1="16.51" x2="20.3909375" y2="38.208659375" width="0" layer="19" extent="1-1"/>
 <wire x1="12.7" y1="13.97" x2="12.7" y2="16.51" width="0" layer="19" extent="1-1"/>
 <wire x1="12.7" y1="11.43" x2="12.7" y2="13.97" width="0" layer="19" extent="1-1"/>
-<wire x1="19.1809375" y1="46.6725" x2="12.7" y2="11.43" width="0" layer="19" extent="1-1"/>
+<wire x1="20.4509375" y1="46.355" x2="12.7" y2="11.43" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
+<mfgpreviewcolors>
+<mfgpreviewcolor name="soldermaskcolor" color="0xC8008000"/>
+<mfgpreviewcolor name="silkscreencolor" color="0xFFFEFEFE"/>
+<mfgpreviewcolor name="backgroundcolor" color="0xFF282828"/>
+<mfgpreviewcolor name="coppercolor" color="0xFFFFBF00"/>
+<mfgpreviewcolor name="substratecolor" color="0xFF786E46"/>
+</mfgpreviewcolors>
 </board>
 </drawing>
 <compatibility>
