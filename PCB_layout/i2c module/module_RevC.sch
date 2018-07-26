@@ -260,7 +260,7 @@
 <package name="HDRV6W64P254_2X3_762X508X868P">
 <description>&lt;b&gt;M20-9980346&lt;/b&gt;&lt;br&gt;
 </description>
-<pad name="1/RST" x="2.54" y="3.81" drill="1.1" diameter="1.65" shape="square" rot="R180"/>
+<pad name="1/MISO" x="2.54" y="3.81" drill="1.1" diameter="1.65" shape="square" rot="R180"/>
 <pad name="2/SCK/SCL" x="0" y="3.81" drill="1.1" diameter="1.65" rot="R180"/>
 <pad name="5/RST" x="-2.54" y="3.81" drill="1.1" diameter="1.65" rot="R180"/>
 <pad name="VCC" x="2.54" y="1.27" drill="1.1" diameter="1.65" rot="R180"/>
@@ -458,7 +458,7 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <connects>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="PB0/MOSI/SDA" pad="0/MOSI/SDA"/>
-<connect gate="G$1" pin="PB1/MISO" pad="1/RST"/>
+<connect gate="G$1" pin="PB1/MISO" pad="1/MISO"/>
 <connect gate="G$1" pin="PB2/SCK/SCL" pad="2/SCK/SCL"/>
 <connect gate="G$1" pin="PB5/RST" pad="5/RST"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>

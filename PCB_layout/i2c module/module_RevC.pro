@@ -2,8 +2,8 @@ EAGLE AutoRouter Statistics:
 
 Job           : /Users/taylor/Documents/Github/CAAint/PCB_layout/i2c module/module_RevC.brd
 
-Start at      : 13:56:35 (7/25/18)
-End at        : 13:56:44 (7/25/18)
+Start at      : 11:48:51 (7/26/18)
+End at        : 11:49:01 (7/26/18)
 Elapsed time  : 00:00:08
 
 Signals       :    10   RoutingGrid: 6.25 mil  Layers: 2
@@ -13,7 +13,7 @@ Router memory :   420196
 
 Passname          : TopRouter     Route Optimize1 Optimize2 Optimize3 Optimize4 Optimize5 Optimize6 Optimize7 Optimize8 Optimize9Optimize10Optimize11Optimize12
 
-Time per pass     :  00:00:06  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00
+Time per pass     :  00:00:05  00:00:01  00:00:00  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00  00:00:00  00:00:00  00:00:00  00:00:00  00:00:01  00:00:00
 Number of Ripups  :         0        15         0         0         0         0         0         0         0         0         0         0         0         0
 max. Level        :         0         2         0         0         0         0         0         0         0         0         0         0         0         0
 max. Total        :         0        27         0         0         0         0         0         0         0         0         0         0         0         0
