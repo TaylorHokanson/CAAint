@@ -6,8 +6,9 @@
 6. Set the following in the Arduino IDE Tools menu:
 
    - Board: Attiny 25/45/85
-   Processor: Attiny85
-- Clock: 1Mhz
-- Port: Leave this alone
-- Programmer: USBTinyISP
+   - Processor: Attiny85
+   - Clock: 1Mhz
+   - Port: Leave this alone
+   - Programmer: USBTinyISP
+7. Hello
 
