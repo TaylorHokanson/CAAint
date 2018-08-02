@@ -10,6 +10,7 @@ Some of the following are hard and fast rules. Others are just there to qualify 
 5. Circuit-to-V groove: .8mm
    - Seeed DRC will not catch this
    - Measured from V groove centerline
+    - Our modified Seeed DRC has a Distance > Copper/Dimension of 40mil to account for this omission
 
 ##Eagle Design Notes
 1. TBA
