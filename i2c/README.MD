@@ -1,12 +1,12 @@
 ### Attiny Breakout Hello World
 
-1. Populate breakout board with components
+1. Populate breakout board with components:
 
    - Attiny85
    - 2 x 3mm LEDs
    - 2 x 270ohm resistors
    - male pin headers
-   - .1 uf capacitor (important)
+   - .1 uf capacitor <-- important!
 2. Attach [AVR programmer](https://www.sparkfun.com/products/9825) to breakout (taking careful note of plug polarity, see breakout silkscreen for orientation).
 3. Select "power device" on programmer via switch.
 4. Connect programmer to computer via USB
