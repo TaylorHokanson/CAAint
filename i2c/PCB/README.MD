@@ -1,4 +1,4 @@
-###Seeed Fusion PCB Design Notes
+##Seeed Fusion PCB Design Notes
 Some of the following are hard and fast rules. Others are just there to qualify for a discount.
 
 1. 100 x 100 mm
@@ -11,5 +11,5 @@ Some of the following are hard and fast rules. Others are just there to qualify 
    - Seeed DRC will not catch this
    - Measured from V groove centerline
 
-###Eagle Design Notes
+##Eagle Design Notes
 1. TBA
