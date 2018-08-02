@@ -16,6 +16,6 @@
 
    - Only needs to be done once per chip
 8. Change Clock to 8mhz internal.
-8. Upload attiny_hello_world.ino with the same settings as above.
+8. Upload [attiny_hello_world.ino](code/) with the same settings as above.
 9. If all goes well, this will flash the second LED on the breakout.
 
