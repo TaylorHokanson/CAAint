@@ -6,6 +6,8 @@ Some of the following are hard and fast rules. Others are just there to qualify 
 3. Smallest trace/clearance is 6/6 mil
    - Work larger whenever possible
    - Edit > Net Classes to establish t/c families
+      - defaults 10/10 mil
+      - VCC/GND 25/10 mil
 4. Circuit-to-edge: .3mm
 5. Circuit-to-V groove: .8mm
    - Seeed DRC will not catch this
