@@ -300,8 +300,7 @@
 &lt;p&gt;Example device(s):
 &lt;ul&gt;&lt;li&gt;CONN_01&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="1" x="0" y="0" drill="1.016" diameter="1.8796" rot="R90"/>
-<rectangle x1="-0.254" y1="-0.254" x2="0.254" y2="0.254" layer="51"/>
+<pad name="P$1" x="0" y="0" drill="1"/>
 </package>
 <package name="DECOUPLING_CAP">
 <description>&lt;h3&gt;Plated Through Hole&lt;/h3&gt;
@@ -525,7 +524,7 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <devices>
 <device name="" package="1X01">
 <connects>
-<connect gate="G$1" pin="P" pad="1"/>
+<connect gate="G$1" pin="P" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
