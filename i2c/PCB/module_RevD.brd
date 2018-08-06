@@ -262,7 +262,6 @@ BIT.LY/BADGECULTURE</text>
 <pad name="P$8" x="0" y="-17.78" drill="1" diameter="1.9304" shape="square"/>
 <pad name="P$9" x="0" y="-20.32" drill="1" diameter="1.9304" shape="square"/>
 <pad name="P$10" x="0" y="-22.86" drill="1" diameter="1.9304" shape="square"/>
-<text x="0" y="-24.765" size="1.016" layer="21" font="vector" ratio="15" rot="R270" align="center-left">&gt;NAME</text>
 </package>
 <package name="HDRV6W64P254_2X3_762X508X868P">
 <description>&lt;b&gt;M20-9980346&lt;/b&gt;&lt;br&gt;
@@ -569,7 +568,7 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="IC1" library="BadgeParts" package="SOT127P798X216-8N" value="ATTINY85-20SU" x="6.985" y="45.6819">
+<element name="IC1" library="BadgeParts" package="SOT127P798X216-8N" value="ATTINY85-20SU" x="6.985" y="45.6819" smashed="yes">
 <attribute name="ARROW_PART_NUMBER" value="ATTINY85-20SU" x="6.985" y="45.6819" size="1.778" layer="27" display="off"/>
 <attribute name="ARROW_PRICE/STOCK" value="https://www.arrow.com/en/products/attiny85-20su/microchip-technology" x="6.985" y="45.6819" size="1.778" layer="27" display="off"/>
 <attribute name="DESCRIPTION" value="MICROCHIP - ATTINY85-20SU - MICROCONTROLLER MCU, 8 BIT, ATTINY, 20MHZ, SOIC-8" x="6.985" y="45.6819" size="1.778" layer="27" display="off"/>
@@ -601,131 +600,131 @@ design rules under a new name.</description>
 <attribute name="RS_PART_NUMBER" value="7457046P" x="20.32" y="43.18" size="1.778" layer="27" display="off"/>
 <attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/7457046P" x="20.32" y="43.18" size="1.778" layer="27" display="off"/>
 </element>
-<element name="POWER" library="BadgeParts" package="LED3MM" value="LED3MM" x="3.81" y="36.195" rot="R270"/>
-<element name="HELLO" library="BadgeParts" package="LED3MM" value="LED3MM" x="29.21" y="36.195" rot="R270"/>
-<element name="U$2" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="22.86"/>
-<element name="U$3" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="20.32"/>
-<element name="U$4" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="17.78"/>
-<element name="U$5" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="15.24"/>
-<element name="U$6" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="12.7"/>
-<element name="U$7" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="10.16"/>
-<element name="U$8" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="7.62"/>
-<element name="U$1" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="15.24"/>
-<element name="U$9" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="22.86"/>
-<element name="U$10" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="12.7" rot="R90"/>
-<element name="U$11" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="20.32"/>
-<element name="U$12" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="10.16"/>
-<element name="U$13" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="17.78"/>
-<element name="U$14" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="7.62"/>
-<element name="U$15" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="22.86"/>
-<element name="U$16" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="22.86"/>
-<element name="U$17" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="10.16"/>
-<element name="U$18" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="20.32"/>
-<element name="U$19" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="20.32"/>
-<element name="U$20" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="7.62"/>
-<element name="U$21" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="17.78"/>
-<element name="U$22" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="17.78"/>
-<element name="U$23" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="10.16"/>
-<element name="U$24" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="15.24"/>
-<element name="U$25" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="15.24"/>
-<element name="U$26" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="7.62"/>
-<element name="U$27" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="12.7"/>
-<element name="U$28" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="12.7"/>
-<element name="U$29" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="22.86"/>
-<element name="U$30" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="22.86"/>
-<element name="U$31" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="22.86"/>
-<element name="U$32" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="22.86"/>
-<element name="U$33" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="20.32"/>
-<element name="U$34" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="20.32"/>
-<element name="U$35" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="20.32"/>
-<element name="U$36" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="20.32"/>
-<element name="U$37" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="17.78"/>
-<element name="U$38" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="17.78"/>
-<element name="U$39" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="17.78"/>
-<element name="U$40" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="17.78"/>
-<element name="U$41" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="15.24"/>
-<element name="U$42" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="15.24"/>
-<element name="U$43" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="15.24"/>
-<element name="U$44" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="15.24"/>
-<element name="U$45" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="12.7"/>
-<element name="U$46" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="12.7"/>
-<element name="U$47" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="12.7"/>
-<element name="U$48" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="12.7"/>
-<element name="U$49" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="10.16"/>
-<element name="U$50" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="10.16"/>
-<element name="U$51" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="10.16"/>
-<element name="U$52" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="10.16"/>
-<element name="U$53" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="7.62"/>
-<element name="U$54" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="7.62"/>
-<element name="U$55" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="7.62"/>
-<element name="U$56" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="7.62"/>
-<element name="U$57" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="22.86"/>
-<element name="U$58" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="22.86"/>
-<element name="U$59" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="10.16"/>
-<element name="U$60" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="20.32"/>
-<element name="U$61" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="20.32"/>
-<element name="U$62" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="7.62"/>
-<element name="U$63" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="17.78"/>
-<element name="U$64" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="17.78"/>
-<element name="U$65" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="10.16"/>
-<element name="U$66" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="15.24"/>
-<element name="U$67" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="15.24"/>
-<element name="U$68" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="7.62"/>
-<element name="U$69" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="12.7"/>
-<element name="U$70" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="12.7"/>
-<element name="U$71" library="BadgeParts" package="1X01" value="GND" x="12.7" y="1.905" rot="R180"/>
-<element name="U$74" library="BadgeParts" package="1X01" value="VCC" x="20.32" y="1.905" rot="R90"/>
-<element name="U$72" library="BadgeParts" package="1X01" value="SDA" x="17.78" y="1.905"/>
-<element name="U$73" library="BadgeParts" package="1X01" value="SCL" x="15.24" y="1.905"/>
-<element name="U$75" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="38.1"/>
-<element name="U$76" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="35.56"/>
-<element name="U$77" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="33.02"/>
-<element name="U$78" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="38.1"/>
-<element name="U$79" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="35.56"/>
-<element name="U$80" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="33.02"/>
-<element name="U$81" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="38.1"/>
-<element name="U$82" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="33.02"/>
-<element name="U$83" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="35.56"/>
-<element name="U$84" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="38.1"/>
-<element name="U$85" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="33.02"/>
-<element name="U$86" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="35.56"/>
-<element name="U$87" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="35.56"/>
-<element name="U$88" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="38.1"/>
-<element name="U$89" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="33.02"/>
-<element name="U$90" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="35.56"/>
-<element name="U$91" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="38.1"/>
-<element name="U$92" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="33.02"/>
-<element name="U$93" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="25.4" rot="R90"/>
-<element name="U$94" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="27.94" rot="R90"/>
-<element name="U$95" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="30.48" rot="R90"/>
-<element name="U$96" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="30.48" rot="R90"/>
-<element name="U$97" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="25.4" rot="R90"/>
-<element name="U$98" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="27.94" rot="R90"/>
-<element name="U$99" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="30.48" rot="R90"/>
-<element name="U$100" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="30.48" rot="R90"/>
-<element name="U$101" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="25.4" rot="R90"/>
-<element name="U$102" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="27.94" rot="R90"/>
-<element name="U$103" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="30.48" rot="R90"/>
-<element name="U$104" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="30.48" rot="R90"/>
-<element name="U$105" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="25.4" rot="R90"/>
-<element name="U$106" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="27.94" rot="R90"/>
-<element name="U$107" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="30.48" rot="R90"/>
-<element name="U$108" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="27.94" rot="R90"/>
-<element name="U$109" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="25.4" rot="R90"/>
-<element name="U$110" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="27.94" rot="R90"/>
-<element name="U$111" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="30.48" rot="R90"/>
-<element name="U$112" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="27.94" rot="R90"/>
-<element name="U$113" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="25.4" rot="R90"/>
-<element name="U$114" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="27.94" rot="R90"/>
-<element name="U$115" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="30.48" rot="R90"/>
-<element name="U$116" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="25.4" rot="R90"/>
-<element name="U$117" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="25.4" rot="R90"/>
-<element name="U$118" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="27.94" rot="R90"/>
-<element name="U$119" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="30.48" rot="R90"/>
-<element name="U$120" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="25.4" rot="R90"/>
-<element name="U$121" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="25.4" rot="R90"/>
-<element name="U$122" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="27.94" rot="R90"/>
-<element name="U$123" library="BadgeParts" package="DECOUPLING_CAP" value="DECOUPLING_CAP" x="13.97" y="44.45" rot="R90"/>
+<element name="POWER" library="BadgeParts" package="LED3MM" value="LED3MM" x="3.81" y="36.195" smashed="yes" rot="R270"/>
+<element name="HELLO" library="BadgeParts" package="LED3MM" value="LED3MM" x="29.21" y="36.195" smashed="yes" rot="R270"/>
+<element name="U$2" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="22.86" smashed="yes"/>
+<element name="U$3" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="20.32" smashed="yes"/>
+<element name="U$4" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="17.78" smashed="yes"/>
+<element name="U$5" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="15.24" smashed="yes"/>
+<element name="U$6" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="12.7" smashed="yes"/>
+<element name="U$7" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="10.16" smashed="yes"/>
+<element name="U$8" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="7.62" smashed="yes"/>
+<element name="U$1" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="15.24" smashed="yes"/>
+<element name="U$9" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="22.86" smashed="yes"/>
+<element name="U$10" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="12.7" smashed="yes" rot="R90"/>
+<element name="U$11" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="20.32" smashed="yes"/>
+<element name="U$12" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="10.16" smashed="yes"/>
+<element name="U$13" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="17.78" smashed="yes"/>
+<element name="U$14" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="7.62" smashed="yes"/>
+<element name="U$15" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="22.86" smashed="yes"/>
+<element name="U$16" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="22.86" smashed="yes"/>
+<element name="U$17" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="10.16" smashed="yes"/>
+<element name="U$18" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="20.32" smashed="yes"/>
+<element name="U$19" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="20.32" smashed="yes"/>
+<element name="U$20" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="7.62" smashed="yes"/>
+<element name="U$21" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="17.78" smashed="yes"/>
+<element name="U$22" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="17.78" smashed="yes"/>
+<element name="U$23" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="10.16" smashed="yes"/>
+<element name="U$24" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="15.24" smashed="yes"/>
+<element name="U$25" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="15.24" smashed="yes"/>
+<element name="U$26" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="7.62" smashed="yes"/>
+<element name="U$27" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="12.7" smashed="yes"/>
+<element name="U$28" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="12.7" smashed="yes"/>
+<element name="U$29" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="22.86" smashed="yes"/>
+<element name="U$30" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="22.86" smashed="yes"/>
+<element name="U$31" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="22.86" smashed="yes"/>
+<element name="U$32" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="22.86" smashed="yes"/>
+<element name="U$33" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="20.32" smashed="yes"/>
+<element name="U$34" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="20.32" smashed="yes"/>
+<element name="U$35" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="20.32" smashed="yes"/>
+<element name="U$36" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="20.32" smashed="yes"/>
+<element name="U$37" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="17.78" smashed="yes"/>
+<element name="U$38" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="17.78" smashed="yes"/>
+<element name="U$39" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="17.78" smashed="yes"/>
+<element name="U$40" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="17.78" smashed="yes"/>
+<element name="U$41" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="15.24" smashed="yes"/>
+<element name="U$42" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="15.24" smashed="yes"/>
+<element name="U$43" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="15.24" smashed="yes"/>
+<element name="U$44" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="15.24" smashed="yes"/>
+<element name="U$45" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="12.7" smashed="yes"/>
+<element name="U$46" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="12.7" smashed="yes"/>
+<element name="U$47" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="12.7" smashed="yes"/>
+<element name="U$48" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="12.7" smashed="yes"/>
+<element name="U$49" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="10.16" smashed="yes"/>
+<element name="U$50" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="10.16" smashed="yes"/>
+<element name="U$51" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="10.16" smashed="yes"/>
+<element name="U$52" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="10.16" smashed="yes"/>
+<element name="U$53" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="7.62" smashed="yes"/>
+<element name="U$54" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="7.62" smashed="yes"/>
+<element name="U$55" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="7.62" smashed="yes"/>
+<element name="U$56" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="7.62" smashed="yes"/>
+<element name="U$57" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="22.86" smashed="yes"/>
+<element name="U$58" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="22.86" smashed="yes"/>
+<element name="U$59" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="10.16" smashed="yes"/>
+<element name="U$60" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="20.32" smashed="yes"/>
+<element name="U$61" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="20.32" smashed="yes"/>
+<element name="U$62" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="7.62" smashed="yes"/>
+<element name="U$63" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="17.78" smashed="yes"/>
+<element name="U$64" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="17.78" smashed="yes"/>
+<element name="U$65" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="10.16" smashed="yes"/>
+<element name="U$66" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="15.24" smashed="yes"/>
+<element name="U$67" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="15.24" smashed="yes"/>
+<element name="U$68" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="7.62" smashed="yes"/>
+<element name="U$69" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="12.7" smashed="yes"/>
+<element name="U$70" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="12.7" smashed="yes"/>
+<element name="U$71" library="BadgeParts" package="1X01" value="GND" x="12.7" y="1.905" smashed="yes" rot="R180"/>
+<element name="U$74" library="BadgeParts" package="1X01" value="VCC" x="20.32" y="1.905" smashed="yes" rot="R90"/>
+<element name="U$72" library="BadgeParts" package="1X01" value="SDA" x="17.78" y="1.905" smashed="yes"/>
+<element name="U$73" library="BadgeParts" package="1X01" value="SCL" x="15.24" y="1.905" smashed="yes"/>
+<element name="U$75" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="38.1" smashed="yes"/>
+<element name="U$76" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="35.56" smashed="yes"/>
+<element name="U$77" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="33.02" smashed="yes"/>
+<element name="U$78" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="38.1" smashed="yes"/>
+<element name="U$79" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="35.56" smashed="yes"/>
+<element name="U$80" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="33.02" smashed="yes"/>
+<element name="U$81" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="38.1" smashed="yes"/>
+<element name="U$82" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="33.02" smashed="yes"/>
+<element name="U$83" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="35.56" smashed="yes"/>
+<element name="U$84" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="38.1" smashed="yes"/>
+<element name="U$85" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="33.02" smashed="yes"/>
+<element name="U$86" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="35.56" smashed="yes"/>
+<element name="U$87" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="35.56" smashed="yes"/>
+<element name="U$88" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="38.1" smashed="yes"/>
+<element name="U$89" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="33.02" smashed="yes"/>
+<element name="U$90" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="35.56" smashed="yes"/>
+<element name="U$91" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="38.1" smashed="yes"/>
+<element name="U$92" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="33.02" smashed="yes"/>
+<element name="U$93" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="25.4" smashed="yes" rot="R90"/>
+<element name="U$94" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="27.94" smashed="yes" rot="R90"/>
+<element name="U$95" library="BadgeParts" package="1X01" value="ONE_PAD" x="5.08" y="30.48" smashed="yes" rot="R90"/>
+<element name="U$96" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="30.48" smashed="yes" rot="R90"/>
+<element name="U$97" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="25.4" smashed="yes" rot="R90"/>
+<element name="U$98" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="27.94" smashed="yes" rot="R90"/>
+<element name="U$99" library="BadgeParts" package="1X01" value="ONE_PAD" x="7.62" y="30.48" smashed="yes" rot="R90"/>
+<element name="U$100" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="30.48" smashed="yes" rot="R90"/>
+<element name="U$101" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="25.4" smashed="yes" rot="R90"/>
+<element name="U$102" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="27.94" smashed="yes" rot="R90"/>
+<element name="U$103" library="BadgeParts" package="1X01" value="ONE_PAD" x="10.16" y="30.48" smashed="yes" rot="R90"/>
+<element name="U$104" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="30.48" smashed="yes" rot="R90"/>
+<element name="U$105" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="25.4" smashed="yes" rot="R90"/>
+<element name="U$106" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="27.94" smashed="yes" rot="R90"/>
+<element name="U$107" library="BadgeParts" package="1X01" value="ONE_PAD" x="12.7" y="30.48" smashed="yes" rot="R90"/>
+<element name="U$108" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="27.94" smashed="yes" rot="R90"/>
+<element name="U$109" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="25.4" smashed="yes" rot="R90"/>
+<element name="U$110" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="27.94" smashed="yes" rot="R90"/>
+<element name="U$111" library="BadgeParts" package="1X01" value="ONE_PAD" x="15.24" y="30.48" smashed="yes" rot="R90"/>
+<element name="U$112" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="27.94" smashed="yes" rot="R90"/>
+<element name="U$113" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="25.4" smashed="yes" rot="R90"/>
+<element name="U$114" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="27.94" smashed="yes" rot="R90"/>
+<element name="U$115" library="BadgeParts" package="1X01" value="ONE_PAD" x="17.78" y="30.48" smashed="yes" rot="R90"/>
+<element name="U$116" library="BadgeParts" package="1X01" value="ONE_PAD" x="25.4" y="25.4" smashed="yes" rot="R90"/>
+<element name="U$117" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="25.4" smashed="yes" rot="R90"/>
+<element name="U$118" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="27.94" smashed="yes" rot="R90"/>
+<element name="U$119" library="BadgeParts" package="1X01" value="ONE_PAD" x="20.32" y="30.48" smashed="yes" rot="R90"/>
+<element name="U$120" library="BadgeParts" package="1X01" value="ONE_PAD" x="27.94" y="25.4" smashed="yes" rot="R90"/>
+<element name="U$121" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="25.4" smashed="yes" rot="R90"/>
+<element name="U$122" library="BadgeParts" package="1X01" value="ONE_PAD" x="22.86" y="27.94" smashed="yes" rot="R90"/>
+<element name="U$123" library="BadgeParts" package="DECOUPLING_CAP" value="DECOUPLING_CAP" x="13.97" y="44.45" smashed="yes" rot="R90"/>
 </elements>
 <signals>
 <signal name="PB0">

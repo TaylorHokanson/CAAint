@@ -204,7 +204,6 @@
 <pad name="P$8" x="0" y="-17.78" drill="1" diameter="1.9304" shape="square"/>
 <pad name="P$9" x="0" y="-20.32" drill="1" diameter="1.9304" shape="square"/>
 <pad name="P$10" x="0" y="-22.86" drill="1" diameter="1.9304" shape="square"/>
-<text x="0" y="-24.765" size="1.016" layer="21" font="vector" ratio="15" rot="R270" align="center-left">&gt;NAME</text>
 </package>
 <package name="7X-PADS-NC">
 <pad name="P$1" x="0" y="5.08" drill="1"/>
