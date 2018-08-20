@@ -604,8 +604,7 @@
 <pad name="P$49" x="15.24" y="0" drill="1"/>
 </package>
 <package name="CAPSENSE_BUTTON">
-<circle x="0" y="0" radius="6" width="0" layer="1"/>
-<pad name="1" x="0" y="0" drill="0.6"/>
+<smd name="P$1" x="0" y="0" dx="10.16" dy="10.16" layer="1" roundness="100" rot="R180"/>
 </package>
 <package name="LED3MM" urn="urn:adsk.eagle:footprint:921854/1" locally_modified="yes">
 <description>&lt;B&gt;LED&lt;/B&gt;&lt;p&gt;
@@ -1395,7 +1394,7 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <devices>
 <device name="" package="CAPSENSE_BUTTON">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>

@@ -379,8 +379,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="6.35" y1="6.35" x2="6.35" y2="2.54" width="0.127" layer="21"/>
 </package>
 <package name="CAPSENSE_BUTTON">
-<circle x="0" y="0" radius="6" width="0" layer="1"/>
-<pad name="1" x="0" y="0" drill="0.6"/>
+<smd name="P$1" x="0" y="0" dx="10.16" dy="10.16" layer="1" roundness="100" rot="R180"/>
 </package>
 <package name="I2C-FEMALE-HEADER">
 <pad name="SDA" x="-1.27" y="0" drill="1"/>
@@ -599,7 +598,7 @@ Source: &lt;a href="http://www.cui.com/product/resource/ct-1205h-smt.pdf"&gt; Da
 <devices>
 <device name="" package="CAPSENSE_BUTTON">
 <connects>
-<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="1" pad="P$1"/>
 </connects>
 <technologies>
 <technology name=""/>
