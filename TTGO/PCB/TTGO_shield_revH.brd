@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.1.1">
+<eagle version="9.1.2">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mm" altunit="mm"/>
@@ -7300,6 +7300,19 @@
 <rectangle x1="37.271446875" y1="60.3775375" x2="37.652446875" y2="60.4029375" layer="22"/>
 <rectangle x1="37.32224375" y1="60.4029375" x2="37.65244375" y2="60.4283375" layer="22"/>
 <rectangle x1="37.39844375" y1="60.4283375" x2="37.55084375" y2="60.4537375" layer="22"/>
+<text x="-7.48309375" y="61.392296875" size="1.27" layer="22" font="vector" rot="MR315" align="center">HOKANSON/BONTRAGER
+BIT.LY/BADGECULTURE</text>
+<text x="23.335" y="68.905" size="1.4224" layer="22" font="vector" ratio="12" rot="MR0" align="center">TTGO SHIELD
+REV H
+2018</text>
+<text x="37.625" y="39.695" size="1.4224" layer="21" font="vector" ratio="12" align="center-left">PIN 27</text>
+<text x="37.525" y="30.325" size="1.4224" layer="21" font="vector" ratio="12" align="center-left">PIN 26</text>
+<text x="37.625" y="20.645" size="1.4224" layer="21" font="vector" ratio="12" align="center-left">PIN 25</text>
+<text x="37.525" y="10.325" size="1.4224" layer="21" font="vector" ratio="12" align="center-left">PIN 34</text>
+<text x="37.595" y="1.165" size="1.4224" layer="21" font="vector" ratio="12" align="center-left">PIN 35</text>
+<text x="-14.545" y="42.075" size="1.4224" layer="21" font="vector" ratio="12" align="center-left">CAP32</text>
+<text x="-14.545" y="28.105" size="1.4224" layer="21" font="vector" ratio="12" align="center-left">CAP33</text>
+<circle x="-34" y="34" radius="0.410121875" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="BadgeParts">
@@ -7981,20 +7994,25 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="R10" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" package="0603" package3d_urn="urn:adsk.eagle:package:39650/1" value="220" x="-24.63925" y="11.112034375">
 <attribute name="PROD_ID" value="RES-07869" x="-24.63925" y="11.112034375" size="1.778" layer="27" display="off"/>
 </element>
-<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04_LONGPADS" package3d_urn="urn:adsk.eagle:package:38098/1" value="" x="38.050746875" y="13.862034375">
+<element name="J1" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04_LONGPADS" package3d_urn="urn:adsk.eagle:package:38098/1" value="" x="38.050746875" y="13.862034375" smashed="yes">
 <attribute name="PROD_ID" value="CONN-09696" x="38.050746875" y="13.862034375" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="36.780746875" y="11.195034375" size="0.6096" layer="27" font="vector" ratio="20"/>
 </element>
-<element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04_LONGPADS" package3d_urn="urn:adsk.eagle:package:38098/1" value="" x="45.670746875" y="4.1120375" rot="R180">
+<element name="J2" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04_LONGPADS" package3d_urn="urn:adsk.eagle:package:38098/1" value="" x="45.670746875" y="4.1120375" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-09696" x="45.670746875" y="4.1120375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="46.940746875" y="6.7790375" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
-<element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04_LONGPADS" package3d_urn="urn:adsk.eagle:package:38098/1" value="" x="45.670746875" y="23.612034375" rot="R180">
+<element name="J3" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04_LONGPADS" package3d_urn="urn:adsk.eagle:package:38098/1" value="" x="45.670746875" y="23.612034375" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-09696" x="45.670746875" y="23.612034375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="46.940746875" y="26.279034375" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
-<element name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04_LONGPADS" package3d_urn="urn:adsk.eagle:package:38098/1" value="" x="45.670746875" y="33.3620375" rot="R180">
+<element name="J4" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04_LONGPADS" package3d_urn="urn:adsk.eagle:package:38098/1" value="" x="45.670746875" y="33.3620375" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-09696" x="45.670746875" y="33.3620375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="46.940746875" y="36.0290375" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
-<element name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04_LONGPADS" package3d_urn="urn:adsk.eagle:package:38098/1" value="" x="45.670746875" y="43.1120375" rot="R180">
+<element name="J5" library="SparkFun-Connectors" library_urn="urn:adsk.eagle:library:513" package="1X04_LONGPADS" package3d_urn="urn:adsk.eagle:package:38098/1" value="" x="45.670746875" y="43.1120375" smashed="yes" rot="R180">
 <attribute name="PROD_ID" value="CONN-09696" x="45.670746875" y="43.1120375" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VALUE" x="46.940746875" y="45.7790375" size="0.6096" layer="27" font="vector" ratio="20" rot="R180"/>
 </element>
 <element name="CAP1" library="BadgeParts" package="CAPSENSE_BUTTON" value="CAPSENSE_BUTTON" x="-11.5" y="48"/>
 <element name="CAP2" library="BadgeParts" package="CAPSENSE_BUTTON" value="CAPSENSE_BUTTON" x="-11.5" y="34"/>
@@ -8858,6 +8876,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </board>
 </drawing>
 <compatibility>
+<note version="6.3" minversion="6.2.2" severity="warning">
+Since Version 6.2.2 text objects can contain more than one line,
+which will not be processed correctly with this version.
+</note>
 <note version="8.2" severity="warning">
 Since Version 8.2, EAGLE supports online libraries. The ids
 of those online libraries will not be understood (or retained)
