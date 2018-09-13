@@ -2,7 +2,7 @@ ESP Now creates a local mesh network that doesn't require a connection to the in
 
 TTGO powers on
 Is there a master signal in range?
-⋅⋅*yes
-⋅⋅⋅⋅*become slave
-⋅⋅*no
-⋅⋅⋅⋅*become master
+  *yes
+    *become slave
+  *no
+    *become master
