@@ -68,6 +68,7 @@ int SlaveCnt = 0;
 
 // Init ESP Now with fallback
 void InitESPNow() {
+  WiFi.disconnect();    // per https://github.com/espressif/arduino-esp32/issues/1425
   if (esp_now_init() == ESP_OK) {
     Serial.println("ESPNow Init Success");
   }
