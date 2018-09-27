@@ -109,9 +109,9 @@ void setup() {
 // callback when data is recv from Master
 void OnDataRecv(const uint8_t *mac_addr, const uint8_t *data, int data_len) {
 
-  digitalWrite(ledPin, HIGH);
+  digitalWrite(ledPin, LOW); //onboard TTGO blue led is active low
   delay(20);
-  digitalWrite(ledPin, LOW);
+  digitalWrite(ledPin, HIGH);
   
   char macStr[18];
   snprintf(macStr, sizeof(macStr), "%02x:%02x:%02x:%02x:%02x:%02x",

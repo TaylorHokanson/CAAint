@@ -12,6 +12,8 @@
     * Flash:   80Mhz
     * Upload:  921600
     * Prog:    AVRISPmkII
+    * 
+    * Hold the Boot button on the TTGO if ESPtool.py is timing out during upload.
 
    << This Device Master >>
 
@@ -202,7 +204,7 @@ void sendData() {
     esp_err_t result = esp_now_send(peer_addr, &data, sizeof(data));
     Serial.print("Send Status: ");
     if (result == ESP_OK) {
-      Serial.println("Success");
+      Serial.println("Success starting delay");
     } else if (result == ESP_ERR_ESPNOW_NOT_INIT) {
       // How did we get so far!!
       Serial.println("ESPNOW not Init.");
@@ -217,7 +219,7 @@ void sendData() {
     } else {
       Serial.println("Not sure what happened");
     }
-    delay(100);
+    delay(1000);
   }
 }
 
@@ -273,5 +275,5 @@ void loop() {
   }
 
   // wait for 3seconds to run the logic again
-  delay(1000);
+  delay(100);
 }
