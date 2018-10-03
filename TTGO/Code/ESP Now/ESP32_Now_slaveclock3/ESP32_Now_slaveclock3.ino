@@ -40,6 +40,9 @@
 
 #define CHANNEL 1
 
+// onboard LED
+const int ledPin =  16;
+
 // OLED
 U8X8_SSD1306_128X64_NONAME_SW_I2C u8x8(/* clock=*/ 4, /* data=*/ 5, /* reset=*/U8X8_PIN_NONE );
 
@@ -92,6 +95,10 @@ void setup() {
   // Once ESPNow is successfully Init, we will register for recv CB to
   // get recv packer info.
   esp_now_register_recv_cb(OnDataRecv);
+
+  pinMode(ledPin, OUTPUT);
+  digitalWrite(ledPin, 16);  // high = off
+
 }
 
 // callback when data is recv from Master
@@ -99,6 +106,11 @@ void OnDataRecv(const uint8_t *mac_addr, const uint8_t *data, int data_len) {
   char macStr[18];
   snprintf(macStr, sizeof(macStr), "%02x:%02x:%02x:%02x:%02x:%02x",
            mac_addr[0], mac_addr[1], mac_addr[2], mac_addr[3], mac_addr[4], mac_addr[5]);
+ 
+  digitalWrite(ledPin, LOW); //onboard TTGO blue led is active low
+  delay(20);
+  digitalWrite(ledPin, HIGH);
+  
   /*
   Serial.print("Last Packet Recv from: "); Serial.println(macStr);
   u8x8.drawString(0, 3, "Last Packet From");
@@ -116,5 +128,5 @@ void OnDataRecv(const uint8_t *mac_addr, const uint8_t *data, int data_len) {
 }
 
 void loop() {
-  // Chill
+
 }
