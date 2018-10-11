@@ -9,7 +9,7 @@
     * Upload:  921600
     * Prog:    AVRISPmkII
     * 
-    * Hold the Boot button on the TTGO if ESPtool.py is timing out during upload.
+    * Hold the Boot button on the TTGO i`f ESPtool.py is timing out during upload.
     * Required libraries: u8g2, Adafruit Neopixel
 **/
 #include <U8x8lib.h> 
@@ -24,8 +24,11 @@ const int ledPin =  16;
 U8X8_SSD1306_128X64_NONAME_SW_I2C u8x8(/* clock=*/ 4, /* data=*/ 5, /* reset=*/U8X8_PIN_NONE );
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(10, RGBLEDPIN, NEO_GRB + NEO_KHZ800);
 
+int flashdelay = 250;
+char currentcount[16];
+
 void setup() {
-  Serial.begin(115200);
+  //Serial.begin(115200);
   strip.begin();  //init RGB leds
   strip.setBrightness(10);
   strip.show();
@@ -34,24 +37,29 @@ void setup() {
   u8x8.setFont(u8x8_font_pxplusibmcga_r);
   u8x8.setFlipMode(1);        //remove if screen should be rotated 180 degrees
 
-  Serial.println("ESP32 Blink Example");
+  //Serial.println("ESP32 Blink Example");
   u8x8.drawString(0, 0, "BLINK EXAMPLE");
-  u8x8.drawString(0, 1, "LED:");
+  
 }
 
 void loop() {
+  u8x8.drawString(0, 1, "LED:");
   digitalWrite(ledPin, LOW); //onboard TTGO blue led is active low
   u8x8.drawString(5, 1, "LOW ");
-  delay(500);
+  delay(flashdelay*2);
   digitalWrite(ledPin, HIGH);//turn off TTGO onboard blue led
   u8x8.drawString(5, 1, "HIGH");
-  delay(500);
-  for(uint16_t i=0; i<strip.numPixels(); i++){
+  delay(flashdelay*2);
+  
+  for(int i=0; i<strip.numPixels(); i++){
+  u8x8.drawString(0, 1, "L  :");
+  itoa(i,currentcount,10); //convert counting integer to const char* for display
+  u8x8.drawString(1, 1, currentcount);
   strip.setPixelColor(i,100);
   strip.show();
-  delay(500);
+  delay(flashdelay);
   strip.setPixelColor(i,0);
   strip.show();
-  delay(500);
+  delay(flashdelay);
   }
 }
