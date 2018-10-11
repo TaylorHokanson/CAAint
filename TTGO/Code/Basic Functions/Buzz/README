@@ -1,1 +1,7 @@
-info about code
+# ESP32 TTGO with Rev F Badgeculture shield - Buzz
+
+See header of sketch for board settings and library dependencies.
+
+This sketch will use the onboard TTGO screen to display which frequency or dutycycle is active using the shield's buzzer.
+
+Adapted from: https://techtutorialsx.com/2017/07/01/esp32-arduino-controlling-a-buzzer-with-pwm/
