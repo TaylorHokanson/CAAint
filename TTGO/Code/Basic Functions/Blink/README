@@ -1,1 +1,5 @@
-info about code
+# ESP32 TTGO with Rev F Badgeculture shield - Blink
+
+See header of sketch for board settings and library dependencies.
+
+This sketch will use the onboard TTGO screen to display which LED is active and the digital state of that pin.
