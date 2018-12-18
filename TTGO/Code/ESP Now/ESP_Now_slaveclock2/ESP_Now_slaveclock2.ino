@@ -122,7 +122,7 @@ void OnDataRecv(const uint8_t *mac_addr, const uint8_t *data, int data_len) {
   //u8x8.print(macStr);
   Serial.print("Last Packet Recv Data: "); Serial.println(*data);
   //u8x8.drawString(0, 5, "Last Packet Data");
-  //u8x8.drawString(0, 6, "     ");  //clear data line before update
+  u8x8.drawString(0, 6, "     ");  //clear data line before update
   u8x8.setCursor(0, 1);
   u8x8.print(*data);
   Serial.println("");

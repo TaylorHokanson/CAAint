@@ -9,7 +9,7 @@
     * Upload:  921600
     * Prog:    AVRISPmkII
     * 
-    * Hold the Boot button on the TTGO i`f ESPtool.py is timing out during upload.
+    * Hold the Boot button on the TTGO if ESPtool.py is timing out during upload.
     * Required libraries: u8g2, Adafruit Neopixel
 **/
 #include <U8x8lib.h> 
@@ -24,7 +24,7 @@ const int ledPin =  16;
 U8X8_SSD1306_128X64_NONAME_SW_I2C u8x8(/* clock=*/ 4, /* data=*/ 5, /* reset=*/U8X8_PIN_NONE );
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(10, RGBLEDPIN, NEO_GRB + NEO_KHZ800);
 
-int flashdelay = 250;
+int flashdelay = 100;
 char currentcount[16];
 
 void setup() {
@@ -55,6 +55,10 @@ void loop() {
   u8x8.drawString(0, 1, "L  :");
   itoa(i,currentcount,10); //convert counting integer to const char* for display
   u8x8.drawString(1, 1, currentcount);
+  for(int j=0; j<strip.numPixels(); j++){
+    strip.setPixelColor(j,0);
+  }
+  strip.show();
   strip.setPixelColor(i,100);
   strip.show();
   delay(flashdelay);
