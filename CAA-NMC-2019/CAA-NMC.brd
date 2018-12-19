@@ -348,6 +348,21 @@ HOLDER</text>
 <text x="-11" y="0" size="1.778" layer="21" font="vector" align="center">(+)</text>
 <text x="11" y="0" size="1.778" layer="21" font="vector" align="center">(-)</text>
 </package>
+<package name="SMT-SWITCH">
+<description>DPDT swith JS203011SCQN</description>
+<smd name="5" x="0" y="2.75" dx="1.2" dy="2.5" layer="1"/>
+<smd name="6" x="2.5" y="2.75" dx="1.2" dy="2.5" layer="1"/>
+<smd name="4" x="-2.5" y="2.75" dx="1.2" dy="2.5" layer="1"/>
+<smd name="2" x="0" y="-2.75" dx="1.2" dy="2.5" layer="1"/>
+<smd name="3" x="2.5" y="-2.75" dx="1.2" dy="2.5" layer="1"/>
+<smd name="1" x="-2.5" y="-2.75" dx="1.2" dy="2.5" layer="1"/>
+<wire x1="4.5" y1="-1.8" x2="-4.5" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="-4.5" y1="-1.8" x2="-4.5" y2="1.8" width="0.2" layer="21"/>
+<wire x1="-4.5" y1="1.8" x2="4.5" y2="1.8" width="0.2" layer="21"/>
+<wire x1="4.5" y1="1.8" x2="4.5" y2="-1.8" width="0.2" layer="21"/>
+<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="16" align="center">SWITCH</text>
+<text x="0" y="5" size="1.27" layer="51" font="vector" ratio="16" align="center">C</text>
+</package>
 </packages>
 </library>
 <library name="SparkFun-LED" urn="urn:adsk.eagle:library:529">
@@ -914,6 +929,7 @@ design rules under a new name.</description>
 <attribute name="PROD_ID" value="RES-00824" x="-36.663" y="-19.998" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="16.665" y="-44.091" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
+<element name="U$145" library="BadgeParts" package="SMT-SWITCH" value="SMT-SWITCH" x="-6.666" y="56.661" smashed="yes"/>
 </elements>
 <signals>
 <signal name="PB0">

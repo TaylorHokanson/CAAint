@@ -331,6 +331,21 @@ HOLDER</text>
 <text x="-11" y="0" size="1.778" layer="21" font="vector" align="center">(+)</text>
 <text x="11" y="0" size="1.778" layer="21" font="vector" align="center">(-)</text>
 </package>
+<package name="SMT-SWITCH">
+<description>DPDT swith JS203011SCQN</description>
+<smd name="5" x="0" y="2.75" dx="1.2" dy="2.5" layer="1"/>
+<smd name="6" x="2.5" y="2.75" dx="1.2" dy="2.5" layer="1"/>
+<smd name="4" x="-2.5" y="2.75" dx="1.2" dy="2.5" layer="1"/>
+<smd name="2" x="0" y="-2.75" dx="1.2" dy="2.5" layer="1"/>
+<smd name="3" x="2.5" y="-2.75" dx="1.2" dy="2.5" layer="1"/>
+<smd name="1" x="-2.5" y="-2.75" dx="1.2" dy="2.5" layer="1"/>
+<wire x1="4.5" y1="-1.8" x2="-4.5" y2="-1.8" width="0.2" layer="21"/>
+<wire x1="-4.5" y1="-1.8" x2="-4.5" y2="1.8" width="0.2" layer="21"/>
+<wire x1="-4.5" y1="1.8" x2="4.5" y2="1.8" width="0.2" layer="21"/>
+<wire x1="4.5" y1="1.8" x2="4.5" y2="-1.8" width="0.2" layer="21"/>
+<text x="0" y="0" size="1.27" layer="21" font="vector" ratio="16" align="center">SWITCH</text>
+<text x="0" y="5" size="1.27" layer="51" font="vector" ratio="16" align="center">C</text>
+</package>
 </packages>
 <symbols>
 <symbol name="ATTINY85-20SU">
@@ -427,6 +442,18 @@ https://www.adafruit.com/product/653</description>
 <wire x1="0" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
 <wire x1="10.16" y1="2.54" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
+</symbol>
+<symbol name="SMT-SWITCH">
+<pin name="1" x="-5.08" y="0" length="middle"/>
+<pin name="2" x="-5.08" y="-2.54" length="middle"/>
+<pin name="3" x="-5.08" y="-5.08" length="middle"/>
+<pin name="4" x="-5.08" y="-7.62" length="middle"/>
+<pin name="5" x="-5.08" y="-10.16" length="middle"/>
+<pin name="6" x="-5.08" y="-12.7" length="middle"/>
+<wire x1="0" y1="-15.24" x2="5.08" y2="-15.24" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-15.24" x2="5.08" y2="2.54" width="0.254" layer="94"/>
+<wire x1="5.08" y1="2.54" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-15.24" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -577,6 +604,26 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <connects>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMT-SWITCH">
+<gates>
+<gate name="G$1" symbol="SMT-SWITCH" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="SMT-SWITCH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1682,6 +1729,7 @@ WS2812B</description>
 <part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="470OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
 <part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
 <part name="GND5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="GND" device=""/>
+<part name="U$145" library="BadgeParts" deviceset="SMT-SWITCH" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2268,7 +2316,7 @@ WS2812B</description>
 <attribute name="NAME" x="-219.583" y="-76.8858" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-219.583" y="-82.042" size="1.778" layer="96"/>
 </instance>
-<instance part="U$144" gate="G$1" x="-55.88" y="76.2" smashed="yes"/>
+<instance part="U$144" gate="G$1" x="-127" y="124.46" smashed="yes"/>
 <instance part="LED1" gate="G$1" x="-243.84" y="116.84" smashed="yes">
 <attribute name="NAME" x="-256.54" y="125.222" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-256.54" y="109.22" size="1.778" layer="95"/>
@@ -2307,6 +2355,7 @@ WS2812B</description>
 <instance part="GND5" gate="1" x="-264.16" y="58.42" smashed="yes">
 <attribute name="VALUE" x="-264.16" y="58.166" size="1.778" layer="96" align="top-center"/>
 </instance>
+<instance part="U$145" gate="G$1" x="-162.56" y="129.54" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -2424,8 +2473,8 @@ WS2812B</description>
 </segment>
 <segment>
 <pinref part="U$144" gate="G$1" pin="VCC"/>
-<wire x1="-60.96" y1="76.2" x2="-71.12" y2="76.2" width="0.1524" layer="91"/>
-<label x="-71.12" y="76.2" size="1.778" layer="95"/>
+<wire x1="-132.08" y1="124.46" x2="-142.24" y2="124.46" width="0.1524" layer="91"/>
+<label x="-142.24" y="124.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB3" class="0">
@@ -2550,8 +2599,8 @@ WS2812B</description>
 </segment>
 <segment>
 <pinref part="U$144" gate="G$1" pin="GND"/>
-<wire x1="-60.96" y1="71.12" x2="-71.12" y2="71.12" width="0.1524" layer="91"/>
-<label x="-71.12" y="71.12" size="1.778" layer="95"/>
+<wire x1="-132.08" y1="119.38" x2="-142.24" y2="119.38" width="0.1524" layer="91"/>
+<label x="-142.24" y="119.38" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="LED3" gate="G$1" pin="VSS"/>
