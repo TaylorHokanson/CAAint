@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.003125" altunitdist="mic" altunit="mm"/>
+<grid distance="33.333" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.003125" altunitdist="mic" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -27,9 +27,9 @@
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
 <layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
 <layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
@@ -231,10 +231,11 @@ BIT.LY/BADGECULTURE</text>
 <wire x1="31.91" y1="18.54" x2="31.91" y2="47.75" width="0.1524" layer="21"/>
 <wire x1="31.91" y1="47.75" x2="29.37" y2="47.75" width="0.1524" layer="21"/>
 <wire x1="29.37" y1="47.75" x2="29.37" y2="18.54" width="0.1524" layer="21"/>
-<wire x1="0" y1="66.666" x2="0" y2="0" width="0.1524" layer="20"/>
-<wire x1="0" y1="0" x2="33.333" y2="0" width="0.1524" layer="20"/>
-<wire x1="33.333" y1="0" x2="33.333" y2="66.666" width="0.1524" layer="20"/>
-<wire x1="33.333" y1="66.666" x2="0" y2="66.666" width="0.1524" layer="20"/>
+<wire x1="0" y1="0" x2="0" y2="99.999" width="0.1524" layer="20"/>
+<wire x1="0" y1="99.999" x2="0" y2="100" width="0.1524" layer="20"/>
+<wire x1="0" y1="99.999" x2="33.333" y2="99.999" width="0.1524" layer="20"/>
+<wire x1="33.333" y1="99.999" x2="33.333" y2="0" width="0.1524" layer="20"/>
+<wire x1="33.333" y1="0" x2="0" y2="0" width="0.1524" layer="20"/>
 </plain>
 <libraries>
 <library name="BadgeParts">
