@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -599,12 +599,9 @@
 <wire x1="14" y1="-8" x2="14" y2="8" width="0.127" layer="21"/>
 <wire x1="14" y1="8" x2="-14" y2="8" width="0.127" layer="21"/>
 <wire x1="-14" y1="8" x2="-14" y2="-8" width="0.127" layer="21"/>
-<smd name="VCC" x="-14.65" y="0" dx="2.6" dy="3.65" layer="1"/>
+<smd name="VBAT" x="-14.65" y="0" dx="2.6" dy="3.65" layer="1"/>
 <smd name="GND" x="14.65" y="0" dx="2.6" dy="3.65" layer="1"/>
-<text x="0" y="0" size="1.778" layer="21" font="vector" align="center">BATTERY
-HOLDER</text>
-<text x="-11" y="0" size="1.778" layer="21" font="vector" align="center">(+)</text>
-<text x="11" y="0" size="1.778" layer="21" font="vector" align="center">(-)</text>
+<text x="-5.92" y="0" size="1.778" layer="21" font="vector" rot="R180" align="center">&lt;&lt; PWR</text>
 </package>
 <package name="SMT-SWITCH">
 <description>DPDT swith JS203011SCQN</description>
@@ -624,14 +621,11 @@ HOLDER</text>
 </package>
 <package name="THRU-CR-HOLDER">
 <circle x="0" y="0" radius="11.15" width="0.127" layer="21"/>
-<wire x1="10.34" y1="3.8" x2="13.34" y2="3.8" width="0.127" layer="21"/>
-<wire x1="13.34" y1="3.8" x2="13.34" y2="-3.8" width="0.127" layer="21"/>
-<wire x1="13.34" y1="-3.8" x2="10.34" y2="-3.8" width="0.127" layer="21"/>
-<pad name="GND" x="-8.15" y="0" drill="1"/>
-<pad name="VCC" x="11.85" y="0" drill="1"/>
-<text x="0" y="0" size="1.4224" layer="21" font="vector" ratio="16" align="center">BATTERY
-HOLDER</text>
-<text x="7.5" y="0" size="1.4224" layer="21" font="vector" ratio="16" align="center">(+)</text>
+<wire x1="-10.34" y1="-3.8" x2="-13.34" y2="-3.8" width="0.127" layer="21"/>
+<wire x1="-13.34" y1="-3.8" x2="-13.34" y2="3.8" width="0.127" layer="21"/>
+<wire x1="-13.34" y1="3.8" x2="-10.34" y2="3.8" width="0.127" layer="21"/>
+<pad name="GND" x="8.15" y="0" drill="1" rot="R180"/>
+<pad name="VBAT" x="-11.85" y="0" drill="1" rot="R180"/>
 </package>
 <package name="PROTO">
 <pad name="VSTRIP55" x="-8.89" y="10.16" drill="1"/>
@@ -1180,7 +1174,7 @@ WS2812B</description>
 <symbol name="SMT-CR-HOLDER">
 <description>SMT/sewable CR2032 coin cell holder |
 https://www.adafruit.com/product/653</description>
-<pin name="VCC" x="-5.08" y="0" length="middle"/>
+<pin name="VBAT" x="-5.08" y="0" length="middle"/>
 <pin name="GND" x="-5.08" y="-5.08" length="middle"/>
 <wire x1="0" y1="-7.62" x2="0" y2="2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
@@ -1206,13 +1200,13 @@ HOLDER</text>
 <wire x1="2.54" y1="-7.62" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
 </symbol>
 <symbol name="THRU-CR-HOLDER">
-<pin name="VCC" x="-5.08" y="0" length="middle"/>
+<pin name="VBAT" x="-5.08" y="0" length="middle"/>
 <pin name="GND" x="-5.08" y="-2.54" length="middle"/>
 <wire x1="0" y1="-5.08" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<text x="-7.62" y="5.08" size="1.778" layer="94">THRU-HOLE 
+<wire x1="0" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.778" layer="94">THRU-HOLE 
 CR2032 HOLDER</text>
 </symbol>
 <symbol name="PROTO">
@@ -1771,7 +1765,7 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <device name="" package="SMT-CR-HOLDER">
 <connects>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1807,7 +1801,7 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <device name="" package="THRU-CR-HOLDER">
 <connects>
 <connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
 </connects>
 <technologies>
 <technology name=""/>

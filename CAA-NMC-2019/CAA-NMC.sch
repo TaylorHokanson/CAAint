@@ -319,18 +319,6 @@
 <pad name="P$3" x="-3.81" y="0" drill="1"/>
 <pad name="P$4" x="3.81" y="0" drill="1"/>
 </package>
-<package name="SMT-CR-HOLDER">
-<wire x1="-14" y1="-8" x2="14" y2="-8" width="0.127" layer="21"/>
-<wire x1="14" y1="-8" x2="14" y2="8" width="0.127" layer="21"/>
-<wire x1="14" y1="8" x2="-14" y2="8" width="0.127" layer="21"/>
-<wire x1="-14" y1="8" x2="-14" y2="-8" width="0.127" layer="21"/>
-<smd name="VCC" x="-14.65" y="0" dx="2.6" dy="3.65" layer="1"/>
-<smd name="GND" x="14.65" y="0" dx="2.6" dy="3.65" layer="1"/>
-<text x="0" y="0" size="1.778" layer="21" font="vector" align="center">BATTERY
-HOLDER</text>
-<text x="-11" y="0" size="1.778" layer="21" font="vector" align="center">(+)</text>
-<text x="11" y="0" size="1.778" layer="21" font="vector" align="center">(-)</text>
-</package>
 <package name="SMT-SWITCH">
 <description>DPDT swith JS203011SCQN</description>
 <smd name="5" x="0" y="2.75" dx="1.2" dy="2.5" layer="1"/>
@@ -540,17 +528,6 @@ HOLDER</text>
 <text x="6.35" y="33.02" size="1.27" layer="21" font="vector" ratio="12" rot="R180" align="center">5</text>
 <text x="13.97" y="33.02" size="1.27" layer="21" font="vector" ratio="12" rot="R180" align="center">GND</text>
 </package>
-<package name="THRU-CR-HOLDER">
-<circle x="0" y="0" radius="11.15" width="0.127" layer="21"/>
-<wire x1="10.34" y1="3.8" x2="13.34" y2="3.8" width="0.127" layer="21"/>
-<wire x1="13.34" y1="3.8" x2="13.34" y2="-3.8" width="0.127" layer="21"/>
-<wire x1="13.34" y1="-3.8" x2="10.34" y2="-3.8" width="0.127" layer="21"/>
-<pad name="GND" x="-8.15" y="0" drill="1"/>
-<pad name="VCC" x="11.85" y="0" drill="1"/>
-<text x="0" y="0" size="1.4224" layer="21" font="vector" ratio="16" align="center">BATTERY
-HOLDER</text>
-<text x="7.5" y="0" size="1.4224" layer="21" font="vector" ratio="16" align="center">(+)</text>
-</package>
 <package name="WS2812B" urn="urn:adsk.eagle:footprint:39331/1" locally_modified="yes">
 <description>&lt;h3&gt;WS2812B&lt;/h3&gt;
 
@@ -587,6 +564,23 @@ HOLDER</text>
 <wire x1="1.7" y1="4.8" x2="-1.7" y2="4.8" width="0.127" layer="21"/>
 <wire x1="-1.7" y1="4.8" x2="-1.7" y2="3.2" width="0.127" layer="21"/>
 <text x="-0.08" y="6" size="1.016" layer="21" font="vector" ratio="12" align="center">.1uf</text>
+</package>
+<package name="SMT-CR-HOLDER">
+<wire x1="-14" y1="-8" x2="14" y2="-8" width="0.127" layer="21"/>
+<wire x1="14" y1="-8" x2="14" y2="8" width="0.127" layer="21"/>
+<wire x1="14" y1="8" x2="-14" y2="8" width="0.127" layer="21"/>
+<wire x1="-14" y1="8" x2="-14" y2="-8" width="0.127" layer="21"/>
+<smd name="VBAT" x="-14.65" y="0" dx="2.6" dy="3.65" layer="1"/>
+<smd name="GND" x="14.65" y="0" dx="2.6" dy="3.65" layer="1"/>
+<text x="-5.92" y="0" size="1.778" layer="21" font="vector" rot="R180" align="center">&lt;&lt; PWR</text>
+</package>
+<package name="THRU-CR-HOLDER">
+<circle x="0" y="0" radius="11.15" width="0.127" layer="21"/>
+<wire x1="-10.34" y1="-3.8" x2="-13.34" y2="-3.8" width="0.127" layer="21"/>
+<wire x1="-13.34" y1="-3.8" x2="-13.34" y2="3.8" width="0.127" layer="21"/>
+<wire x1="-13.34" y1="3.8" x2="-10.34" y2="3.8" width="0.127" layer="21"/>
+<pad name="GND" x="8.15" y="0" drill="1" rot="R180"/>
+<pad name="VBAT" x="-11.85" y="0" drill="1" rot="R180"/>
 </package>
 </packages>
 <packages3d>
@@ -691,18 +685,6 @@ WS2812B</description>
 <pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
 <pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
-<symbol name="SMT-CR-HOLDER">
-<description>SMT/sewable CR2032 coin cell holder |
-https://www.adafruit.com/product/653</description>
-<pin name="VCC" x="-5.08" y="0" length="middle"/>
-<pin name="GND" x="-5.08" y="-5.08" length="middle"/>
-<wire x1="0" y1="-7.62" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
-<wire x1="10.16" y1="2.54" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
-<text x="0" y="5.08" size="1.778" layer="94">SMT CR2032
-HOLDER</text>
-</symbol>
 <symbol name="SMT-SWITCH">
 <pin name="1" x="-5.08" y="0" length="middle"/>
 <pin name="2" x="-5.08" y="-2.54" length="middle"/>
@@ -733,16 +715,6 @@ HOLDER</text>
 <pin name="3" x="-5.08" y="-12.7" length="middle"/>
 <pin name="4" x="-5.08" y="-15.24" length="middle"/>
 <pin name="5" x="-5.08" y="-17.78" length="middle"/>
-</symbol>
-<symbol name="THRU-CR-HOLDER">
-<pin name="VCC" x="-5.08" y="0" length="middle"/>
-<pin name="GND" x="-5.08" y="-2.54" length="middle"/>
-<wire x1="0" y1="-5.08" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="7.62" y2="2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="2.54" x2="7.62" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
-<text x="-7.62" y="5.08" size="1.778" layer="94">THRU-HOLE 
-CR2032 HOLDER</text>
 </symbol>
 <symbol name="LED-TRICOLOR-WS28X1">
 <description>&lt;h3&gt;WS28X1 RGB LED - I2C Control&lt;/h3&gt;
@@ -796,6 +768,28 @@ CR2032 HOLDER</text>
 <wire x1="-7.62" y1="7.62" x2="-7.62" y2="15.24" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="15.24" x2="2.54" y2="15.24" width="0.254" layer="94"/>
 <wire x1="2.54" y1="15.24" x2="2.54" y2="7.62" width="0.254" layer="94"/>
+</symbol>
+<symbol name="SMT-CR-HOLDER">
+<description>SMT/sewable CR2032 coin cell holder |
+https://www.adafruit.com/product/653</description>
+<pin name="VBAT" x="-5.08" y="0" length="middle"/>
+<pin name="GND" x="-5.08" y="-5.08" length="middle"/>
+<wire x1="0" y1="-7.62" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="0" y2="-7.62" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.778" layer="94">SMT CR2032
+HOLDER</text>
+</symbol>
+<symbol name="THRU-CR-HOLDER">
+<pin name="VBAT" x="-5.08" y="0" length="middle"/>
+<pin name="GND" x="-5.08" y="-2.54" length="middle"/>
+<wire x1="0" y1="-5.08" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="10.16" y2="2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="2.54" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="0" y2="-5.08" width="0.254" layer="94"/>
+<text x="0" y="5.08" size="1.778" layer="94">THRU-HOLE 
+CR2032 HOLDER</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -937,22 +931,6 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 </device>
 </devices>
 </deviceset>
-<deviceset name="SMT-BATTERY-HOLDER">
-<gates>
-<gate name="G$1" symbol="SMT-CR-HOLDER" x="5.08" y="0"/>
-</gates>
-<devices>
-<device name="" package="SMT-CR-HOLDER">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SMT-SWITCH">
 <gates>
 <gate name="G$1" symbol="SMT-SWITCH" x="0" y="-2.54"/>
@@ -995,22 +973,6 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 </device>
 </devices>
 </deviceset>
-<deviceset name="THRU-CR-HOLDER">
-<gates>
-<gate name="G$1" symbol="THRU-CR-HOLDER" x="0" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="THRU-CR-HOLDER">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="WS2812B" prefix="D" uservalue="yes">
 <description>&lt;h3&gt;WS2812B SMD addressable RGB LED&lt;/h3&gt;
 5x5mm SMD LED with built-in controller IC.
@@ -1044,6 +1006,38 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <attribute name="PROD_ID" value="DIO-12503"/>
 <attribute name="VALUE" value="WS2812B" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SMT-BATTERY-HOLDER">
+<gates>
+<gate name="G$1" symbol="SMT-CR-HOLDER" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="SMT-CR-HOLDER">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="THRU-CR-HOLDER">
+<gates>
+<gate name="G$1" symbol="THRU-CR-HOLDER" x="0" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="THRU-CR-HOLDER">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="VBAT" pad="VBAT"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1999,10 +1993,8 @@ WS2812B</description>
 <part name="U$123" library="BadgeParts" deviceset="DECOUPLING_CAP" device=""/>
 <part name="U$126" library="BadgeParts" deviceset="RESISTOR" device=""/>
 <part name="U$127" library="BadgeParts" deviceset="RESISTOR" device=""/>
-<part name="U$144" library="BadgeParts" deviceset="SMT-BATTERY-HOLDER" device=""/>
 <part name="U$145" library="BadgeParts" deviceset="SMT-SWITCH" device=""/>
 <part name="U$1" library="BadgeParts" deviceset="PROTO" device=""/>
-<part name="U$2" library="BadgeParts" deviceset="THRU-CR-HOLDER" device=""/>
 <part name="LED1" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:39369/1" value="WS2812B"/>
 <part name="SUPPLY5" library="SparkFun-PowerSymbols" library_urn="urn:adsk.eagle:library:530" deviceset="VDD" device=""/>
 <part name="LED2" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:39369/1" value="WS2812B"/>
@@ -2018,6 +2010,8 @@ WS2812B</description>
 <part name="D3" library="BadgeParts" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:39369/1" value="WS2812B"/>
 <part name="R1" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="470OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
+<part name="U$2" library="BadgeParts" deviceset="SMT-BATTERY-HOLDER" device=""/>
+<part name="U$3" library="BadgeParts" deviceset="THRU-CR-HOLDER" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -2060,10 +2054,8 @@ WS2812B</description>
 <attribute name="NAME" x="-147.32" y="65.024" size="1.778" layer="95" font="vector" align="bottom-center"/>
 <attribute name="VALUE" x="-147.32" y="61.976" size="1.778" layer="96" font="vector" align="top-center"/>
 </instance>
-<instance part="U$144" gate="G$1" x="-127" y="124.46" smashed="yes"/>
 <instance part="U$145" gate="G$1" x="-180.34" y="129.54" smashed="yes"/>
 <instance part="U$1" gate="G$1" x="-63.5" y="101.6" smashed="yes"/>
-<instance part="U$2" gate="G$1" x="-119.38" y="104.14" smashed="yes"/>
 <instance part="LED1" gate="G$1" x="-284.48" y="116.84" smashed="yes">
 <attribute name="NAME" x="-297.18" y="125.222" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-297.18" y="109.22" size="1.778" layer="95"/>
@@ -2113,6 +2105,8 @@ WS2812B</description>
 <attribute name="NAME" x="-212.344" y="81.28" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="-209.296" y="81.28" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
+<instance part="U$2" gate="G$1" x="-132.08" y="127" smashed="yes"/>
+<instance part="U$3" gate="G$1" x="-132.08" y="106.68" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -2175,16 +2169,6 @@ WS2812B</description>
 <label x="-20.32" y="40.64" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="U$144" gate="G$1" pin="VCC"/>
-<wire x1="-132.08" y1="124.46" x2="-137.16" y2="124.46" width="0.1524" layer="91"/>
-<label x="-149.86" y="124.46" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="VCC"/>
-<wire x1="-137.16" y1="124.46" x2="-149.86" y2="124.46" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="104.14" x2="-137.16" y2="104.14" width="0.1524" layer="91"/>
-<wire x1="-137.16" y1="104.14" x2="-137.16" y2="124.46" width="0.1524" layer="91"/>
-<junction x="-137.16" y="124.46"/>
-</segment>
-<segment>
 <pinref part="U$1" gate="G$1" pin="VCC"/>
 <wire x1="-68.58" y1="101.6" x2="-86.36" y2="101.6" width="0.1524" layer="91"/>
 <label x="-86.36" y="101.6" size="1.778" layer="95"/>
@@ -2220,6 +2204,11 @@ WS2812B</description>
 <pinref part="R2" gate="G$1" pin="2"/>
 <wire x1="-210.82" y1="86.36" x2="-198.12" y2="86.36" width="0.1524" layer="91"/>
 <label x="-203.2" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-185.42" y1="116.84" x2="-195.58" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U$145" gate="G$1" pin="5"/>
+<label x="-195.58" y="116.84" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB3" class="0">
@@ -2283,16 +2272,6 @@ WS2812B</description>
 <wire x1="-10.16" y1="33.02" x2="-5.08" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-5.08" y1="33.02" x2="-5.08" y2="40.64" width="0.1524" layer="91"/>
 <label x="-7.62" y="40.64" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$144" gate="G$1" pin="GND"/>
-<wire x1="-132.08" y1="119.38" x2="-139.7" y2="119.38" width="0.1524" layer="91"/>
-<label x="-149.86" y="119.38" size="1.778" layer="95"/>
-<pinref part="U$2" gate="G$1" pin="GND"/>
-<wire x1="-139.7" y1="119.38" x2="-149.86" y2="119.38" width="0.1524" layer="91"/>
-<wire x1="-124.46" y1="101.6" x2="-139.7" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="-139.7" y1="101.6" x2="-139.7" y2="119.38" width="0.1524" layer="91"/>
-<junction x="-139.7" y="119.38"/>
 </segment>
 <segment>
 <pinref part="U$1" gate="G$1" pin="GND"/>
@@ -2501,6 +2480,20 @@ WS2812B</description>
 <pinref part="D1" gate="G$1" pin="DI"/>
 <junction x="-220.98" y="71.12"/>
 <pinref part="R1" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="VBAT" class="0">
+<segment>
+<wire x1="-185.42" y1="119.38" x2="-195.58" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U$145" gate="G$1" pin="4"/>
+<label x="-195.58" y="119.38" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="VUSB" class="0">
+<segment>
+<wire x1="-185.42" y1="114.3" x2="-195.58" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="U$145" gate="G$1" pin="6"/>
+<label x="-195.58" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
