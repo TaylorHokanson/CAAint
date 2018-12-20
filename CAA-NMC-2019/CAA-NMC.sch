@@ -348,51 +348,6 @@ HOLDER</text>
 <text x="0" y="-5.16" size="1.27" layer="51" font="vector" ratio="16" align="center">C</text>
 </package>
 <package name="PROTO">
-<pad name="VSTRIP0" x="-11.43" y="48.26" drill="1"/>
-<pad name="VSTRIP1" x="-11.43" y="45.72" drill="1"/>
-<pad name="VSTRIP2" x="-11.43" y="43.18" drill="1"/>
-<pad name="VSTRIP3" x="-11.43" y="40.64" drill="1"/>
-<pad name="VSTRIP4" x="-11.43" y="38.1" drill="1"/>
-<pad name="VSTRIP5" x="-11.43" y="35.56" drill="1"/>
-<pad name="VSTRIP6" x="-11.43" y="33.02" drill="1"/>
-<pad name="VSTRIP7" x="-11.43" y="30.48" drill="1"/>
-<pad name="VSTRIP8" x="-11.43" y="27.94" drill="1"/>
-<pad name="VSTRIP9" x="-11.43" y="25.4" drill="1"/>
-<pad name="VSTRIP10" x="-11.43" y="22.86" drill="1"/>
-<pad name="VSTRIP11" x="-11.43" y="20.32" drill="1"/>
-<pad name="VSTRIP12" x="-11.43" y="17.78" drill="1"/>
-<pad name="VSTRIP13" x="-11.43" y="15.24" drill="1"/>
-<pad name="VSTRIP14" x="-11.43" y="12.7" drill="1"/>
-<pad name="VSTRIP15" x="-11.43" y="10.16" drill="1"/>
-<pad name="VSTRIP16" x="-11.43" y="7.62" drill="1"/>
-<pad name="VSTRIP17" x="-11.43" y="5.08" drill="1"/>
-<pad name="VSTRIP18" x="-11.43" y="2.54" drill="1"/>
-<pad name="VSTRIP19" x="-11.43" y="0" drill="1"/>
-<pad name="VSTRIP20" x="-11.427459375" y="48.26" drill="1"/>
-<pad name="VSTRIP21" x="-11.427459375" y="45.72" drill="1"/>
-<pad name="VSTRIP22" x="-11.427459375" y="43.18" drill="1"/>
-<pad name="VSTRIP23" x="-11.427459375" y="40.64" drill="1"/>
-<pad name="VSTRIP24" x="-11.427459375" y="38.1" drill="1"/>
-<pad name="VSTRIP25" x="-11.427459375" y="35.56" drill="1"/>
-<pad name="VSTRIP26" x="-11.427459375" y="33.02" drill="1"/>
-<pad name="VSTRIP27" x="-11.427459375" y="30.48" drill="1"/>
-<pad name="VSTRIP28" x="-11.427459375" y="27.94" drill="1"/>
-<pad name="VSTRIP29" x="-11.427459375" y="25.4" drill="1"/>
-<pad name="VSTRIP30" x="-11.427459375" y="22.86" drill="1"/>
-<pad name="VSTRIP31" x="-11.427459375" y="20.32" drill="1"/>
-<pad name="VSTRIP32" x="-11.427459375" y="17.78" drill="1"/>
-<pad name="VSTRIP33" x="-11.427459375" y="15.24" drill="1"/>
-<pad name="VSTRIP34" x="-11.427459375" y="12.7" drill="1"/>
-<pad name="VSTRIP35" x="-11.427459375" y="10.16" drill="1"/>
-<pad name="VSTRIP36" x="-11.427459375" y="7.62" drill="1"/>
-<pad name="VSTRIP37" x="-11.427459375" y="5.08" drill="1"/>
-<pad name="VSTRIP38" x="-11.427459375" y="2.54" drill="1"/>
-<pad name="VSTRIP39" x="-11.427459375" y="0" drill="1"/>
-<pad name="VSTRIP40" x="-8.89" y="48.26" drill="1"/>
-<pad name="VSTRIP41" x="-8.89" y="45.72" drill="1"/>
-<pad name="VSTRIP42" x="-8.89" y="43.18" drill="1"/>
-<pad name="VSTRIP43" x="-8.89" y="40.64" drill="1"/>
-<pad name="VSTRIP44" x="-8.89" y="38.1" drill="1"/>
 <pad name="VSTRIP45" x="-8.89" y="35.56" drill="1"/>
 <pad name="VSTRIP46" x="-8.89" y="33.02" drill="1"/>
 <pad name="VSTRIP47" x="-8.89" y="30.48" drill="1"/>
@@ -408,11 +363,6 @@ HOLDER</text>
 <pad name="VSTRIP57" x="-8.89" y="5.08" drill="1"/>
 <pad name="VSTRIP58" x="-8.89" y="2.54" drill="1"/>
 <pad name="VSTRIP59" x="-8.89" y="0" drill="1"/>
-<pad name="VSTRIP60" x="-6.35" y="48.26" drill="1"/>
-<pad name="VSTRIP61" x="-6.35" y="45.72" drill="1"/>
-<pad name="VSTRIP62" x="-6.35" y="43.18" drill="1"/>
-<pad name="VSTRIP63" x="-6.35" y="40.64" drill="1"/>
-<pad name="VSTRIP64" x="-6.35" y="38.1" drill="1"/>
 <pad name="VSTRIP65" x="-6.35" y="35.56" drill="1"/>
 <pad name="VSTRIP66" x="-6.35" y="33.02" drill="1"/>
 <pad name="VSTRIP67" x="-6.35" y="30.48" drill="1"/>
@@ -428,11 +378,6 @@ HOLDER</text>
 <pad name="VSTRIP77" x="-6.35" y="5.08" drill="1"/>
 <pad name="VSTRIP78" x="-6.35" y="2.54" drill="1"/>
 <pad name="VSTRIP79" x="-6.35" y="0" drill="1"/>
-<pad name="VSTRIP80" x="-3.81" y="48.26" drill="1"/>
-<pad name="VSTRIP81" x="-3.81" y="45.72" drill="1"/>
-<pad name="VSTRIP82" x="-3.81" y="43.18" drill="1"/>
-<pad name="VSTRIP83" x="-3.81" y="40.64" drill="1"/>
-<pad name="VSTRIP84" x="-3.81" y="38.1" drill="1"/>
 <pad name="VSTRIP85" x="-3.81" y="35.56" drill="1"/>
 <pad name="VSTRIP86" x="-3.81" y="33.02" drill="1"/>
 <pad name="VSTRIP87" x="-3.81" y="30.48" drill="1"/>
@@ -448,11 +393,6 @@ HOLDER</text>
 <pad name="VSTRIP97" x="-3.81" y="5.08" drill="1"/>
 <pad name="VSTRIP98" x="-3.81" y="2.54" drill="1"/>
 <pad name="VSTRIP99" x="-3.81" y="0" drill="1"/>
-<pad name="VSTRIP100" x="-1.27" y="48.26" drill="1"/>
-<pad name="VSTRIP101" x="-1.27" y="45.72" drill="1"/>
-<pad name="VSTRIP102" x="-1.27" y="43.18" drill="1"/>
-<pad name="VSTRIP103" x="-1.27" y="40.64" drill="1"/>
-<pad name="VSTRIP104" x="-1.27" y="38.1" drill="1"/>
 <pad name="VSTRIP105" x="-1.27" y="35.56" drill="1"/>
 <pad name="VSTRIP106" x="-1.27" y="33.02" drill="1"/>
 <pad name="VSTRIP107" x="-1.27" y="30.48" drill="1"/>
@@ -468,11 +408,6 @@ HOLDER</text>
 <pad name="VSTRIP117" x="-1.27" y="5.08" drill="1"/>
 <pad name="VSTRIP118" x="-1.27" y="2.54" drill="1"/>
 <pad name="VSTRIP119" x="-1.27" y="0" drill="1"/>
-<pad name="VSTRIP120" x="1.27" y="48.26" drill="1"/>
-<pad name="VSTRIP121" x="1.27" y="45.72" drill="1"/>
-<pad name="VSTRIP122" x="1.27" y="43.18" drill="1"/>
-<pad name="VSTRIP123" x="1.27" y="40.64" drill="1"/>
-<pad name="VSTRIP124" x="1.27" y="38.1" drill="1"/>
 <pad name="VSTRIP125" x="1.27" y="35.56" drill="1"/>
 <pad name="VSTRIP126" x="1.27" y="33.02" drill="1"/>
 <pad name="VSTRIP127" x="1.27" y="30.48" drill="1"/>
@@ -488,11 +423,6 @@ HOLDER</text>
 <pad name="VSTRIP137" x="1.27" y="5.08" drill="1"/>
 <pad name="VSTRIP138" x="1.27" y="2.54" drill="1"/>
 <pad name="VSTRIP139" x="1.27" y="0" drill="1"/>
-<pad name="VSTRIP140" x="3.81" y="48.26" drill="1"/>
-<pad name="VSTRIP141" x="3.81" y="45.72" drill="1"/>
-<pad name="VSTRIP142" x="3.81" y="43.18" drill="1"/>
-<pad name="VSTRIP143" x="3.81" y="40.64" drill="1"/>
-<pad name="VSTRIP144" x="3.81" y="38.1" drill="1"/>
 <pad name="VSTRIP145" x="3.81" y="35.56" drill="1"/>
 <pad name="VSTRIP146" x="3.81" y="33.02" drill="1"/>
 <pad name="VSTRIP147" x="3.81" y="30.48" drill="1"/>
@@ -508,11 +438,6 @@ HOLDER</text>
 <pad name="VSTRIP157" x="3.81" y="5.08" drill="1"/>
 <pad name="VSTRIP158" x="3.81" y="2.54" drill="1"/>
 <pad name="VSTRIP159" x="3.81" y="0" drill="1"/>
-<pad name="VSTRIP160" x="6.35" y="48.26" drill="1"/>
-<pad name="VSTRIP161" x="6.35" y="45.72" drill="1"/>
-<pad name="VSTRIP162" x="6.35" y="43.18" drill="1"/>
-<pad name="VSTRIP163" x="6.35" y="40.64" drill="1"/>
-<pad name="VSTRIP164" x="6.35" y="38.1" drill="1"/>
 <pad name="VSTRIP165" x="6.35" y="35.56" drill="1"/>
 <pad name="VSTRIP166" x="6.35" y="33.02" drill="1"/>
 <pad name="VSTRIP167" x="6.35" y="30.48" drill="1"/>
@@ -528,11 +453,6 @@ HOLDER</text>
 <pad name="VSTRIP177" x="6.35" y="5.08" drill="1"/>
 <pad name="VSTRIP178" x="6.35" y="2.54" drill="1"/>
 <pad name="VSTRIP179" x="6.35" y="0" drill="1"/>
-<pad name="VSTRIP180" x="8.89" y="48.26" drill="1"/>
-<pad name="VSTRIP181" x="8.89" y="45.72" drill="1"/>
-<pad name="VSTRIP182" x="8.89" y="43.18" drill="1"/>
-<pad name="VSTRIP183" x="8.89" y="40.64" drill="1"/>
-<pad name="VSTRIP184" x="8.89" y="38.1" drill="1"/>
 <pad name="VSTRIP185" x="8.89" y="35.56" drill="1"/>
 <pad name="VSTRIP186" x="8.89" y="33.02" drill="1"/>
 <pad name="VSTRIP187" x="8.89" y="30.48" drill="1"/>
@@ -548,11 +468,6 @@ HOLDER</text>
 <pad name="VSTRIP197" x="8.89" y="5.08" drill="1"/>
 <pad name="VSTRIP198" x="8.89" y="2.54" drill="1"/>
 <pad name="VSTRIP199" x="8.89" y="0" drill="1"/>
-<pad name="VSTRIP200" x="11.43" y="48.26" drill="1"/>
-<pad name="VSTRIP201" x="11.43" y="45.72" drill="1"/>
-<pad name="VSTRIP202" x="11.43" y="43.18" drill="1"/>
-<pad name="VSTRIP203" x="11.43" y="40.64" drill="1"/>
-<pad name="VSTRIP204" x="11.43" y="38.1" drill="1"/>
 <pad name="VSTRIP205" x="11.43" y="35.56" drill="1"/>
 <pad name="VSTRIP206" x="11.43" y="33.02" drill="1"/>
 <pad name="VSTRIP207" x="11.43" y="30.48" drill="1"/>
@@ -583,11 +498,6 @@ HOLDER</text>
 <pad name="PWR12" x="-13.97" y="30.48" drill="1" shape="square"/>
 <pad name="PWR13" x="-13.97" y="33.02" drill="1" shape="square"/>
 <pad name="PWR14" x="-13.97" y="35.56" drill="1" shape="square"/>
-<pad name="PWR15" x="-13.97" y="38.1" drill="1" shape="square"/>
-<pad name="PWR16" x="-13.97" y="40.64" drill="1" shape="square"/>
-<pad name="PWR17" x="-13.97" y="43.18" drill="1" shape="square"/>
-<pad name="PWR18" x="-13.97" y="45.72" drill="1" shape="square"/>
-<pad name="PWR19" x="-13.97" y="48.26" drill="1" shape="square"/>
 <pad name="GND0" x="13.97" y="0" drill="1" shape="square"/>
 <pad name="GND1" x="13.97" y="2.54" drill="1" shape="square"/>
 <pad name="GND2" x="13.97" y="5.08" drill="1" shape="square"/>
@@ -603,19 +513,29 @@ HOLDER</text>
 <pad name="GND12" x="13.97" y="30.48" drill="1" shape="square"/>
 <pad name="GND13" x="13.97" y="33.02" drill="1" shape="square"/>
 <pad name="GND14" x="13.97" y="35.56" drill="1" shape="square"/>
-<pad name="GND15" x="13.97" y="38.1" drill="1" shape="square"/>
-<pad name="GND16" x="13.97" y="40.64" drill="1" shape="square"/>
-<pad name="GND17" x="13.97" y="43.18" drill="1" shape="square"/>
-<pad name="GND18" x="13.97" y="45.72" drill="1" shape="square"/>
-<pad name="GND19" x="13.97" y="48.26" drill="1" shape="square"/>
-<wire x1="-15.24" y1="49.53" x2="-12.7" y2="49.53" width="0.127" layer="21"/>
-<wire x1="-12.7" y1="49.53" x2="-12.7" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="36.83" x2="-12.7" y2="36.83" width="0.127" layer="21"/>
+<wire x1="-12.7" y1="36.83" x2="-12.7" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="-12.7" y1="-1.27" x2="-15.24" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="-15.24" y1="-1.27" x2="-15.24" y2="49.53" width="0.127" layer="21"/>
-<wire x1="15.24" y1="49.53" x2="15.24" y2="-1.27" width="0.127" layer="21"/>
+<wire x1="-15.24" y1="-1.27" x2="-15.24" y2="36.83" width="0.127" layer="21"/>
+<wire x1="15.24" y1="36.83" x2="15.24" y2="-1.27" width="0.127" layer="21"/>
 <wire x1="15.24" y1="-1.27" x2="12.7" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="12.7" y1="-1.27" x2="12.7" y2="49.53" width="0.127" layer="21"/>
-<wire x1="12.7" y1="49.53" x2="15.24" y2="49.53" width="0.127" layer="21"/>
+<wire x1="12.7" y1="-1.27" x2="12.7" y2="36.83" width="0.127" layer="21"/>
+<wire x1="12.7" y1="36.83" x2="15.24" y2="36.83" width="0.127" layer="21"/>
+<pad name="VSTRIP1" x="-11.43" y="35.56" drill="1"/>
+<pad name="VSTRIP2" x="-11.43" y="33.02" drill="1"/>
+<pad name="VSTRIP3" x="-11.43" y="30.48" drill="1"/>
+<pad name="VSTRIP4" x="-11.43" y="27.94" drill="1"/>
+<pad name="VSTRIP5" x="-11.43" y="25.4" drill="1"/>
+<pad name="VSTRIP6" x="-11.43" y="22.86" drill="1"/>
+<pad name="VSTRIP7" x="-11.43" y="20.32" drill="1"/>
+<pad name="VSTRIP8" x="-11.43" y="17.78" drill="1"/>
+<pad name="VSTRIP9" x="-11.43" y="15.24" drill="1"/>
+<pad name="VSTRIP10" x="-11.43" y="12.7" drill="1"/>
+<pad name="VSTRIP11" x="-11.43" y="10.16" drill="1"/>
+<pad name="VSTRIP12" x="-11.43" y="7.62" drill="1"/>
+<pad name="VSTRIP13" x="-11.43" y="5.08" drill="1"/>
+<pad name="VSTRIP14" x="-11.43" y="2.54" drill="1"/>
+<pad name="VSTRIP15" x="-11.43" y="0" drill="1"/>
 </package>
 <package name="THRU-CR-HOLDER">
 <circle x="0" y="0" radius="11.15" width="0.127" layer="21"/>
@@ -945,8 +865,8 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <devices>
 <device name="" package="PROTO">
 <connects>
-<connect gate="G$1" pin="GND" pad="GND0 GND1 GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9 GND10 GND11 GND12 GND13 GND14 GND15 GND16 GND17 GND18 GND19"/>
-<connect gate="G$1" pin="VCC" pad="PWR0 PWR1 PWR2 PWR3 PWR4 PWR5 PWR6 PWR7 PWR8 PWR9 PWR10 PWR11 PWR12 PWR13 PWR14 PWR15 PWR16 PWR17 PWR18 PWR19"/>
+<connect gate="G$1" pin="GND" pad="GND0 GND1 GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9 GND10 GND11 GND12 GND13 GND14"/>
+<connect gate="G$1" pin="VCC" pad="PWR0 PWR1 PWR2 PWR3 PWR4 PWR5 PWR6 PWR7 PWR8 PWR9 PWR10 PWR11 PWR12 PWR13 PWR14"/>
 </connects>
 <technologies>
 <technology name=""/>
