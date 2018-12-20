@@ -964,8 +964,8 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <connect gate="G$1" pin="3" pad="3A 3B 3C"/>
 <connect gate="G$1" pin="4" pad="4A 4B 4C"/>
 <connect gate="G$1" pin="5" pad="5A 5B 5C"/>
-<connect gate="G$1" pin="GND" pad="GND0 GND1 GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9"/>
-<connect gate="G$1" pin="VCC" pad="PWR0 PWR1 PWR2 PWR3 PWR4 PWR5 PWR6 PWR7 PWR8 PWR9"/>
+<connect gate="G$1" pin="GND" pad="GND0 GND1 GND2 GND3 GND4 GND5 GND6 GND7 GND8 GND9 GND10 GND11 GND12"/>
+<connect gate="G$1" pin="VCC" pad="PWR0 PWR1 PWR2 PWR3 PWR4 PWR5 PWR6 PWR7 PWR8 PWR9 PWR10 PWR11 PWR12"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -2158,11 +2158,6 @@ WS2812B</description>
 <label x="-83.82" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="VCC"/>
-<wire x1="-142.24" y1="33.02" x2="-162.56" y2="33.02" width="0.1524" layer="91"/>
-<label x="-162.56" y="33.02" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="U$74" gate="G$1" pin="P"/>
 <wire x1="-22.86" y1="33.02" x2="-17.78" y2="33.02" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="33.02" x2="-17.78" y2="40.64" width="0.1524" layer="91"/>
@@ -2329,6 +2324,16 @@ WS2812B</description>
 <wire x1="-251.46" y1="27.94" x2="-251.46" y2="12.7" width="0.1524" layer="91"/>
 <junction x="-251.46" y="12.7"/>
 </segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="GND"/>
+<wire x1="-137.16" y1="121.92" x2="-142.24" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="121.92" x2="-142.24" y2="104.14" width="0.1524" layer="91"/>
+<pinref part="U$3" gate="G$1" pin="GND"/>
+<wire x1="-142.24" y1="104.14" x2="-137.16" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-142.24" y1="121.92" x2="-152.4" y2="121.92" width="0.1524" layer="91"/>
+<junction x="-142.24" y="121.92"/>
+<label x="-152.4" y="121.92" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PB2" class="0">
 <segment>
@@ -2488,12 +2493,27 @@ WS2812B</description>
 <pinref part="U$145" gate="G$1" pin="4"/>
 <label x="-195.58" y="119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="U$3" gate="G$1" pin="VBAT"/>
+<wire x1="-137.16" y1="106.68" x2="-144.78" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="106.68" x2="-144.78" y2="127" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="VBAT"/>
+<wire x1="-144.78" y1="127" x2="-137.16" y2="127" width="0.1524" layer="91"/>
+<wire x1="-144.78" y1="127" x2="-152.4" y2="127" width="0.1524" layer="91"/>
+<junction x="-144.78" y="127"/>
+<label x="-152.4" y="127" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VUSB" class="0">
 <segment>
 <wire x1="-185.42" y1="114.3" x2="-195.58" y2="114.3" width="0.1524" layer="91"/>
 <pinref part="U$145" gate="G$1" pin="6"/>
 <label x="-195.58" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J1" gate="G$1" pin="VCC"/>
+<wire x1="-142.24" y1="33.02" x2="-162.56" y2="33.02" width="0.1524" layer="91"/>
+<label x="-162.56" y="33.02" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
