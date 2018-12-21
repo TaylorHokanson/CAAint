@@ -580,10 +580,10 @@
 <wire x1="-1.508" y1="5.318" x2="1.508" y2="5.318" width="0.127" layer="21"/>
 <wire x1="1.508" y1="5.318" x2="1.508" y2="-5.318" width="0.127" layer="21"/>
 <wire x1="1.508" y1="-5.318" x2="-1.508" y2="-5.318" width="0.127" layer="21"/>
-<text x="2.54" y="3.81" size="1.27" layer="17" font="vector" ratio="12" align="center-left">GND</text>
-<text x="2.54" y="1.27" size="1.27" layer="17" font="vector" ratio="12" align="center-left">SCL</text>
-<text x="2.54" y="-1.27" size="1.27" layer="17" font="vector" ratio="12" align="center-left">SDA</text>
-<text x="2.54" y="-3.81" size="1.27" layer="17" font="vector" ratio="12" align="center-left">VCC</text>
+<text x="2.54" y="3.81" size="1.27" layer="21" font="vector" ratio="12" align="center-left">GND</text>
+<text x="2.54" y="1.27" size="1.27" layer="21" font="vector" ratio="12" align="center-left">SCL</text>
+<text x="2.54" y="-1.27" size="1.27" layer="21" font="vector" ratio="12" align="center-left">SDA</text>
+<text x="2.54" y="-3.81" size="1.27" layer="21" font="vector" ratio="12" align="center-left">VCC</text>
 </package>
 </packages>
 <packages3d>
