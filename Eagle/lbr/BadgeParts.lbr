@@ -857,6 +857,20 @@
 <wire x1="-1.7" y1="4.8" x2="-1.7" y2="3.2" width="0.127" layer="21"/>
 <text x="-0.08" y="6" size="1.016" layer="21" font="vector" ratio="12" align="center">.1uf</text>
 </package>
+<package name="I2C-PADS">
+<pad name="VCC" x="0" y="-3.81" drill="1" shape="square" rot="R90"/>
+<pad name="SDA" x="0" y="-1.27" drill="1" shape="square" rot="R90"/>
+<pad name="SCL" x="0" y="1.27" drill="1" shape="square" rot="R90"/>
+<pad name="GND" x="0" y="3.81" drill="1" shape="square" rot="R90"/>
+<wire x1="-1.508" y1="-5.318" x2="-1.508" y2="5.318" width="0.127" layer="21"/>
+<wire x1="-1.508" y1="5.318" x2="1.508" y2="5.318" width="0.127" layer="21"/>
+<wire x1="1.508" y1="5.318" x2="1.508" y2="-5.318" width="0.127" layer="21"/>
+<wire x1="1.508" y1="-5.318" x2="-1.508" y2="-5.318" width="0.127" layer="21"/>
+<text x="2.54" y="3.81" size="1.27" layer="17" font="vector" ratio="12" align="center-left">GND</text>
+<text x="2.54" y="1.27" size="1.27" layer="17" font="vector" ratio="12" align="center-left">SCL</text>
+<text x="2.54" y="-1.27" size="1.27" layer="17" font="vector" ratio="12" align="center-left">SDA</text>
+<text x="2.54" y="-3.81" size="1.27" layer="17" font="vector" ratio="12" align="center-left">VCC</text>
+</package>
 </packages>
 <packages3d>
 <package3d name="WS2812B" urn="urn:adsk.eagle:package:39369/1" locally_modified="yes" type="box">
@@ -1162,7 +1176,7 @@ WS2812B</description>
 <text x="-1.25" y="2.3" size="1.27" layer="96" font="vector" rot="R180" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="I2C-HEADER">
-<pin name="VDD" x="0" y="0" length="middle"/>
+<pin name="VCC" x="0" y="0" length="middle"/>
 <pin name="SDA" x="0" y="-5.08" length="middle"/>
 <pin name="SCL" x="0" y="-10.16" length="middle"/>
 <pin name="GND" x="0" y="-15.24" length="middle"/>
@@ -1749,7 +1763,7 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="SCL" pad="SCL"/>
 <connect gate="G$1" pin="SDA" pad="SDA"/>
-<connect gate="G$1" pin="VDD" pad="VDD"/>
+<connect gate="G$1" pin="VCC" pad="VDD"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1864,6 +1878,24 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <attribute name="PROD_ID" value="DIO-12503"/>
 <attribute name="VALUE" value="WS2812B" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="I2C-PADS">
+<gates>
+<gate name="G$1" symbol="I2C-HEADER" x="-5.08" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="I2C-PADS">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="SCL" pad="SCL"/>
+<connect gate="G$1" pin="SDA" pad="SDA"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
