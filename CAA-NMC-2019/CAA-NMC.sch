@@ -561,7 +561,7 @@
 <wire x1="-14" y1="8" x2="-14" y2="-8" width="0.127" layer="21"/>
 <smd name="VBAT" x="-14.65" y="0" dx="2.6" dy="3.65" layer="1"/>
 <smd name="GND" x="14.65" y="0" dx="2.6" dy="3.65" layer="1"/>
-<text x="-5.92" y="0" size="1.778" layer="21" font="vector" rot="R180" align="center">&lt;&lt; PWR</text>
+<text x="-5.92" y="0" size="1.778" layer="21" font="vector" rot="R180" align="center">&lt;VBAT+</text>
 </package>
 <package name="THRU-CR-HOLDER">
 <circle x="0" y="0" radius="11.15" width="0.127" layer="21"/>
