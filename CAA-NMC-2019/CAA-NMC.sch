@@ -1558,6 +1558,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <class number="2" name="GND" width="0.381" drill="0">
 <clearance class="2" value="0.254"/>
 </class>
+<class number="3" name="VBAT" width="0.381" drill="0">
+<clearance class="3" value="0.254"/>
+</class>
 </classes>
 <parts>
 <part name="IC1" library="BadgeParts" deviceset="ATTINY85-20SU" device=""/>
@@ -1912,7 +1915,7 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
-<net name="VBAT" class="0">
+<net name="VBAT" class="3">
 <segment>
 <wire x1="-185.42" y1="119.38" x2="-195.58" y2="119.38" width="0.1524" layer="91"/>
 <pinref part="U$145" gate="G$1" pin="4"/>
