@@ -26,7 +26,7 @@
   #include <avr/power.h>
 #endif
 
-#define NUMPIX 1    // verfiy the number of pixels on your board
+#define NUMPIX 3    // verfiy the number of pixels on your board
 #define PIN 4       // verfiy the Attiny control pin
 Adafruit_NeoPixel strip = Adafruit_NeoPixel(NUMPIX, PIN, NEO_GRB + NEO_KHZ800);
 
