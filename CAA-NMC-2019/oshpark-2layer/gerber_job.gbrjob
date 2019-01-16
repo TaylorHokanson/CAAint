@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2018-12-22T14:02:52Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.671119,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "CAA-NMC-OSH_panelized"
+        },
+        "Owner": "Taylor Hokanson <taylor@taylorhokanson.com>",
+        "Size": {
+            "X": 115.2398,
+            "Y": 110.1598
+        }
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "Header": {
+        "Comment": "All values are metric (mm)",
+        "CreationDate": "2019-01-15T18:50:28Z",
+        "GenerationSoftware": {
+            "Application": "EAGLE",
+            "Vendor": "Autodesk",
+            "Version": "9.2.2"
+        },
+        "Part": "Single"
+    },
+    "Overall": {
+        "BoardThickness": 1.57,
+        "LayerNumber": 2,
+        "Name": {
+            "ProjectId": "CAA-NMC-2-panels"
+        },
+        "Owner": "Taylor Hokanson <taylor@taylorhokanson.com>",
+        "Size": {
+            "X": 100,
+            "Y": 100
+        }
+    }
+}

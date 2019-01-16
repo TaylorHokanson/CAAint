@@ -1580,6 +1580,40 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="U$2" library="BadgeParts" deviceset="SMT-BATTERY-HOLDER" device=""/>
 <part name="U$3" library="BadgeParts" deviceset="THRU-CR-HOLDER" device=""/>
 <part name="U$4" library="BadgeParts" deviceset="I2C-PADS" device=""/>
+<part name="IC2" library="BadgeParts" deviceset="ATTINY85-20SU" device=""/>
+<part name="J2" library="BadgeParts" deviceset="M20-9980346" device=""/>
+<part name="POWER1" library="BadgeParts" deviceset="LED3MM" device=""/>
+<part name="HELLO1" library="BadgeParts" deviceset="LED3MM" device=""/>
+<part name="U$5" library="BadgeParts" deviceset="DECOUPLING_CAP" device=""/>
+<part name="U$6" library="BadgeParts" deviceset="RESISTOR" device=""/>
+<part name="U$7" library="BadgeParts" deviceset="RESISTOR" device=""/>
+<part name="U$8" library="BadgeParts" deviceset="SMT-SWITCH" device=""/>
+<part name="U$9" library="BadgeParts" deviceset="PROTO" device=""/>
+<part name="D4" library="BadgeParts" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:39369/1" value="WS2812B"/>
+<part name="D5" library="BadgeParts" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:39369/1" value="WS2812B"/>
+<part name="D6" library="BadgeParts" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:39369/1" value="WS2812B"/>
+<part name="R3" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="470OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
+<part name="R4" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
+<part name="U$10" library="BadgeParts" deviceset="SMT-BATTERY-HOLDER" device=""/>
+<part name="U$11" library="BadgeParts" deviceset="THRU-CR-HOLDER" device=""/>
+<part name="U$12" library="BadgeParts" deviceset="I2C-PADS" device=""/>
+<part name="IC3" library="BadgeParts" deviceset="ATTINY85-20SU" device=""/>
+<part name="J3" library="BadgeParts" deviceset="M20-9980346" device=""/>
+<part name="POWER2" library="BadgeParts" deviceset="LED3MM" device=""/>
+<part name="HELLO2" library="BadgeParts" deviceset="LED3MM" device=""/>
+<part name="U$13" library="BadgeParts" deviceset="DECOUPLING_CAP" device=""/>
+<part name="U$14" library="BadgeParts" deviceset="RESISTOR" device=""/>
+<part name="U$15" library="BadgeParts" deviceset="RESISTOR" device=""/>
+<part name="U$16" library="BadgeParts" deviceset="SMT-SWITCH" device=""/>
+<part name="U$17" library="BadgeParts" deviceset="PROTO" device=""/>
+<part name="D7" library="BadgeParts" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:39369/1" value="WS2812B"/>
+<part name="D8" library="BadgeParts" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:39369/1" value="WS2812B"/>
+<part name="D9" library="BadgeParts" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:39369/1" value="WS2812B"/>
+<part name="R5" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="470OHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="470"/>
+<part name="R6" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
+<part name="U$18" library="BadgeParts" deviceset="SMT-BATTERY-HOLDER" device=""/>
+<part name="U$19" library="BadgeParts" deviceset="THRU-CR-HOLDER" device=""/>
+<part name="U$20" library="BadgeParts" deviceset="I2C-PADS" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1622,6 +1656,78 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <instance part="U$2" gate="G$1" x="-132.08" y="127" smashed="yes"/>
 <instance part="U$3" gate="G$1" x="-132.08" y="106.68" smashed="yes"/>
 <instance part="U$4" gate="G$1" x="-86.36" y="129.54" smashed="yes"/>
+<instance part="IC2" gate="G$1" x="-388.62" y="63.5" smashed="yes"/>
+<instance part="J2" gate="G$1" x="-398.78" y="30.48" smashed="yes"/>
+<instance part="POWER1" gate="G$1" x="-424.18" y="71.12" smashed="yes">
+<attribute name="NAME" x="-428.752" y="66.929" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="HELLO1" gate="G$1" x="-424.18" y="60.96" smashed="yes">
+<attribute name="NAME" x="-428.752" y="56.769" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="U$5" gate="G$1" x="-416.56" y="88.9" smashed="yes">
+<attribute name="NAME" x="-417.81" y="86.61" size="1.27" layer="95" font="vector" rot="R180" align="center"/>
+<attribute name="VALUE" x="-417.81" y="91.2" size="1.27" layer="96" font="vector" rot="R180" align="center"/>
+</instance>
+<instance part="U$6" gate="G$1" x="-416.56" y="71.12" smashed="yes">
+<attribute name="NAME" x="-416.56" y="72.644" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="-416.56" y="69.596" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="U$7" gate="G$1" x="-416.56" y="60.96" smashed="yes">
+<attribute name="NAME" x="-416.56" y="62.484" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="-416.56" y="59.436" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="U$8" gate="G$1" x="-449.58" y="127" smashed="yes"/>
+<instance part="U$9" gate="G$1" x="-332.74" y="99.06" smashed="yes"/>
+<instance part="D4" gate="G$1" x="-502.92" y="63.5" smashed="yes"/>
+<instance part="D5" gate="G$1" x="-502.92" y="38.1" smashed="yes"/>
+<instance part="D6" gate="G$1" x="-502.92" y="12.7" smashed="yes"/>
+<instance part="R3" gate="G$1" x="-485.14" y="68.58" smashed="yes">
+<attribute name="NAME" x="-485.14" y="70.104" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="-485.14" y="67.056" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="R4" gate="G$1" x="-480.06" y="78.74" smashed="yes" rot="R90">
+<attribute name="NAME" x="-481.584" y="78.74" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="-478.536" y="78.74" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="U$10" gate="G$1" x="-401.32" y="124.46" smashed="yes"/>
+<instance part="U$11" gate="G$1" x="-401.32" y="104.14" smashed="yes"/>
+<instance part="U$12" gate="G$1" x="-355.6" y="127" smashed="yes"/>
+<instance part="IC3" gate="G$1" x="162.56" y="68.58" smashed="yes"/>
+<instance part="J3" gate="G$1" x="152.4" y="35.56" smashed="yes"/>
+<instance part="POWER2" gate="G$1" x="127" y="76.2" smashed="yes">
+<attribute name="NAME" x="122.428" y="72.009" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="HELLO2" gate="G$1" x="127" y="66.04" smashed="yes">
+<attribute name="NAME" x="122.428" y="61.849" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="U$13" gate="G$1" x="134.62" y="93.98" smashed="yes">
+<attribute name="NAME" x="133.37" y="91.69" size="1.27" layer="95" font="vector" rot="R180" align="center"/>
+<attribute name="VALUE" x="133.37" y="96.28" size="1.27" layer="96" font="vector" rot="R180" align="center"/>
+</instance>
+<instance part="U$14" gate="G$1" x="134.62" y="76.2" smashed="yes">
+<attribute name="NAME" x="134.62" y="77.724" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="134.62" y="74.676" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="U$15" gate="G$1" x="134.62" y="66.04" smashed="yes">
+<attribute name="NAME" x="134.62" y="67.564" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="134.62" y="64.516" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="U$16" gate="G$1" x="101.6" y="132.08" smashed="yes"/>
+<instance part="U$17" gate="G$1" x="218.44" y="104.14" smashed="yes"/>
+<instance part="D7" gate="G$1" x="48.26" y="68.58" smashed="yes"/>
+<instance part="D8" gate="G$1" x="48.26" y="43.18" smashed="yes"/>
+<instance part="D9" gate="G$1" x="48.26" y="17.78" smashed="yes"/>
+<instance part="R5" gate="G$1" x="66.04" y="73.66" smashed="yes">
+<attribute name="NAME" x="66.04" y="75.184" size="1.778" layer="95" font="vector" align="bottom-center"/>
+<attribute name="VALUE" x="66.04" y="72.136" size="1.778" layer="96" font="vector" align="top-center"/>
+</instance>
+<instance part="R6" gate="G$1" x="71.12" y="83.82" smashed="yes" rot="R90">
+<attribute name="NAME" x="69.596" y="83.82" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="72.644" y="83.82" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+</instance>
+<instance part="U$18" gate="G$1" x="149.86" y="129.54" smashed="yes"/>
+<instance part="U$19" gate="G$1" x="149.86" y="109.22" smashed="yes"/>
+<instance part="U$20" gate="G$1" x="195.58" y="132.08" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -1653,6 +1759,60 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="-86.36" y1="124.46" x2="-99.06" y2="124.46" width="0.1524" layer="91"/>
 <pinref part="U$4" gate="G$1" pin="SDA"/>
 <label x="-99.06" y="124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="PB0"/>
+<wire x1="-358.14" y1="55.88" x2="-353.06" y2="55.88" width="0.1524" layer="91"/>
+<label x="-353.06" y="55.88" size="1.778" layer="95"/>
+<wire x1="-353.06" y1="55.88" x2="-347.98" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-411.48" y1="60.96" x2="-403.86" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-403.86" y1="60.96" x2="-403.86" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-403.86" y1="50.8" x2="-353.06" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-353.06" y1="50.8" x2="-353.06" y2="55.88" width="0.1524" layer="91"/>
+<junction x="-353.06" y="55.88"/>
+<pinref part="U$7" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="PB0/MOSI/SDA"/>
+<wire x1="-411.48" y1="27.94" x2="-431.8" y2="27.94" width="0.1524" layer="91"/>
+<label x="-431.8" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="0"/>
+<wire x1="-337.82" y1="93.98" x2="-355.6" y2="93.98" width="0.1524" layer="91"/>
+<label x="-355.6" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-355.6" y1="121.92" x2="-368.3" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="U$12" gate="G$1" pin="SDA"/>
+<label x="-368.3" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB0"/>
+<wire x1="193.04" y1="60.96" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
+<label x="198.12" y="60.96" size="1.778" layer="95"/>
+<wire x1="198.12" y1="60.96" x2="203.2" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="66.04" x2="147.32" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="66.04" x2="147.32" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="55.88" x2="198.12" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="198.12" y1="55.88" x2="198.12" y2="60.96" width="0.1524" layer="91"/>
+<junction x="198.12" y="60.96"/>
+<pinref part="U$15" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="PB0/MOSI/SDA"/>
+<wire x1="139.7" y1="33.02" x2="119.38" y2="33.02" width="0.1524" layer="91"/>
+<label x="119.38" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$17" gate="G$1" pin="0"/>
+<wire x1="213.36" y1="99.06" x2="195.58" y2="99.06" width="0.1524" layer="91"/>
+<label x="195.58" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="195.58" y1="127" x2="182.88" y2="127" width="0.1524" layer="91"/>
+<pinref part="U$20" gate="G$1" pin="SDA"/>
+<label x="182.88" y="127" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="1">
@@ -1718,6 +1878,130 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="-86.36" y1="129.54" x2="-99.06" y2="129.54" width="0.1524" layer="91"/>
 <label x="-99.06" y="129.54" size="1.778" layer="95"/>
 </segment>
+<segment>
+<label x="-403.86" y="71.12" size="1.778" layer="95"/>
+<wire x1="-411.48" y1="71.12" x2="-403.86" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-403.86" y1="71.12" x2="-398.78" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-403.86" y1="88.9" x2="-403.86" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-403.86" y="71.12"/>
+<pinref part="U$5" gate="G$1" pin="2"/>
+<wire x1="-414.02" y1="88.9" x2="-403.86" y2="88.9" width="0.1524" layer="91"/>
+<pinref part="U$6" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="VCC"/>
+<wire x1="-358.14" y1="63.5" x2="-347.98" y2="63.5" width="0.1524" layer="91"/>
+<label x="-353.06" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="VCC"/>
+<wire x1="-337.82" y1="99.06" x2="-355.6" y2="99.06" width="0.1524" layer="91"/>
+<label x="-355.6" y="99.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D4" gate="G$1" pin="VCC"/>
+<wire x1="-518.16" y1="68.58" x2="-528.32" y2="68.58" width="0.1524" layer="91"/>
+<label x="-528.32" y="68.58" size="1.778" layer="95"/>
+<pinref part="D4" gate="G$1" pin="CAP2"/>
+<wire x1="-515.62" y1="73.66" x2="-518.16" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="-518.16" y1="73.66" x2="-518.16" y2="68.58" width="0.1524" layer="91"/>
+<junction x="-518.16" y="68.58"/>
+</segment>
+<segment>
+<pinref part="D5" gate="G$1" pin="VCC"/>
+<wire x1="-518.16" y1="43.18" x2="-528.32" y2="43.18" width="0.1524" layer="91"/>
+<label x="-528.32" y="43.18" size="1.778" layer="95"/>
+<pinref part="D5" gate="G$1" pin="CAP2"/>
+<wire x1="-515.62" y1="48.26" x2="-518.16" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-518.16" y1="48.26" x2="-518.16" y2="43.18" width="0.1524" layer="91"/>
+<junction x="-518.16" y="43.18"/>
+</segment>
+<segment>
+<pinref part="D6" gate="G$1" pin="VCC"/>
+<wire x1="-518.16" y1="17.78" x2="-528.32" y2="17.78" width="0.1524" layer="91"/>
+<label x="-528.32" y="17.78" size="1.778" layer="95"/>
+<pinref part="D6" gate="G$1" pin="CAP2"/>
+<wire x1="-515.62" y1="22.86" x2="-518.16" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="-518.16" y1="22.86" x2="-518.16" y2="17.78" width="0.1524" layer="91"/>
+<junction x="-518.16" y="17.78"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<wire x1="-480.06" y1="83.82" x2="-467.36" y2="83.82" width="0.1524" layer="91"/>
+<label x="-472.44" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-454.66" y1="114.3" x2="-464.82" y2="114.3" width="0.1524" layer="91"/>
+<pinref part="U$8" gate="G$1" pin="5"/>
+<label x="-464.82" y="114.3" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$12" gate="G$1" pin="VCC"/>
+<wire x1="-355.6" y1="127" x2="-368.3" y2="127" width="0.1524" layer="91"/>
+<label x="-368.3" y="127" size="1.778" layer="95"/>
+</segment>
+<segment>
+<label x="147.32" y="76.2" size="1.778" layer="95"/>
+<wire x1="139.7" y1="76.2" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="76.2" x2="152.4" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="147.32" y1="93.98" x2="147.32" y2="76.2" width="0.1524" layer="91"/>
+<junction x="147.32" y="76.2"/>
+<pinref part="U$13" gate="G$1" pin="2"/>
+<wire x1="137.16" y1="93.98" x2="147.32" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="U$14" gate="G$1" pin="2"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="VCC"/>
+<wire x1="193.04" y1="68.58" x2="203.2" y2="68.58" width="0.1524" layer="91"/>
+<label x="198.12" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$17" gate="G$1" pin="VCC"/>
+<wire x1="213.36" y1="104.14" x2="195.58" y2="104.14" width="0.1524" layer="91"/>
+<label x="195.58" y="104.14" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D7" gate="G$1" pin="VCC"/>
+<wire x1="33.02" y1="73.66" x2="22.86" y2="73.66" width="0.1524" layer="91"/>
+<label x="22.86" y="73.66" size="1.778" layer="95"/>
+<pinref part="D7" gate="G$1" pin="CAP2"/>
+<wire x1="35.56" y1="78.74" x2="33.02" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="78.74" x2="33.02" y2="73.66" width="0.1524" layer="91"/>
+<junction x="33.02" y="73.66"/>
+</segment>
+<segment>
+<pinref part="D8" gate="G$1" pin="VCC"/>
+<wire x1="33.02" y1="48.26" x2="22.86" y2="48.26" width="0.1524" layer="91"/>
+<label x="22.86" y="48.26" size="1.778" layer="95"/>
+<pinref part="D8" gate="G$1" pin="CAP2"/>
+<wire x1="35.56" y1="53.34" x2="33.02" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="53.34" x2="33.02" y2="48.26" width="0.1524" layer="91"/>
+<junction x="33.02" y="48.26"/>
+</segment>
+<segment>
+<pinref part="D9" gate="G$1" pin="VCC"/>
+<wire x1="33.02" y1="22.86" x2="22.86" y2="22.86" width="0.1524" layer="91"/>
+<label x="22.86" y="22.86" size="1.778" layer="95"/>
+<pinref part="D9" gate="G$1" pin="CAP2"/>
+<wire x1="35.56" y1="27.94" x2="33.02" y2="27.94" width="0.1524" layer="91"/>
+<wire x1="33.02" y1="27.94" x2="33.02" y2="22.86" width="0.1524" layer="91"/>
+<junction x="33.02" y="22.86"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="88.9" x2="83.82" y2="88.9" width="0.1524" layer="91"/>
+<label x="78.74" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="96.52" y1="119.38" x2="86.36" y2="119.38" width="0.1524" layer="91"/>
+<pinref part="U$16" gate="G$1" pin="5"/>
+<label x="86.36" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$20" gate="G$1" pin="VCC"/>
+<wire x1="195.58" y1="132.08" x2="182.88" y2="132.08" width="0.1524" layer="91"/>
+<label x="182.88" y="132.08" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PB3" class="0">
 <segment>
@@ -1729,6 +2013,26 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="U$1" gate="G$1" pin="3"/>
 <wire x1="-68.58" y1="88.9" x2="-86.36" y2="88.9" width="0.1524" layer="91"/>
 <label x="-86.36" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="PB3"/>
+<wire x1="-388.62" y1="60.96" x2="-398.78" y2="60.96" width="0.1524" layer="91"/>
+<label x="-398.78" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="3"/>
+<wire x1="-337.82" y1="86.36" x2="-355.6" y2="86.36" width="0.1524" layer="91"/>
+<label x="-355.6" y="86.36" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB3"/>
+<wire x1="162.56" y1="66.04" x2="152.4" y2="66.04" width="0.1524" layer="91"/>
+<label x="152.4" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$17" gate="G$1" pin="3"/>
+<wire x1="213.36" y1="91.44" x2="195.58" y2="91.44" width="0.1524" layer="91"/>
+<label x="195.58" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB4" class="0">
@@ -1749,6 +2053,42 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="-210.82" y1="71.12" x2="-198.12" y2="71.12" width="0.1524" layer="91"/>
 <junction x="-210.82" y="71.12"/>
 <label x="-203.2" y="71.12" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="PB4"/>
+<wire x1="-388.62" y1="58.42" x2="-398.78" y2="58.42" width="0.1524" layer="91"/>
+<label x="-398.78" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="4"/>
+<wire x1="-337.82" y1="83.82" x2="-355.6" y2="83.82" width="0.1524" layer="91"/>
+<label x="-355.6" y="83.82" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R4" gate="G$1" pin="1"/>
+<pinref part="R3" gate="G$1" pin="2"/>
+<wire x1="-480.06" y1="73.66" x2="-480.06" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-480.06" y1="68.58" x2="-467.36" y2="68.58" width="0.1524" layer="91"/>
+<junction x="-480.06" y="68.58"/>
+<label x="-472.44" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB4"/>
+<wire x1="162.56" y1="63.5" x2="152.4" y2="63.5" width="0.1524" layer="91"/>
+<label x="152.4" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$17" gate="G$1" pin="4"/>
+<wire x1="213.36" y1="88.9" x2="195.58" y2="88.9" width="0.1524" layer="91"/>
+<label x="195.58" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="R6" gate="G$1" pin="1"/>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="71.12" y1="78.74" x2="71.12" y2="73.66" width="0.1524" layer="91"/>
+<wire x1="71.12" y1="73.66" x2="83.82" y2="73.66" width="0.1524" layer="91"/>
+<junction x="71.12" y="73.66"/>
+<label x="78.74" y="73.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="GND" class="2">
@@ -1825,6 +2165,152 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="U$4" gate="G$1" pin="GND"/>
 <label x="-99.06" y="114.3" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="-429.26" y1="71.12" x2="-431.8" y2="71.12" width="0.1524" layer="91"/>
+<label x="-452.12" y="71.12" size="1.778" layer="95"/>
+<wire x1="-431.8" y1="71.12" x2="-452.12" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="-429.26" y1="60.96" x2="-431.8" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-431.8" y1="60.96" x2="-431.8" y2="71.12" width="0.1524" layer="91"/>
+<junction x="-431.8" y="71.12"/>
+<wire x1="-431.8" y1="88.9" x2="-431.8" y2="71.12" width="0.1524" layer="91"/>
+<pinref part="POWER1" gate="G$1" pin="NEG"/>
+<pinref part="HELLO1" gate="G$1" pin="NEG"/>
+<pinref part="U$5" gate="G$1" pin="1"/>
+<wire x1="-431.8" y1="88.9" x2="-421.64" y2="88.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="GND"/>
+<wire x1="-388.62" y1="55.88" x2="-398.78" y2="55.88" width="0.1524" layer="91"/>
+<label x="-398.78" y="55.88" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="GND"/>
+<wire x1="-411.48" y1="33.02" x2="-431.8" y2="33.02" width="0.1524" layer="91"/>
+<label x="-431.8" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="GND"/>
+<wire x1="-337.82" y1="96.52" x2="-355.6" y2="96.52" width="0.1524" layer="91"/>
+<label x="-355.6" y="96.52" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D4" gate="G$1" pin="GND"/>
+<wire x1="-518.16" y1="60.96" x2="-520.7" y2="60.96" width="0.1524" layer="91"/>
+<label x="-528.32" y="60.96" size="1.778" layer="95"/>
+<pinref part="D4" gate="G$1" pin="CAP1"/>
+<wire x1="-520.7" y1="60.96" x2="-528.32" y2="60.96" width="0.1524" layer="91"/>
+<wire x1="-515.62" y1="76.2" x2="-520.7" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-520.7" y1="76.2" x2="-520.7" y2="60.96" width="0.1524" layer="91"/>
+<junction x="-520.7" y="60.96"/>
+</segment>
+<segment>
+<pinref part="D5" gate="G$1" pin="GND"/>
+<wire x1="-518.16" y1="35.56" x2="-520.7" y2="35.56" width="0.1524" layer="91"/>
+<label x="-528.32" y="35.56" size="1.778" layer="95"/>
+<pinref part="D5" gate="G$1" pin="CAP1"/>
+<wire x1="-520.7" y1="35.56" x2="-528.32" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="-515.62" y1="50.8" x2="-520.7" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="-520.7" y1="50.8" x2="-520.7" y2="35.56" width="0.1524" layer="91"/>
+<junction x="-520.7" y="35.56"/>
+</segment>
+<segment>
+<pinref part="D6" gate="G$1" pin="GND"/>
+<wire x1="-518.16" y1="10.16" x2="-520.7" y2="10.16" width="0.1524" layer="91"/>
+<label x="-528.32" y="10.16" size="1.778" layer="95"/>
+<pinref part="D6" gate="G$1" pin="CAP1"/>
+<wire x1="-520.7" y1="10.16" x2="-528.32" y2="10.16" width="0.1524" layer="91"/>
+<wire x1="-515.62" y1="25.4" x2="-520.7" y2="25.4" width="0.1524" layer="91"/>
+<wire x1="-520.7" y1="25.4" x2="-520.7" y2="10.16" width="0.1524" layer="91"/>
+<junction x="-520.7" y="10.16"/>
+</segment>
+<segment>
+<pinref part="U$10" gate="G$1" pin="GND"/>
+<wire x1="-406.4" y1="119.38" x2="-411.48" y2="119.38" width="0.1524" layer="91"/>
+<wire x1="-411.48" y1="119.38" x2="-411.48" y2="101.6" width="0.1524" layer="91"/>
+<pinref part="U$11" gate="G$1" pin="GND"/>
+<wire x1="-411.48" y1="101.6" x2="-406.4" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="-411.48" y1="119.38" x2="-421.64" y2="119.38" width="0.1524" layer="91"/>
+<junction x="-411.48" y="119.38"/>
+<label x="-421.64" y="119.38" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-355.6" y1="111.76" x2="-368.3" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="U$12" gate="G$1" pin="GND"/>
+<label x="-368.3" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="121.92" y1="76.2" x2="119.38" y2="76.2" width="0.1524" layer="91"/>
+<label x="99.06" y="76.2" size="1.778" layer="95"/>
+<wire x1="119.38" y1="76.2" x2="99.06" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="66.04" x2="119.38" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="66.04" x2="119.38" y2="76.2" width="0.1524" layer="91"/>
+<junction x="119.38" y="76.2"/>
+<wire x1="119.38" y1="93.98" x2="119.38" y2="76.2" width="0.1524" layer="91"/>
+<pinref part="POWER2" gate="G$1" pin="NEG"/>
+<pinref part="HELLO2" gate="G$1" pin="NEG"/>
+<pinref part="U$13" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="93.98" x2="129.54" y2="93.98" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="GND"/>
+<wire x1="162.56" y1="60.96" x2="152.4" y2="60.96" width="0.1524" layer="91"/>
+<label x="152.4" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="GND"/>
+<wire x1="139.7" y1="38.1" x2="119.38" y2="38.1" width="0.1524" layer="91"/>
+<label x="119.38" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$17" gate="G$1" pin="GND"/>
+<wire x1="213.36" y1="101.6" x2="195.58" y2="101.6" width="0.1524" layer="91"/>
+<label x="195.58" y="101.6" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="D7" gate="G$1" pin="GND"/>
+<wire x1="33.02" y1="66.04" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
+<label x="22.86" y="66.04" size="1.778" layer="95"/>
+<pinref part="D7" gate="G$1" pin="CAP1"/>
+<wire x1="30.48" y1="66.04" x2="22.86" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="81.28" x2="30.48" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="81.28" x2="30.48" y2="66.04" width="0.1524" layer="91"/>
+<junction x="30.48" y="66.04"/>
+</segment>
+<segment>
+<pinref part="D8" gate="G$1" pin="GND"/>
+<wire x1="33.02" y1="40.64" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
+<label x="22.86" y="40.64" size="1.778" layer="95"/>
+<pinref part="D8" gate="G$1" pin="CAP1"/>
+<wire x1="30.48" y1="40.64" x2="22.86" y2="40.64" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="55.88" x2="30.48" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="55.88" x2="30.48" y2="40.64" width="0.1524" layer="91"/>
+<junction x="30.48" y="40.64"/>
+</segment>
+<segment>
+<pinref part="D9" gate="G$1" pin="GND"/>
+<wire x1="33.02" y1="15.24" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
+<label x="22.86" y="15.24" size="1.778" layer="95"/>
+<pinref part="D9" gate="G$1" pin="CAP1"/>
+<wire x1="30.48" y1="15.24" x2="22.86" y2="15.24" width="0.1524" layer="91"/>
+<wire x1="35.56" y1="30.48" x2="30.48" y2="30.48" width="0.1524" layer="91"/>
+<wire x1="30.48" y1="30.48" x2="30.48" y2="15.24" width="0.1524" layer="91"/>
+<junction x="30.48" y="15.24"/>
+</segment>
+<segment>
+<pinref part="U$18" gate="G$1" pin="GND"/>
+<wire x1="144.78" y1="124.46" x2="139.7" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="124.46" x2="139.7" y2="106.68" width="0.1524" layer="91"/>
+<pinref part="U$19" gate="G$1" pin="GND"/>
+<wire x1="139.7" y1="106.68" x2="144.78" y2="106.68" width="0.1524" layer="91"/>
+<wire x1="139.7" y1="124.46" x2="129.54" y2="124.46" width="0.1524" layer="91"/>
+<junction x="139.7" y="124.46"/>
+<label x="129.54" y="124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="195.58" y1="116.84" x2="182.88" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U$20" gate="G$1" pin="GND"/>
+<label x="182.88" y="116.84" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PB2" class="0">
 <segment>
@@ -1847,6 +2333,46 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="U$4" gate="G$1" pin="SCL"/>
 <label x="-99.06" y="119.38" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="PB2"/>
+<wire x1="-358.14" y1="60.96" x2="-347.98" y2="60.96" width="0.1524" layer="91"/>
+<label x="-353.06" y="60.96" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="PB2/SCK/SCL"/>
+<wire x1="-365.76" y1="30.48" x2="-350.52" y2="30.48" width="0.1524" layer="91"/>
+<label x="-355.6" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="2"/>
+<wire x1="-337.82" y1="88.9" x2="-355.6" y2="88.9" width="0.1524" layer="91"/>
+<label x="-355.6" y="88.9" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-355.6" y1="116.84" x2="-368.3" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U$12" gate="G$1" pin="SCL"/>
+<label x="-368.3" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB2"/>
+<wire x1="193.04" y1="66.04" x2="203.2" y2="66.04" width="0.1524" layer="91"/>
+<label x="198.12" y="66.04" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="PB2/SCK/SCL"/>
+<wire x1="185.42" y1="35.56" x2="200.66" y2="35.56" width="0.1524" layer="91"/>
+<label x="195.58" y="35.56" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$17" gate="G$1" pin="2"/>
+<wire x1="213.36" y1="93.98" x2="195.58" y2="93.98" width="0.1524" layer="91"/>
+<label x="195.58" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="195.58" y1="121.92" x2="182.88" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="U$20" gate="G$1" pin="SCL"/>
+<label x="182.88" y="121.92" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PB5" class="0">
 <segment>
@@ -1864,6 +2390,36 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="-68.58" y1="83.82" x2="-86.36" y2="83.82" width="0.1524" layer="91"/>
 <label x="-86.36" y="83.82" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="PB5"/>
+<wire x1="-388.62" y1="63.5" x2="-398.78" y2="63.5" width="0.1524" layer="91"/>
+<label x="-398.78" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="PB5/RST"/>
+<wire x1="-365.76" y1="27.94" x2="-350.52" y2="27.94" width="0.1524" layer="91"/>
+<label x="-355.6" y="27.94" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="5"/>
+<wire x1="-337.82" y1="81.28" x2="-355.6" y2="81.28" width="0.1524" layer="91"/>
+<label x="-355.6" y="81.28" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB5"/>
+<wire x1="162.56" y1="68.58" x2="152.4" y2="68.58" width="0.1524" layer="91"/>
+<label x="152.4" y="68.58" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="PB5/RST"/>
+<wire x1="185.42" y1="33.02" x2="200.66" y2="33.02" width="0.1524" layer="91"/>
+<label x="195.58" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$17" gate="G$1" pin="5"/>
+<wire x1="213.36" y1="86.36" x2="195.58" y2="86.36" width="0.1524" layer="91"/>
+<label x="195.58" y="86.36" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PB1" class="0">
 <segment>
@@ -1880,6 +2436,36 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="U$1" gate="G$1" pin="1"/>
 <wire x1="-68.58" y1="93.98" x2="-86.36" y2="93.98" width="0.1524" layer="91"/>
 <label x="-86.36" y="93.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="PB1"/>
+<wire x1="-358.14" y1="58.42" x2="-347.98" y2="58.42" width="0.1524" layer="91"/>
+<label x="-353.06" y="58.42" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="PB1/MISO"/>
+<wire x1="-365.76" y1="33.02" x2="-350.52" y2="33.02" width="0.1524" layer="91"/>
+<label x="-355.6" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$9" gate="G$1" pin="1"/>
+<wire x1="-337.82" y1="91.44" x2="-355.6" y2="91.44" width="0.1524" layer="91"/>
+<label x="-355.6" y="91.44" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="PB1"/>
+<wire x1="193.04" y1="63.5" x2="203.2" y2="63.5" width="0.1524" layer="91"/>
+<label x="198.12" y="63.5" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="PB1/MISO"/>
+<wire x1="185.42" y1="38.1" x2="200.66" y2="38.1" width="0.1524" layer="91"/>
+<label x="195.58" y="38.1" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$17" gate="G$1" pin="1"/>
+<wire x1="213.36" y1="96.52" x2="195.58" y2="96.52" width="0.1524" layer="91"/>
+<label x="195.58" y="96.52" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$1" class="0">
@@ -1931,6 +2517,36 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <junction x="-144.78" y="127"/>
 <label x="-152.4" y="127" size="1.778" layer="95"/>
 </segment>
+<segment>
+<wire x1="-454.66" y1="116.84" x2="-464.82" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U$8" gate="G$1" pin="4"/>
+<label x="-464.82" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$11" gate="G$1" pin="VBAT"/>
+<wire x1="-406.4" y1="104.14" x2="-414.02" y2="104.14" width="0.1524" layer="91"/>
+<wire x1="-414.02" y1="104.14" x2="-414.02" y2="124.46" width="0.1524" layer="91"/>
+<pinref part="U$10" gate="G$1" pin="VBAT"/>
+<wire x1="-414.02" y1="124.46" x2="-406.4" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="-414.02" y1="124.46" x2="-421.64" y2="124.46" width="0.1524" layer="91"/>
+<junction x="-414.02" y="124.46"/>
+<label x="-421.64" y="124.46" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="96.52" y1="121.92" x2="86.36" y2="121.92" width="0.1524" layer="91"/>
+<pinref part="U$16" gate="G$1" pin="4"/>
+<label x="86.36" y="121.92" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$19" gate="G$1" pin="VBAT"/>
+<wire x1="144.78" y1="109.22" x2="137.16" y2="109.22" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="109.22" x2="137.16" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="U$18" gate="G$1" pin="VBAT"/>
+<wire x1="137.16" y1="129.54" x2="144.78" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="137.16" y1="129.54" x2="129.54" y2="129.54" width="0.1524" layer="91"/>
+<junction x="137.16" y="129.54"/>
+<label x="129.54" y="129.54" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="VUSB" class="0">
 <segment>
@@ -1942,6 +2558,92 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <pinref part="J1" gate="G$1" pin="VCC"/>
 <wire x1="-142.24" y1="33.02" x2="-162.56" y2="33.02" width="0.1524" layer="91"/>
 <label x="-162.56" y="33.02" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="-454.66" y1="111.76" x2="-464.82" y2="111.76" width="0.1524" layer="91"/>
+<pinref part="U$8" gate="G$1" pin="6"/>
+<label x="-464.82" y="111.76" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="VCC"/>
+<wire x1="-411.48" y1="30.48" x2="-431.8" y2="30.48" width="0.1524" layer="91"/>
+<label x="-431.8" y="30.48" size="1.778" layer="95"/>
+</segment>
+<segment>
+<wire x1="96.52" y1="116.84" x2="86.36" y2="116.84" width="0.1524" layer="91"/>
+<pinref part="U$16" gate="G$1" pin="6"/>
+<label x="86.36" y="116.84" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="J3" gate="G$1" pin="VCC"/>
+<wire x1="139.7" y1="35.56" x2="119.38" y2="35.56" width="0.1524" layer="91"/>
+<label x="119.38" y="35.56" size="1.778" layer="95"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="POWER1" gate="G$1" pin="POS"/>
+<pinref part="U$6" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$7" class="0">
+<segment>
+<pinref part="HELLO1" gate="G$1" pin="POS"/>
+<pinref part="U$7" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$8" class="0">
+<segment>
+<pinref part="D4" gate="G$1" pin="DO"/>
+<pinref part="D5" gate="G$1" pin="DI"/>
+<wire x1="-490.22" y1="60.96" x2="-490.22" y2="43.18" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$9" class="0">
+<segment>
+<pinref part="D5" gate="G$1" pin="DO"/>
+<pinref part="D6" gate="G$1" pin="DI"/>
+<wire x1="-490.22" y1="35.56" x2="-490.22" y2="17.78" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$10" class="0">
+<segment>
+<pinref part="D4" gate="G$1" pin="DI"/>
+<junction x="-490.22" y="68.58"/>
+<pinref part="R3" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$11" class="0">
+<segment>
+<pinref part="POWER2" gate="G$1" pin="POS"/>
+<pinref part="U$14" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$12" class="0">
+<segment>
+<pinref part="HELLO2" gate="G$1" pin="POS"/>
+<pinref part="U$15" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="N$13" class="0">
+<segment>
+<pinref part="D7" gate="G$1" pin="DO"/>
+<pinref part="D8" gate="G$1" pin="DI"/>
+<wire x1="60.96" y1="66.04" x2="60.96" y2="48.26" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$14" class="0">
+<segment>
+<pinref part="D8" gate="G$1" pin="DO"/>
+<pinref part="D9" gate="G$1" pin="DI"/>
+<wire x1="60.96" y1="40.64" x2="60.96" y2="22.86" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$15" class="0">
+<segment>
+<pinref part="D7" gate="G$1" pin="DI"/>
+<junction x="60.96" y="73.66"/>
+<pinref part="R5" gate="G$1" pin="1"/>
 </segment>
 </net>
 </nets>
