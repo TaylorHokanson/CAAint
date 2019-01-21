@@ -244,41 +244,6 @@
 <pad name="P$48" x="15.24" y="2.54" drill="1"/>
 <pad name="P$49" x="15.24" y="0" drill="1"/>
 </package>
-<package name="HDRV6W64P254_2X3_762X508X868P">
-<description>&lt;b&gt;M20-9980346&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1/MISO" x="2.54" y="3.81" drill="1.1" diameter="1.65" shape="square" rot="R180"/>
-<pad name="2/SCK/SCL" x="0" y="3.81" drill="1.1" diameter="1.65" rot="R180"/>
-<pad name="5/RST" x="-2.54" y="3.81" drill="1.1" diameter="1.65" rot="R180"/>
-<pad name="VCC" x="2.54" y="1.27" drill="1.1" diameter="1.65" rot="R180"/>
-<pad name="0/MOSI/SDA" x="0" y="1.27" drill="1.1" diameter="1.65" rot="R180"/>
-<pad name="GND" x="-2.54" y="1.27" drill="1.1" diameter="1.65" rot="R180"/>
-<wire x1="-3.81" y1="5.08" x2="-3.81" y2="0" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="0" x2="3.81" y2="0" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="0" x2="3.81" y2="5.08" width="0.2032" layer="21"/>
-<wire x1="3.81" y1="5.08" x2="1.27" y2="5.08" width="0.2032" layer="21"/>
-<wire x1="-3.81" y1="5.08" x2="-1.27" y2="5.08" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="5.08" x2="-1.27" y2="5.715" width="0.2032" layer="21"/>
-<wire x1="-1.27" y1="5.715" x2="1.27" y2="5.715" width="0.2032" layer="21"/>
-<wire x1="1.27" y1="5.715" x2="1.27" y2="5.08" width="0.2032" layer="21"/>
-<text x="-1.27" y="-1.27" size="0.8128" layer="21" font="vector" ratio="15">ICSP</text>
-</package>
-<package name="DECOUPLING_CAP">
-<description>&lt;h3&gt;Plated Through Hole&lt;/h3&gt;
-&lt;p&gt;Specifications:
-&lt;ul&gt;&lt;li&gt;Pin count:1&lt;/li&gt;
-&lt;li&gt;Pin pitch:0.1"&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;
-&lt;p&gt;Example device(s):
-&lt;ul&gt;&lt;li&gt;CONN_01&lt;/li&gt;
-&lt;/ul&gt;&lt;/p&gt;</description>
-<pad name="P$1" x="0" y="0" drill="1"/>
-<pad name="P$2" x="2.54" y="0" drill="1"/>
-<wire x1="-1.27" y1="-1.27" x2="-1.27" y2="1.27" width="0.127" layer="21"/>
-<wire x1="-1.27" y1="1.27" x2="3.81" y2="1.27" width="0.127" layer="21"/>
-<wire x1="3.81" y1="1.27" x2="3.81" y2="-1.27" width="0.127" layer="21"/>
-<wire x1="3.81" y1="-1.27" x2="-1.27" y2="-1.27" width="0.127" layer="21"/>
-</package>
 <package name="SMT-SWITCH">
 <description>DPDT swith JS203011SCQN</description>
 <smd name="5" x="0" y="2.75" dx="1.2" dy="2.5" layer="1"/>
@@ -349,6 +314,27 @@
 <pad name="GND" x="8.15" y="0" drill="1" rot="R180"/>
 <pad name="VBAT" x="-11.85" y="0" drill="1" rot="R180"/>
 </package>
+<package name="0603-CAP">
+<smd name="CAP1" x="-0.8" y="0" dx="1" dy="1" layer="1"/>
+<smd name="CAP2" x="0.8" y="0" dx="1" dy="1" layer="1"/>
+<wire x1="-1.6" y1="-0.8" x2="-1.6" y2="0.8" width="0.127" layer="21"/>
+<wire x1="-1.6" y1="0.8" x2="1.6" y2="0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="0.8" x2="1.6" y2="-0.8" width="0.127" layer="21"/>
+<wire x1="1.6" y1="-0.8" x2="-1.6" y2="-0.8" width="0.127" layer="21"/>
+<text x="-1.6" y="1" size="1.27" layer="27">&gt;Value</text>
+<text x="-1.6" y="2.27" size="1.27" layer="21">&gt;Name</text>
+</package>
+<package name="ICSP-LO-SILK">
+<description>&lt;b&gt;M20-9980346&lt;/b&gt;&lt;br&gt;
+</description>
+<pad name="1/MISO" x="2.54" y="3.81" drill="1.1" diameter="1.65" shape="square" rot="R180"/>
+<pad name="2/SCK/SCL" x="0" y="3.81" drill="1.1" diameter="1.65" rot="R180"/>
+<pad name="5/RST" x="-2.54" y="3.81" drill="1.1" diameter="1.65" rot="R180"/>
+<pad name="VCC" x="2.54" y="1.27" drill="1.1" diameter="1.65" rot="R180"/>
+<pad name="0/MOSI/SDA" x="0" y="1.27" drill="1.1" diameter="1.65" rot="R180"/>
+<pad name="GND" x="-2.54" y="1.27" drill="1.1" diameter="1.65" rot="R180"/>
+<circle x="0" y="5.3975" radius="0.254" width="0" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="WS2812B" urn="urn:adsk.eagle:package:39369/1" locally_modified="yes" type="box">
@@ -394,16 +380,6 @@ WS2812B</description>
 <pin name="PB1/MISO" x="33.02" y="2.54" length="middle" rot="R180"/>
 <pin name="PB2/SCK/SCL" x="33.02" y="0" length="middle" rot="R180"/>
 <pin name="PB5/RST" x="33.02" y="-2.54" length="middle" rot="R180"/>
-</symbol>
-<symbol name="CAPACITOR">
-<rectangle x1="-2.032" y1="-0.254" x2="0.508" y2="0.254" layer="94" rot="R270"/>
-<rectangle x1="-3.048" y1="-0.254" x2="-0.508" y2="0.254" layer="94" rot="R90"/>
-<wire x1="-0.762" y1="0" x2="0" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.778" y2="0" width="0.1524" layer="94"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="2.54" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-1.25" y="-2.29" size="1.27" layer="95" font="vector" rot="R180" align="center">&gt;NAME</text>
-<text x="-1.25" y="2.3" size="1.27" layer="96" font="vector" rot="R180" align="center">&gt;VALUE</text>
 </symbol>
 <symbol name="SMT-SWITCH">
 <pin name="1" x="-5.08" y="0" length="middle"/>
@@ -496,6 +472,14 @@ HOLDER</text>
 <text x="0" y="5.08" size="1.778" layer="94">THRU-HOLE 
 CR2032 HOLDER</text>
 </symbol>
+<symbol name="0603-CAP">
+<pin name="P$1" x="-7.62" y="0" length="middle"/>
+<pin name="P$2" x="5.08" y="0" length="middle" rot="R180"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
+<text x="-5.08" y="7.62" size="1.778" layer="94">&gt;Name</text>
+<text x="-5.08" y="5.08" size="1.778" layer="94">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="ATTINY85-20SU" prefix="IC">
@@ -536,53 +520,6 @@ Source: &lt;a href="https://componentsearchengine.com/Datasheets/2/ATTINY85-20SU
 </gates>
 <devices>
 <device name="" package="7X-PADS-NC">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="M20-9980346" prefix="J">
-<description>&lt;b&gt;03+03 DIL Vertical Pin Header HARWIN M20 Series, 2.54mm Pitch 6 Way 2 Row Straight PCB Header, Solder Termination, 3A&lt;/b&gt;&lt;p&gt;
-Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&amp;utm_medium=3D_PDF&amp;utm_campaign=3D_PDF"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="M20-9980346" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="HDRV6W64P254_2X3_762X508X868P">
-<connects>
-<connect gate="G$1" pin="GND" pad="GND"/>
-<connect gate="G$1" pin="PB0/MOSI/SDA" pad="0/MOSI/SDA"/>
-<connect gate="G$1" pin="PB1/MISO" pad="1/MISO"/>
-<connect gate="G$1" pin="PB2/SCK/SCL" pad="2/SCK/SCL"/>
-<connect gate="G$1" pin="PB5/RST" pad="5/RST"/>
-<connect gate="G$1" pin="VCC" pad="VCC"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="ARROW_PART_NUMBER" value="M20-9980346" constant="no"/>
-<attribute name="ARROW_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/7457046P" constant="no"/>
-<attribute name="DESCRIPTION" value="03+03 DIL Vertical Pin Header HARWIN M20 Series, 2.54mm Pitch 6 Way 2 Row Straight PCB Header, Solder Termination, 3A" constant="no"/>
-<attribute name="HEIGHT" value="8.68mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="HARWIN" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="M20-9980346" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="7457046P" constant="no"/>
-<attribute name="RS_PRICE/STOCK" value="http://uk.rs-online.com/web/p/products/7457046P" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="DECOUPLING_CAP">
-<gates>
-<gate name="G$1" symbol="CAPACITOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="DECOUPLING_CAP">
-<connects>
-<connect gate="G$1" pin="1" pad="P$1"/>
-<connect gate="G$1" pin="2" pad="P$2"/>
-</connects>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -671,6 +608,44 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <connects>
 <connect gate="G$1" pin="GND" pad="GND"/>
 <connect gate="G$1" pin="VBAT" pad="VBAT"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0603-CAP">
+<gates>
+<gate name="G$1" symbol="0603-CAP" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603-CAP">
+<connects>
+<connect gate="G$1" pin="P$1" pad="CAP1"/>
+<connect gate="G$1" pin="P$2" pad="CAP2"/>
+</connects>
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="ICSP-LO-SILK" prefix="J">
+<description>&lt;b&gt;03+03 DIL Vertical Pin Header HARWIN M20 Series, 2.54mm Pitch 6 Way 2 Row Straight PCB Header, Solder Termination, 3A&lt;/b&gt;&lt;p&gt;
+Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&amp;utm_medium=3D_PDF&amp;utm_campaign=3D_PDF"&gt; Datasheet &lt;/a&gt;</description>
+<gates>
+<gate name="G$1" symbol="M20-9980346" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="ICSP-LO-SILK">
+<connects>
+<connect gate="G$1" pin="GND" pad="GND"/>
+<connect gate="G$1" pin="PB0/MOSI/SDA" pad="0/MOSI/SDA"/>
+<connect gate="G$1" pin="PB1/MISO" pad="1/MISO"/>
+<connect gate="G$1" pin="PB2/SCK/SCL" pad="2/SCK/SCL"/>
+<connect gate="G$1" pin="PB5/RST" pad="5/RST"/>
+<connect gate="G$1" pin="VCC" pad="VCC"/>
 </connects>
 <technologies>
 <technology name=""/>
@@ -1191,8 +1166,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </classes>
 <parts>
 <part name="IC1" library="BadgeParts" deviceset="ATTINY85-20SU" device=""/>
-<part name="J1" library="BadgeParts" deviceset="M20-9980346" device=""/>
-<part name="U$123" library="BadgeParts" deviceset="DECOUPLING_CAP" device=""/>
 <part name="U$145" library="BadgeParts" deviceset="SMT-SWITCH" device=""/>
 <part name="D1" library="BadgeParts" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:39369/1" value="WS2812B"/>
 <part name="D2" library="BadgeParts" deviceset="WS2812B" device="" package3d_urn="urn:adsk.eagle:package:39369/1" value="WS2812B"/>
@@ -1200,6 +1173,8 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <part name="R2" library="SparkFun-Resistors" library_urn="urn:adsk.eagle:library:532" deviceset="10KOHM" device="-0603-1/10W-1%" package3d_urn="urn:adsk.eagle:package:39650/1" value="10k"/>
 <part name="U$2" library="BadgeParts" deviceset="SMT-BATTERY-HOLDER" device=""/>
 <part name="U$3" library="BadgeParts" deviceset="THRU-CR-HOLDER" device=""/>
+<part name="DECOUPLER" library="BadgeParts" deviceset="0603-CAP" device="" value=".1uf"/>
+<part name="J2" library="BadgeParts" deviceset="ICSP-LO-SILK" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -1207,11 +1182,6 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </plain>
 <instances>
 <instance part="IC1" gate="G$1" x="-119.38" y="66.04" smashed="yes"/>
-<instance part="J1" gate="G$1" x="-129.54" y="33.02" smashed="yes"/>
-<instance part="U$123" gate="G$1" x="-147.32" y="91.44" smashed="yes">
-<attribute name="NAME" x="-148.57" y="89.15" size="1.27" layer="95" font="vector" rot="R180" align="center"/>
-<attribute name="VALUE" x="-148.57" y="93.74" size="1.27" layer="96" font="vector" rot="R180" align="center"/>
-</instance>
 <instance part="U$145" gate="G$1" x="-180.34" y="129.54" smashed="yes"/>
 <instance part="D1" gate="G$1" x="-233.68" y="66.04" smashed="yes"/>
 <instance part="D2" gate="G$1" x="-233.68" y="40.64" smashed="yes"/>
@@ -1225,6 +1195,8 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </instance>
 <instance part="U$2" gate="G$1" x="-132.08" y="127" smashed="yes"/>
 <instance part="U$3" gate="G$1" x="-132.08" y="106.68" smashed="yes"/>
+<instance part="DECOUPLER" gate="G$1" x="-88.9" y="48.26" smashed="yes"/>
+<instance part="J2" gate="G$1" x="-129.54" y="12.7" smashed="yes"/>
 </instances>
 <busses>
 </busses>
@@ -1236,23 +1208,19 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <wire x1="-88.9" y1="58.42" x2="-78.74" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="PB0/MOSI/SDA"/>
-<wire x1="-142.24" y1="30.48" x2="-162.56" y2="30.48" width="0.1524" layer="91"/>
-<label x="-162.56" y="30.48" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="PB0/MOSI/SDA"/>
+<wire x1="-142.24" y1="10.16" x2="-157.48" y2="10.16" width="0.1524" layer="91"/>
+<label x="-157.48" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="VCC" class="1">
 <segment>
-<label x="-134.62" y="73.66" size="1.778" layer="95"/>
-<wire x1="-134.62" y1="73.66" x2="-129.54" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-134.62" y1="91.44" x2="-134.62" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$123" gate="G$1" pin="2"/>
-<wire x1="-144.78" y1="91.44" x2="-134.62" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="VCC"/>
-<wire x1="-88.9" y1="66.04" x2="-78.74" y2="66.04" width="0.1524" layer="91"/>
+<wire x1="-88.9" y1="66.04" x2="-73.66" y2="66.04" width="0.1524" layer="91"/>
 <label x="-83.82" y="66.04" size="1.778" layer="95"/>
+<pinref part="DECOUPLER" gate="G$1" pin="P$2"/>
+<wire x1="-83.82" y1="48.26" x2="-73.66" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-73.66" y1="48.26" x2="-73.66" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="VCC"/>
@@ -1307,21 +1275,14 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 </net>
 <net name="GND" class="2">
 <segment>
-<label x="-182.88" y="73.66" size="1.778" layer="95"/>
-<wire x1="-162.56" y1="73.66" x2="-182.88" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-162.56" y1="91.44" x2="-162.56" y2="73.66" width="0.1524" layer="91"/>
-<pinref part="U$123" gate="G$1" pin="1"/>
-<wire x1="-162.56" y1="91.44" x2="-152.4" y2="91.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="IC1" gate="G$1" pin="GND"/>
-<wire x1="-119.38" y1="58.42" x2="-129.54" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-119.38" y1="58.42" x2="-121.92" y2="58.42" width="0.1524" layer="91"/>
 <label x="-129.54" y="58.42" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="J1" gate="G$1" pin="GND"/>
-<wire x1="-142.24" y1="35.56" x2="-162.56" y2="35.56" width="0.1524" layer="91"/>
-<label x="-162.56" y="35.56" size="1.778" layer="95"/>
+<pinref part="DECOUPLER" gate="G$1" pin="P$1"/>
+<wire x1="-121.92" y1="58.42" x2="-129.54" y2="58.42" width="0.1524" layer="91"/>
+<wire x1="-96.52" y1="48.26" x2="-121.92" y2="48.26" width="0.1524" layer="91"/>
+<wire x1="-121.92" y1="48.26" x2="-121.92" y2="58.42" width="0.1524" layer="91"/>
+<junction x="-121.92" y="58.42"/>
 </segment>
 <segment>
 <pinref part="D1" gate="G$1" pin="GND"/>
@@ -1353,6 +1314,11 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <junction x="-142.24" y="121.92"/>
 <label x="-152.4" y="121.92" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="J2" gate="G$1" pin="GND"/>
+<wire x1="-142.24" y1="15.24" x2="-157.48" y2="15.24" width="0.1524" layer="91"/>
+<label x="-157.48" y="15.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="PB2" class="0">
 <segment>
@@ -1361,9 +1327,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <label x="-83.82" y="63.5" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="PB2/SCK/SCL"/>
-<wire x1="-96.52" y1="33.02" x2="-81.28" y2="33.02" width="0.1524" layer="91"/>
-<label x="-86.36" y="33.02" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="PB2/SCK/SCL"/>
+<wire x1="-96.52" y1="12.7" x2="-81.28" y2="12.7" width="0.1524" layer="91"/>
+<label x="-83.82" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB5" class="0">
@@ -1373,9 +1339,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <label x="-129.54" y="66.04" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="PB5/RST"/>
-<wire x1="-96.52" y1="30.48" x2="-81.28" y2="30.48" width="0.1524" layer="91"/>
-<label x="-86.36" y="30.48" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="PB5/RST"/>
+<wire x1="-96.52" y1="10.16" x2="-81.28" y2="10.16" width="0.1524" layer="91"/>
+<label x="-83.82" y="10.16" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="PB1" class="0">
@@ -1385,9 +1351,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <label x="-83.82" y="60.96" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="PB1/MISO"/>
-<wire x1="-96.52" y1="35.56" x2="-81.28" y2="35.56" width="0.1524" layer="91"/>
-<label x="-86.36" y="35.56" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="PB1/MISO"/>
+<wire x1="-96.52" y1="15.24" x2="-81.28" y2="15.24" width="0.1524" layer="91"/>
+<label x="-83.82" y="15.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -1428,9 +1394,9 @@ Warning: This is the KIT version of the AXIAL-0.3 package. This package has a sm
 <label x="-195.58" y="114.3" size="1.778" layer="95"/>
 </segment>
 <segment>
-<pinref part="J1" gate="G$1" pin="VCC"/>
-<wire x1="-142.24" y1="33.02" x2="-162.56" y2="33.02" width="0.1524" layer="91"/>
-<label x="-162.56" y="33.02" size="1.778" layer="95"/>
+<pinref part="J2" gate="G$1" pin="VCC"/>
+<wire x1="-142.24" y1="12.7" x2="-157.48" y2="12.7" width="0.1524" layer="91"/>
+<label x="-157.48" y="12.7" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
