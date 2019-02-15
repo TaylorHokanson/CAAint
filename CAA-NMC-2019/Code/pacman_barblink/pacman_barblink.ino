@@ -45,8 +45,8 @@ void setup() {
 
 void loop() {
   for(int x=0;x<20;x++){
-    rainbow(1);
-  
+   rainbow(1);
+  }
   rainbowCycle(10);
 }
 
