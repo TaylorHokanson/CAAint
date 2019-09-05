@@ -724,45 +724,45 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <attribute name="NAME" x="46.99" y="86.36" size="1.778" layer="95" align="center-left"/>
 <attribute name="VALUE" x="46.99" y="83.82" size="1.778" layer="96" align="center-left"/>
 </instance>
-<instance part="D1" gate="G$1" x="91.44" y="81.28" smashed="yes" rot="R90">
-<attribute name="NAME" x="96.012" y="77.851" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="96.012" y="83.185" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<instance part="D1" gate="G$1" x="111.76" y="81.28" smashed="yes" rot="R90">
+<attribute name="NAME" x="116.332" y="77.851" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="116.332" y="83.185" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
-<instance part="D2" gate="G$1" x="91.44" y="66.04" smashed="yes" rot="R90">
-<attribute name="NAME" x="96.012" y="62.611" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="96.012" y="67.945" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<instance part="D2" gate="G$1" x="111.76" y="66.04" smashed="yes" rot="R90">
+<attribute name="NAME" x="116.332" y="62.611" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="116.332" y="67.945" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
-<instance part="D3" gate="G$1" x="91.44" y="50.8" smashed="yes" rot="R90">
-<attribute name="NAME" x="96.012" y="47.371" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="96.012" y="52.705" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<instance part="D3" gate="G$1" x="111.76" y="50.8" smashed="yes" rot="R90">
+<attribute name="NAME" x="116.332" y="47.371" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="116.332" y="52.705" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
-<instance part="D4" gate="G$1" x="91.44" y="35.56" smashed="yes" rot="R90">
-<attribute name="NAME" x="96.012" y="32.131" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="96.012" y="37.465" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<instance part="D4" gate="G$1" x="111.76" y="35.56" smashed="yes" rot="R90">
+<attribute name="NAME" x="116.332" y="32.131" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="116.332" y="37.465" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
-<instance part="D5" gate="G$1" x="91.44" y="20.32" smashed="yes" rot="R90">
-<attribute name="NAME" x="96.012" y="16.891" size="1.778" layer="95" font="vector" rot="R180"/>
-<attribute name="VALUE" x="96.012" y="22.225" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
+<instance part="D5" gate="G$1" x="111.76" y="20.32" smashed="yes" rot="R90">
+<attribute name="NAME" x="116.332" y="16.891" size="1.778" layer="95" font="vector" rot="R180"/>
+<attribute name="VALUE" x="116.332" y="22.225" size="1.778" layer="96" font="vector" rot="R180" align="top-left"/>
 </instance>
-<instance part="R1" gate="G$1" x="83.82" y="81.28" smashed="yes">
-<attribute name="NAME" x="80.01" y="82.55" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="80.01" y="78.74" size="1.27" layer="96" ratio="10"/>
+<instance part="R1" gate="G$1" x="104.14" y="81.28" smashed="yes">
+<attribute name="NAME" x="100.33" y="82.55" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="100.33" y="78.74" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="R2" gate="G$1" x="83.82" y="66.04" smashed="yes">
-<attribute name="NAME" x="80.01" y="67.31" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="80.01" y="63.5" size="1.27" layer="96" ratio="10"/>
+<instance part="R2" gate="G$1" x="104.14" y="66.04" smashed="yes">
+<attribute name="NAME" x="100.33" y="67.31" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="100.33" y="63.5" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="R3" gate="G$1" x="83.82" y="50.8" smashed="yes">
-<attribute name="NAME" x="80.01" y="52.07" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="80.01" y="48.26" size="1.27" layer="96" ratio="10"/>
+<instance part="R3" gate="G$1" x="104.14" y="50.8" smashed="yes">
+<attribute name="NAME" x="100.33" y="52.07" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="100.33" y="48.26" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="R4" gate="G$1" x="83.82" y="35.56" smashed="yes">
-<attribute name="NAME" x="80.01" y="36.83" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="80.01" y="33.02" size="1.27" layer="96" ratio="10"/>
+<instance part="R4" gate="G$1" x="104.14" y="35.56" smashed="yes">
+<attribute name="NAME" x="100.33" y="36.83" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="100.33" y="33.02" size="1.27" layer="96" ratio="10"/>
 </instance>
-<instance part="R5" gate="G$1" x="83.82" y="20.32" smashed="yes">
-<attribute name="NAME" x="80.01" y="21.59" size="1.27" layer="95" ratio="10"/>
-<attribute name="VALUE" x="80.01" y="17.78" size="1.27" layer="96" ratio="10"/>
+<instance part="R5" gate="G$1" x="104.14" y="20.32" smashed="yes">
+<attribute name="NAME" x="100.33" y="21.59" size="1.27" layer="95" ratio="10"/>
+<attribute name="VALUE" x="100.33" y="17.78" size="1.27" layer="96" ratio="10"/>
 </instance>
 <instance part="J1" gate="G$1" x="25.4" y="53.34" smashed="yes"/>
 </instances>
@@ -804,26 +804,31 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <label x="15.24" y="71.12" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R1" gate="G$1" pin="1"/>
-<pinref part="R2" gate="G$1" pin="1"/>
-<wire x1="80.01" y1="81.28" x2="80.01" y2="66.04" width="0.1524" layer="91"/>
-<pinref part="R3" gate="G$1" pin="1"/>
-<wire x1="80.01" y1="66.04" x2="80.01" y2="50.8" width="0.1524" layer="91"/>
-<junction x="80.01" y="66.04"/>
-<pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="80.01" y1="50.8" x2="80.01" y2="35.56" width="0.1524" layer="91"/>
-<junction x="80.01" y="50.8"/>
-<pinref part="R5" gate="G$1" pin="1"/>
-<wire x1="80.01" y1="35.56" x2="80.01" y2="20.32" width="0.1524" layer="91"/>
-<junction x="80.01" y="35.56"/>
-<wire x1="80.01" y1="20.32" x2="73.66" y2="20.32" width="0.1524" layer="91"/>
-<junction x="80.01" y="20.32"/>
-<label x="73.66" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="GND"/>
 <wire x1="12.7" y1="55.88" x2="0" y2="55.88" width="0.1524" layer="91"/>
 <label x="0" y="55.88" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="D1" gate="G$1" pin="C"/>
+<wire x1="116.84" y1="81.28" x2="124.46" y2="81.28" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="81.28" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="D5" gate="G$1" pin="C"/>
+<wire x1="124.46" y1="66.04" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="50.8" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="35.56" x2="124.46" y2="20.32" width="0.1524" layer="91"/>
+<wire x1="124.46" y1="20.32" x2="116.84" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="D4" gate="G$1" pin="C"/>
+<wire x1="116.84" y1="35.56" x2="124.46" y2="35.56" width="0.1524" layer="91"/>
+<junction x="124.46" y="35.56"/>
+<pinref part="D3" gate="G$1" pin="C"/>
+<wire x1="116.84" y1="50.8" x2="124.46" y2="50.8" width="0.1524" layer="91"/>
+<junction x="124.46" y="50.8"/>
+<pinref part="D2" gate="G$1" pin="C"/>
+<wire x1="116.84" y1="66.04" x2="124.46" y2="66.04" width="0.1524" layer="91"/>
+<junction x="124.46" y="66.04"/>
+<wire x1="124.46" y1="20.32" x2="132.08" y2="20.32" width="0.1524" layer="91"/>
+<junction x="124.46" y="20.32"/>
+<label x="132.08" y="20.32" size="1.778" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="OUT0" class="0">
@@ -833,14 +838,14 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <label x="53.34" y="78.74" size="1.778" layer="95" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D1" gate="G$1" pin="C"/>
-<wire x1="96.52" y1="81.28" x2="101.6" y2="81.28" width="0.1524" layer="91"/>
-<label x="101.6" y="81.28" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="PB0/MOSI/SDA"/>
 <wire x1="12.7" y1="50.8" x2="0" y2="50.8" width="0.1524" layer="91"/>
 <label x="0" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R1" gate="G$1" pin="1"/>
+<wire x1="100.33" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
+<label x="96.52" y="81.28" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUT1" class="0">
@@ -850,14 +855,14 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <wire x1="50.8" y1="76.2" x2="60.96" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D2" gate="G$1" pin="C"/>
-<wire x1="96.52" y1="66.04" x2="101.6" y2="66.04" width="0.1524" layer="91"/>
-<label x="101.6" y="66.04" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="PB1/MISO"/>
 <wire x1="58.42" y1="55.88" x2="66.04" y2="55.88" width="0.1524" layer="91"/>
 <label x="66.04" y="55.88" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R2" gate="G$1" pin="1"/>
+<wire x1="100.33" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
+<label x="96.52" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUT2" class="0">
@@ -867,15 +872,15 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <wire x1="50.8" y1="73.66" x2="68.58" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D3" gate="G$1" pin="C"/>
-<wire x1="96.52" y1="50.8" x2="101.6" y2="50.8" width="0.1524" layer="91"/>
-<label x="101.6" y="50.8" size="1.778" layer="95" xref="yes"/>
-</segment>
-<segment>
 <pinref part="J1" gate="G$1" pin="PB2/SCK/SCL"/>
 <wire x1="58.42" y1="53.34" x2="66.04" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="66.04" y1="53.34" x2="66.04" y2="48.26" width="0.1524" layer="91"/>
 <label x="66.04" y="48.26" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+<segment>
+<pinref part="R3" gate="G$1" pin="1"/>
+<wire x1="100.33" y1="50.8" x2="96.52" y2="50.8" width="0.1524" layer="91"/>
+<label x="96.52" y="50.8" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUT3" class="0">
@@ -885,9 +890,9 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <label x="17.78" y="76.2" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="D4" gate="G$1" pin="C"/>
-<wire x1="96.52" y1="35.56" x2="101.6" y2="35.56" width="0.1524" layer="91"/>
-<label x="101.6" y="35.56" size="1.778" layer="95" xref="yes"/>
+<pinref part="R4" gate="G$1" pin="1"/>
+<wire x1="100.33" y1="35.56" x2="96.52" y2="35.56" width="0.1524" layer="91"/>
+<label x="96.52" y="35.56" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="OUT4" class="0">
@@ -897,44 +902,9 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <wire x1="20.32" y1="73.66" x2="5.08" y2="73.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="D5" gate="G$1" pin="C"/>
-<wire x1="96.52" y1="20.32" x2="101.6" y2="20.32" width="0.1524" layer="91"/>
-<label x="101.6" y="20.32" size="1.778" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="N$1" class="0">
-<segment>
-<pinref part="R1" gate="G$1" pin="2"/>
-<pinref part="D1" gate="G$1" pin="A"/>
-<wire x1="87.63" y1="81.28" x2="88.9" y2="81.28" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$2" class="0">
-<segment>
-<pinref part="R2" gate="G$1" pin="2"/>
-<pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="87.63" y1="66.04" x2="88.9" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$3" class="0">
-<segment>
-<pinref part="R3" gate="G$1" pin="2"/>
-<pinref part="D3" gate="G$1" pin="A"/>
-<wire x1="87.63" y1="50.8" x2="88.9" y2="50.8" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$4" class="0">
-<segment>
-<pinref part="R4" gate="G$1" pin="2"/>
-<pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="87.63" y1="35.56" x2="88.9" y2="35.56" width="0.1524" layer="91"/>
-</segment>
-</net>
-<net name="N$5" class="0">
-<segment>
-<pinref part="R5" gate="G$1" pin="2"/>
-<pinref part="D5" gate="G$1" pin="A"/>
-<wire x1="87.63" y1="20.32" x2="88.9" y2="20.32" width="0.1524" layer="91"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="100.33" y1="20.32" x2="96.52" y2="20.32" width="0.1524" layer="91"/>
+<label x="96.52" y="20.32" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="RST" class="0">
@@ -947,6 +917,41 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <pinref part="J1" gate="G$1" pin="PB5/RST"/>
 <wire x1="58.42" y1="50.8" x2="58.42" y2="43.18" width="0.1524" layer="91"/>
 <label x="58.42" y="43.18" size="1.778" layer="95" rot="R270" xref="yes"/>
+</segment>
+</net>
+<net name="N$2" class="0">
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<pinref part="D5" gate="G$1" pin="A"/>
+<wire x1="107.95" y1="20.32" x2="109.22" y2="20.32" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$3" class="0">
+<segment>
+<pinref part="R4" gate="G$1" pin="2"/>
+<pinref part="D4" gate="G$1" pin="A"/>
+<wire x1="107.95" y1="35.56" x2="109.22" y2="35.56" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$4" class="0">
+<segment>
+<pinref part="R3" gate="G$1" pin="2"/>
+<pinref part="D3" gate="G$1" pin="A"/>
+<wire x1="107.95" y1="50.8" x2="109.22" y2="50.8" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$5" class="0">
+<segment>
+<pinref part="R2" gate="G$1" pin="2"/>
+<pinref part="D2" gate="G$1" pin="A"/>
+<wire x1="107.95" y1="66.04" x2="109.22" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="N$6" class="0">
+<segment>
+<pinref part="R1" gate="G$1" pin="2"/>
+<pinref part="D1" gate="G$1" pin="A"/>
+<wire x1="107.95" y1="81.28" x2="109.22" y2="81.28" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
