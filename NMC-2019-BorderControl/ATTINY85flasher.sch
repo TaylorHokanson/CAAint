@@ -3700,11 +3700,11 @@ Source: &lt;a href="https://cdn.harwin.com/pdfs/M20-998.pdf?utm_source=3D_PDF&am
 <part name="D3" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-RED" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1" value="RED"/>
 <part name="D4" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-RED" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1" value="RED"/>
 <part name="D5" library="SparkFun-LED" library_urn="urn:adsk.eagle:library:529" deviceset="LED-RED" device="1206" package3d_urn="urn:adsk.eagle:package:39352/1" value="RED"/>
-<part name="R1" library="Seeed-Resistor" deviceset="SMD-RES-13R-5%-1/4W(1206)" device="" value="56R"/>
-<part name="R2" library="Seeed-Resistor" deviceset="SMD-RES-13R-5%-1/4W(1206)" device="" value="56R"/>
-<part name="R3" library="Seeed-Resistor" deviceset="SMD-RES-13R-5%-1/4W(1206)" device="" value="56R"/>
-<part name="R4" library="Seeed-Resistor" deviceset="SMD-RES-13R-5%-1/4W(1206)" device="" value="56R"/>
-<part name="R5" library="Seeed-Resistor" deviceset="SMD-RES-13R-5%-1/4W(1206)" device="" value="56R"/>
+<part name="R1" library="Seeed-Resistor" deviceset="SMD-RES-13R-5%-1/4W(1206)" device="" value="1.5k"/>
+<part name="R2" library="Seeed-Resistor" deviceset="SMD-RES-13R-5%-1/4W(1206)" device="" value="1.5k"/>
+<part name="R3" library="Seeed-Resistor" deviceset="SMD-RES-13R-5%-1/4W(1206)" device="" value="1.5k"/>
+<part name="R4" library="Seeed-Resistor" deviceset="SMD-RES-13R-5%-1/4W(1206)" device="" value="1.5k"/>
+<part name="R5" library="Seeed-Resistor" deviceset="SMD-RES-13R-5%-1/4W(1206)" device="" value="1.5k"/>
 <part name="J1" library="BadgeParts" deviceset="ICSP-LO-SILK" device=""/>
 <part name="C1" library="adafruit" library_urn="urn:adsk.eagle:library:420" deviceset="C-US" device="C0603" package3d_urn="urn:adsk.eagle:package:6240338/1" value=".1uF"/>
 </parts>
